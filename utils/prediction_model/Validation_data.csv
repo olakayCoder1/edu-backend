@@ -1,0 +1,1001 @@
+gender,ethnicity,income,internet_access,last_session_course_unit,content_engagement,live_class,weighted_grade_point,performance
+Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,28,370,18,49,1.75
+Female,Yoruba,"NGN 100,000 – NGN 200,000",No,36,140,18,108,3.0
+Female,Hausa,No income,No,24,190,1,84,3.5
+Male,Hausa,"NGN 50,000 – NGN 100,000",No,34,340,16,97,2.85
+Prefer not to say,Yoruba,No income,Yes,29,480,4,68,2.34
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,16,360,2,40,2.5
+Female,Hausa,No income,Yes,22,50,6,56,2.55
+Female,Hausa,"NGN 200,000 – NGN 500,000",No,25,350,6,76,3.04
+Prefer not to say,Other,"NGN 500,000 and above",No,16,450,10,36,2.25
+Female,Yoruba,"Less than NGN 10,000",Yes,28,480,12,112,4.0
+Male,Hausa,"NGN 500,000 and above",Yes,30,20,17,82,2.73
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,25,460,6,53,2.12
+Female,Hausa,No income,Yes,29,30,3,90,3.1
+Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,31,120,14,99,3.19
+Female,Yoruba,"NGN 10,000 – NGN 50,000",No,34,340,4,70,2.06
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,28,40,7,84,3.0
+Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,31,160,13,107,3.45
+Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,22,240,20,50,2.27
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,21,120,12,57,2.71
+Male,Igbo,"NGN 500,000 and above",Yes,25,160,15,43,1.72
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,26,80,1,74,2.85
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",Yes,29,450,9,90,3.1
+Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,15,380,2,30,2.0
+Female,Other,"NGN 100,000 – NGN 200,000",Yes,30,110,15,84,2.8
+Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",No,29,190,2,117,4.03
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,22,100,0,80,3.64
+Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,18,60,20,49,2.72
+Prefer not to say,Hausa,"NGN 500,000 and above",Yes,20,440,6,60,3.0
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,36,380,17,108,3.0
+Male,Igbo,"NGN 100,000 – NGN 200,000",No,21,230,18,51,2.43
+Male,Other,"NGN 50,000 – NGN 100,000",Yes,18,360,2,51,2.83
+Male,Yoruba,"NGN 50,000 – NGN 100,000",Yes,25,290,19,97,3.88
+Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,25,470,3,79,3.16
+Male,Hausa,"NGN 500,000 and above",No,25,150,16,82,3.28
+Female,Hausa,"NGN 500,000 and above",Yes,35,480,15,96,2.74
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,16,30,9,64,4.0
+Male,Other,"NGN 100,000 – NGN 200,000",Yes,36,370,1,126,3.5
+Female,Igbo,"NGN 200,000 – NGN 500,000",No,25,470,10,68,2.72
+Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,29,60,0,85,2.93
+Male,Hausa,"NGN 200,000 – NGN 500,000",No,36,110,3,99,2.75
+Male,Hausa,"NGN 100,000 – NGN 200,000",No,16,40,7,32,2.0
+Prefer not to say,Other,"NGN 100,000 – NGN 200,000",Yes,26,320,6,69,2.65
+Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,19,200,5,62,3.26
+Male,Igbo,"NGN 500,000 and above",No,35,90,0,71,2.03
+Male,Igbo,"NGN 100,000 – NGN 200,000",No,17,300,7,65,3.82
+Male,Igbo,"Less than NGN 10,000",No,31,120,8,109,3.52
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,30,180,8,86,2.87
+Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,34,50,18,143,4.21
+Female,Yoruba,No income,Yes,34,50,11,143,4.21
+Male,Yoruba,"NGN 200,000 – NGN 500,000",No,36,180,13,81,2.25
+Female,Igbo,"NGN 50,000 – NGN 100,000",Yes,22,460,0,68,3.09
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,31,250,15,62,2.0
+Male,Hausa,"NGN 100,000 – NGN 200,000",No,23,50,2,57,2.48
+Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",Yes,23,120,8,75,3.26
+Male,Igbo,"NGN 100,000 – NGN 200,000",No,23,150,16,39,1.7
+Male,Yoruba,"NGN 200,000 – NGN 500,000",Yes,16,50,15,44,2.75
+Male,Hausa,No income,No,24,210,12,48,2.0
+Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,26,410,11,59,2.27
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,31,220,1,83,2.68
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,32,230,15,152,4.75
+Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,21,120,14,69,3.29
+Male,Igbo,"NGN 500,000 and above",Yes,18,30,11,52,2.89
+Male,Hausa,"NGN 10,000 – NGN 50,000",No,17,40,4,47,2.76
+Female,Yoruba,"NGN 100,000 – NGN 200,000",Yes,24,200,11,54,2.25
+Female,Yoruba,"NGN 100,000 – NGN 200,000",No,17,140,20,41,2.41
+Prefer not to say,Other,"Less than NGN 10,000",No,24,20,14,90,3.75
+Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",No,30,120,4,106,3.53
+Female,Yoruba,"NGN 10,000 – NGN 50,000",No,16,30,7,48,3.0
+Female,Igbo,"Less than NGN 10,000",No,35,190,2,96,2.74
+Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,18,180,12,70,3.89
+Prefer not to say,Hausa,"Less than NGN 10,000",Yes,19,0,6,56,2.95
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,22,280,3,40,1.82
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",Yes,35,280,12,87,2.49
+Male,Yoruba,"Less than NGN 10,000",Yes,25,340,0,67,2.68
+Female,Other,"NGN 500,000 and above",No,16,50,6,68,4.25
+Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,21,420,15,57,2.71
+Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,27,450,20,93,3.44
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",Yes,32,60,16,104,3.25
+Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,29,30,2,76,2.62
+Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,18,390,2,53,2.94
+Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,25,470,20,53,2.12
+Male,Other,"NGN 100,000 – NGN 200,000",Yes,35,260,1,88,2.51
+Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,27,230,10,96,3.56
+Male,Other,"NGN 200,000 – NGN 500,000",No,32,390,14,72,2.25
+Female,Hausa,"NGN 200,000 – NGN 500,000",Yes,34,350,0,86,2.53
+Male,Yoruba,"Less than NGN 10,000",Yes,17,190,6,22,1.29
+Prefer not to say,Igbo,"NGN 500,000 and above",No,16,420,18,48,3.0
+Female,Hausa,"NGN 100,000 – NGN 200,000",No,33,490,19,84,2.55
+Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,35,200,12,87,2.49
+Male,Hausa,"Less than NGN 10,000",Yes,29,200,6,71,2.45
+Female,Igbo,"NGN 500,000 and above",No,29,290,1,90,3.1
+Male,Yoruba,"NGN 500,000 and above",Yes,34,260,13,122,3.59
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,29,470,12,103,3.55
+Male,Igbo,"NGN 10,000 – NGN 50,000",No,32,450,14,120,3.75
+Male,Hausa,"Less than NGN 10,000",Yes,16,270,0,52,3.25
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,19,150,0,64,3.37
+Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",Yes,22,470,11,54,2.45
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,35,190,19,53,1.51
+Female,Yoruba,"NGN 200,000 – NGN 500,000",Yes,24,200,19,72,3.0
+Male,Igbo,"NGN 100,000 – NGN 200,000",No,35,190,8,103,2.94
+Male,Other,"NGN 100,000 – NGN 200,000",No,23,70,12,71,3.09
+Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,26,500,19,95,3.65
+Male,Yoruba,"Less than NGN 10,000",No,28,350,12,63,2.25
+Male,Igbo,"NGN 500,000 and above",Yes,31,470,12,124,4.0
+Male,Other,"NGN 50,000 – NGN 100,000",No,24,110,19,66,2.75
+Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,23,380,7,71,3.09
+Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,28,370,4,105,3.75
+Prefer not to say,Other,"Less than NGN 10,000",Yes,30,60,7,110,3.67
+Prefer not to say,Other,No income,Yes,33,90,6,90,2.73
+Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,24,260,14,90,3.75
+Female,Hausa,"NGN 200,000 – NGN 500,000",No,15,390,1,30,2.0
+Female,Igbo,"NGN 10,000 – NGN 50,000",No,22,380,0,80,3.64
+Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",Yes,28,170,15,105,3.75
+Female,Igbo,"Less than NGN 10,000",Yes,28,210,3,91,3.25
+Prefer not to say,Hausa,"Less than NGN 10,000",No,24,90,10,102,4.25
+Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,15,30,16,41,2.73
+Male,Hausa,"NGN 500,000 and above",Yes,17,260,0,61,3.59
+Male,Igbo,"NGN 200,000 – NGN 500,000",Yes,28,190,0,91,3.25
+Prefer not to say,Other,"NGN 500,000 and above",No,21,430,18,72,3.43
+Female,Hausa,"NGN 10,000 – NGN 50,000",No,19,50,15,66,3.47
+Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,34,390,2,71,2.09
+Female,Igbo,"NGN 200,000 – NGN 500,000",Yes,25,460,8,97,3.88
+Female,Other,"NGN 500,000 and above",Yes,30,60,20,112,3.73
+Male,Other,"NGN 50,000 – NGN 100,000",No,21,10,1,72,3.43
+Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,30,260,17,74,2.47
+Prefer not to say,Yoruba,"Less than NGN 10,000",No,31,60,13,95,3.06
+Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,36,440,6,126,3.5
+Male,Yoruba,"NGN 50,000 – NGN 100,000",No,21,470,7,75,3.57
+Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,18,240,5,59,3.28
+Male,Other,"NGN 10,000 – NGN 50,000",Yes,26,410,6,97,3.73
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,33,240,9,138,4.18
+Female,Other,"NGN 50,000 – NGN 100,000",Yes,30,440,6,110,3.67
+Prefer not to say,Other,"NGN 100,000 – NGN 200,000",Yes,26,390,0,54,2.08
+Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,29,50,12,92,3.17
+Prefer not to say,Igbo,"Less than NGN 10,000",No,20,10,10,65,3.25
+Female,Igbo,"NGN 10,000 – NGN 50,000",No,34,30,17,104,3.06
+Female,Other,"NGN 100,000 – NGN 200,000",No,36,480,15,108,3.0
+Female,Igbo,No income,No,19,440,9,56,2.95
+Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,36,460,9,54,1.5
+Prefer not to say,Hausa,No income,No,29,330,17,85,2.93
+Male,Hausa,"NGN 50,000 – NGN 100,000",No,22,400,16,52,2.36
+Male,Hausa,"NGN 500,000 and above",No,18,80,17,36,2.0
+Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,31,100,6,91,2.94
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,27,420,19,80,2.96
+Male,Other,No income,No,32,160,20,96,3.0
+Prefer not to say,Other,No income,Yes,21,80,5,48,2.29
+Female,Igbo,"Less than NGN 10,000",Yes,16,470,7,56,3.5
+Prefer not to say,Other,"NGN 500,000 and above",Yes,19,70,14,52,2.74
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,33,250,10,126,3.82
+Male,Igbo,"NGN 50,000 – NGN 100,000",No,17,340,19,54,3.18
+Female,Other,"NGN 50,000 – NGN 100,000",No,25,90,0,53,2.12
+Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",Yes,32,260,18,88,2.75
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",No,26,320,15,38,1.46
+Male,Yoruba,"NGN 500,000 and above",Yes,36,80,5,144,4.0
+Female,Other,"NGN 10,000 – NGN 50,000",No,24,90,4,90,3.75
+Male,Hausa,"NGN 100,000 – NGN 200,000",No,35,430,16,142,4.06
+Male,Other,"NGN 100,000 – NGN 200,000",No,20,50,10,75,3.75
+Male,Yoruba,"NGN 50,000 – NGN 100,000",Yes,22,400,17,56,2.55
+Male,Igbo,"Less than NGN 10,000",No,22,310,4,82,3.73
+Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",No,20,220,11,70,3.5
+Female,Other,No income,Yes,24,400,17,96,4.0
+Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,17,250,10,48,2.82
+Male,Igbo,"NGN 200,000 – NGN 500,000",No,27,100,8,90,3.33
+Male,Yoruba,"NGN 50,000 – NGN 100,000",No,26,410,11,95,3.65
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,17,500,10,56,3.29
+Male,Other,No income,No,32,240,3,96,3.0
+Male,Other,"NGN 50,000 – NGN 100,000",Yes,26,390,6,97,3.73
+Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,35,360,19,149,4.26
+Female,Igbo,"NGN 50,000 – NGN 100,000",No,23,490,3,115,5.0
+Female,Other,"NGN 10,000 – NGN 50,000",No,32,240,18,88,2.75
+Male,Igbo,No income,No,22,90,13,52,2.36
+Female,Hausa,"Less than NGN 10,000",Yes,33,10,0,120,3.64
+Female,Yoruba,"Less than NGN 10,000",Yes,28,330,6,63,2.25
+Female,Hausa,No income,No,27,120,9,101,3.74
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,15,400,16,39,2.6
+Female,Yoruba,"NGN 500,000 and above",Yes,29,170,5,69,2.38
+Male,Yoruba,"NGN 500,000 and above",No,21,310,7,48,2.29
+Male,Yoruba,No income,Yes,24,360,13,72,3.0
+Prefer not to say,Hausa,No income,No,24,450,15,36,1.5
+Male,Other,"NGN 500,000 and above",No,27,50,17,68,2.52
+Prefer not to say,Other,No income,Yes,30,470,17,110,3.67
+Male,Other,"NGN 10,000 – NGN 50,000",Yes,23,0,6,91,3.96
+Male,Other,No income,Yes,27,0,17,80,2.96
+Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,20,220,15,75,3.75
+Female,Other,"NGN 100,000 – NGN 200,000",No,18,360,6,64,3.56
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",Yes,26,140,12,66,2.54
+Male,Igbo,"Less than NGN 10,000",Yes,35,80,18,115,3.29
+Male,Yoruba,"NGN 500,000 and above",No,33,420,20,99,3.0
+Male,Igbo,No income,Yes,26,400,6,40,1.54
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",Yes,32,400,4,80,2.5
+Female,Hausa,"NGN 200,000 – NGN 500,000",No,24,400,7,72,3.0
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,35,220,17,114,3.26
+Prefer not to say,Other,"Less than NGN 10,000",Yes,17,310,0,43,2.53
+Female,Hausa,No income,Yes,35,80,1,116,3.31
+Female,Other,"NGN 200,000 – NGN 500,000",Yes,30,480,8,102,3.4
+Male,Igbo,"NGN 100,000 – NGN 200,000",No,23,80,7,68,2.96
+Prefer not to say,Hausa,No income,No,34,350,13,106,3.12
+Prefer not to say,Yoruba,No income,No,18,400,8,61,3.39
+Female,Igbo,No income,Yes,28,290,14,98,3.5
+Male,Hausa,"NGN 10,000 – NGN 50,000",No,17,30,11,65,3.82
+Male,Other,"NGN 100,000 – NGN 200,000",Yes,29,450,16,100,3.45
+Female,Hausa,"NGN 200,000 – NGN 500,000",No,15,120,9,45,3.0
+Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,25,100,13,69,2.76
+Male,Other,"NGN 10,000 – NGN 50,000",No,15,90,13,27,1.8
+Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,20,10,8,75,3.75
+Prefer not to say,Hausa,"Less than NGN 10,000",No,20,20,16,55,2.75
+Female,Other,"Less than NGN 10,000",Yes,17,410,13,55,3.24
+Male,Hausa,"Less than NGN 10,000",Yes,31,420,15,87,2.81
+Female,Igbo,"NGN 100,000 – NGN 200,000",No,36,290,8,99,2.75
+Male,Igbo,"NGN 100,000 – NGN 200,000",No,18,170,3,28,1.56
+Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,27,350,12,95,3.52
+Female,Igbo,"NGN 500,000 and above",No,33,210,7,108,3.27
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,32,390,15,72,2.25
+Female,Hausa,"NGN 100,000 – NGN 200,000",Yes,17,310,2,47,2.76
+Male,Hausa,"NGN 10,000 – NGN 50,000",No,35,470,4,113,3.23
+Female,Yoruba,"NGN 500,000 and above",Yes,24,80,1,102,4.25
+Male,Hausa,"Less than NGN 10,000",Yes,18,160,12,63,3.5
+Male,Hausa,"Less than NGN 10,000",Yes,22,120,7,56,2.55
+Prefer not to say,Igbo,No income,Yes,24,350,3,48,2.0
+Female,Yoruba,"NGN 100,000 – NGN 200,000",Yes,23,290,14,52,2.26
+Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,36,70,10,117,3.25
+Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,30,90,11,82,2.73
+Female,Other,"NGN 500,000 and above",No,27,390,5,76,2.81
+Male,Other,"Less than NGN 10,000",Yes,16,220,18,44,2.75
+Female,Igbo,"Less than NGN 10,000",Yes,33,50,14,117,3.55
+Prefer not to say,Igbo,"NGN 500,000 and above",Yes,23,180,15,85,3.7
+Male,Hausa,"NGN 500,000 and above",Yes,32,210,12,128,4.0
+Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",Yes,21,110,1,69,3.29
+Female,Yoruba,"Less than NGN 10,000",Yes,30,450,3,76,2.53
+Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,29,20,8,69,2.38
+Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,24,210,11,72,3.0
+Female,Igbo,No income,Yes,15,430,16,43,2.87
+Male,Yoruba,"Less than NGN 10,000",No,19,320,9,62,3.26
+Male,Igbo,No income,No,33,410,0,114,3.45
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,19,10,16,67,3.53
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,32,450,3,104,3.25
+Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,27,90,3,102,3.78
+Female,Igbo,"NGN 10,000 – NGN 50,000",No,24,400,8,96,4.0
+Male,Yoruba,"NGN 500,000 and above",No,36,330,8,126,3.5
+Male,Other,"NGN 50,000 – NGN 100,000",No,35,250,2,139,3.97
+Female,Yoruba,No income,No,22,10,11,52,2.36
+Female,Hausa,No income,No,21,240,14,66,3.14
+Female,Igbo,"Less than NGN 10,000",Yes,15,20,5,61,4.07
+Male,Hausa,"NGN 500,000 and above",Yes,19,180,17,49,2.58
+Female,Other,"NGN 50,000 – NGN 100,000",Yes,28,350,3,56,2.0
+Male,Other,"Less than NGN 10,000",No,35,10,9,97,2.77
+Female,Igbo,"Less than NGN 10,000",No,26,110,6,76,2.92
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,15,500,12,43,2.87
+Male,Hausa,"NGN 100,000 – NGN 200,000",No,33,110,2,87,2.64
+Prefer not to say,Yoruba,"Less than NGN 10,000",No,35,160,2,175,5.0
+Prefer not to say,Yoruba,"Less than NGN 10,000",No,33,0,13,126,3.82
+Male,Other,"Less than NGN 10,000",Yes,27,260,17,75,2.78
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",Yes,20,500,12,65,3.25
+Prefer not to say,Other,No income,Yes,18,220,3,49,2.72
+Male,Hausa,No income,No,32,190,3,112,3.5
+Male,Yoruba,"Less than NGN 10,000",Yes,21,300,9,69,3.29
+Female,Igbo,"NGN 200,000 – NGN 500,000",No,28,160,12,105,3.75
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,27,280,0,87,3.22
+Female,Yoruba,"NGN 50,000 – NGN 100,000",No,29,250,6,77,2.66
+Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,29,440,12,103,3.55
+Prefer not to say,Yoruba,"NGN 500,000 and above",No,18,380,2,77,4.28
+Female,Igbo,"NGN 100,000 – NGN 200,000",No,34,210,2,143,4.21
+Female,Yoruba,"NGN 500,000 and above",No,27,20,16,114,4.22
+Female,Hausa,"NGN 50,000 – NGN 100,000",No,28,450,19,105,3.75
+Male,Igbo,"NGN 50,000 – NGN 100,000",No,28,370,5,70,2.5
+Prefer not to say,Hausa,"Less than NGN 10,000",No,28,10,12,77,2.75
+Female,Hausa,"Less than NGN 10,000",No,17,160,0,49,2.88
+Prefer not to say,Other,No income,Yes,15,50,10,49,3.27
+Male,Yoruba,"NGN 500,000 and above",No,19,400,10,61,3.21
+Male,Hausa,No income,Yes,25,320,10,85,3.4
+Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,27,460,20,93,3.44
+Female,Other,"NGN 200,000 – NGN 500,000",No,22,370,8,62,2.82
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,23,320,12,99,4.3
+Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,20,210,11,60,3.0
+Prefer not to say,Igbo,"Less than NGN 10,000",Yes,16,270,8,72,4.5
+Male,Yoruba,"NGN 200,000 – NGN 500,000",No,19,250,5,63,3.32
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,19,440,12,72,3.79
+Male,Igbo,"NGN 500,000 and above",Yes,19,160,16,60,3.16
+Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,36,130,7,126,3.5
+Male,Other,"NGN 500,000 and above",Yes,22,20,12,74,3.36
+Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,23,60,16,80,3.48
+Female,Igbo,No income,Yes,34,240,8,136,4.0
+Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,33,210,7,123,3.73
+Prefer not to say,Other,"NGN 500,000 and above",Yes,32,400,15,112,3.5
+Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,16,220,14,48,3.0
+Female,Other,"Less than NGN 10,000",No,17,270,2,62,3.65
+Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",Yes,21,80,8,51,2.43
+Female,Other,"NGN 50,000 – NGN 100,000",No,29,140,0,71,2.45
+Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,28,320,6,105,3.75
+Prefer not to say,Igbo,"NGN 500,000 and above",Yes,32,350,9,96,3.0
+Male,Igbo,"NGN 100,000 – NGN 200,000",No,22,310,8,64,2.91
+Female,Yoruba,"NGN 10,000 – NGN 50,000",No,28,330,20,126,4.5
+Female,Igbo,"NGN 10,000 – NGN 50,000",Yes,30,320,10,54,1.8
+Male,Yoruba,No income,Yes,26,320,8,74,2.85
+Male,Other,"NGN 50,000 – NGN 100,000",No,34,280,10,88,2.59
+Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",No,15,460,18,39,2.6
+Male,Other,"NGN 100,000 – NGN 200,000",Yes,18,240,11,38,2.11
+Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",No,30,220,13,104,3.47
+Prefer not to say,Igbo,"NGN 500,000 and above",No,29,270,13,108,3.72
+Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,34,440,0,91,2.68
+Male,Other,"NGN 100,000 – NGN 200,000",Yes,17,390,0,39,2.29
+Male,Hausa,"Less than NGN 10,000",Yes,25,390,7,47,1.88
+Female,Other,"NGN 10,000 – NGN 50,000",Yes,19,150,0,75,3.95
+Female,Igbo,"Less than NGN 10,000",Yes,35,40,2,116,3.31
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,24,130,2,78,3.25
+Prefer not to say,Other,No income,Yes,23,240,19,76,3.3
+Male,Igbo,"NGN 100,000 – NGN 200,000",No,27,420,13,41,1.52
+Male,Hausa,"NGN 500,000 and above",No,18,30,20,46,2.56
+Female,Igbo,"NGN 200,000 – NGN 500,000",No,23,260,4,76,3.3
+Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",Yes,24,410,4,78,3.25
+Female,Other,"NGN 50,000 – NGN 100,000",Yes,15,80,15,40,2.67
+Male,Other,"Less than NGN 10,000",Yes,34,80,4,136,4.0
+Prefer not to say,Other,"NGN 500,000 and above",Yes,20,370,7,55,2.75
+Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,21,10,16,72,3.43
+Prefer not to say,Other,"Less than NGN 10,000",No,22,50,12,68,3.09
+Prefer not to say,Hausa,"Less than NGN 10,000",Yes,26,60,18,102,3.92
+Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",Yes,17,460,15,41,2.41
+Male,Igbo,"NGN 10,000 – NGN 50,000",No,29,120,8,98,3.38
+Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,24,350,4,54,2.25
+Female,Hausa,"NGN 10,000 – NGN 50,000",No,27,240,3,114,4.22
+Male,Other,"Less than NGN 10,000",Yes,26,0,20,83,3.19
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,28,170,14,77,2.75
+Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,24,300,6,60,2.5
+Male,Igbo,"Less than NGN 10,000",No,19,370,12,48,2.53
+Female,Other,"NGN 50,000 – NGN 100,000",Yes,27,170,16,90,3.33
+Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",No,16,420,7,44,2.75
+Female,Igbo,"NGN 50,000 – NGN 100,000",Yes,18,480,17,36,2.0
+Prefer not to say,Other,No income,No,32,280,11,128,4.0
+Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",Yes,27,50,1,95,3.52
+Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,22,480,18,70,3.18
+Prefer not to say,Hausa,"Less than NGN 10,000",Yes,30,360,10,94,3.13
+Male,Other,"NGN 200,000 – NGN 500,000",No,19,390,20,64,3.37
+Female,Igbo,"NGN 200,000 – NGN 500,000",Yes,27,0,14,81,3.0
+Prefer not to say,Other,No income,No,21,130,0,63,3.0
+Female,Other,"NGN 50,000 – NGN 100,000",Yes,17,320,18,35,2.06
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,33,10,6,111,3.36
+Male,Igbo,"NGN 500,000 and above",Yes,33,130,8,126,3.82
+Female,Yoruba,No income,No,26,210,0,75,2.88
+Female,Hausa,"NGN 50,000 – NGN 100,000",No,35,70,19,88,2.51
+Female,Hausa,"NGN 100,000 – NGN 200,000",No,27,480,18,83,3.07
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",Yes,34,460,2,88,2.59
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,35,460,13,80,2.29
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,25,160,11,79,3.16
+Prefer not to say,Hausa,No income,Yes,26,330,1,87,3.35
+Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,33,370,17,111,3.36
+Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",Yes,20,480,3,45,2.25
+Male,Other,"NGN 200,000 – NGN 500,000",Yes,35,200,2,141,4.03
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,20,460,6,65,3.25
+Female,Other,"NGN 50,000 – NGN 100,000",Yes,30,150,13,98,3.27
+Prefer not to say,Other,No income,Yes,36,350,8,108,3.0
+Male,Other,"NGN 50,000 – NGN 100,000",No,29,100,0,85,2.93
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,27,450,7,83,3.07
+Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",Yes,23,360,8,76,3.3
+Female,Hausa,"Less than NGN 10,000",No,17,180,16,34,2.0
+Male,Other,"NGN 10,000 – NGN 50,000",Yes,24,190,20,60,2.5
+Male,Igbo,"NGN 10,000 – NGN 50,000",No,34,40,8,129,3.79
+Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,16,370,17,48,3.0
+Female,Yoruba,"NGN 50,000 – NGN 100,000",No,15,450,8,42,2.8
+Female,Hausa,"Less than NGN 10,000",No,21,480,6,78,3.71
+Prefer not to say,Other,"Less than NGN 10,000",Yes,32,70,15,104,3.25
+Male,Other,"Less than NGN 10,000",Yes,25,160,14,81,3.24
+Female,Igbo,"NGN 500,000 and above",No,15,290,1,75,5.0
+Female,Igbo,"NGN 100,000 – NGN 200,000",No,20,360,0,70,3.5
+Male,Igbo,"NGN 200,000 – NGN 500,000",Yes,25,460,13,97,3.88
+Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",Yes,25,30,5,60,2.4
+Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",Yes,17,230,15,46,2.71
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,21,140,18,33,1.57
+Male,Yoruba,"NGN 500,000 and above",Yes,23,190,10,79,3.43
+Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,24,280,18,60,2.5
+Prefer not to say,Other,"NGN 500,000 and above",Yes,36,80,10,90,2.5
+Male,Yoruba,No income,Yes,23,350,3,77,3.35
+Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,32,150,9,96,3.0
+Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,27,370,5,96,3.56
+Male,Yoruba,No income,Yes,30,220,19,94,3.13
+Prefer not to say,Yoruba,"NGN 500,000 and above",No,19,50,11,75,3.95
+Male,Igbo,"Less than NGN 10,000",Yes,20,470,8,75,3.75
+Prefer not to say,Hausa,No income,No,32,260,9,72,2.25
+Female,Igbo,"NGN 200,000 – NGN 500,000",Yes,32,300,19,104,3.25
+Prefer not to say,Igbo,"Less than NGN 10,000",No,22,130,12,38,1.73
+Prefer not to say,Other,No income,No,33,400,13,54,1.64
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,15,30,18,36,2.4
+Male,Hausa,"NGN 200,000 – NGN 500,000",No,24,360,10,54,2.25
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",No,30,210,9,86,2.87
+Male,Hausa,No income,No,22,460,4,82,3.73
+Female,Hausa,"NGN 10,000 – NGN 50,000",No,22,140,2,44,2.0
+Female,Other,No income,Yes,17,80,15,61,3.59
+Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,23,420,11,80,3.48
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,26,460,13,81,3.12
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,23,250,4,51,2.22
+Female,Yoruba,"Less than NGN 10,000",Yes,27,310,15,67,2.48
+Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,17,0,10,50,2.94
+Male,Yoruba,"Less than NGN 10,000",Yes,26,350,5,76,2.92
+Male,Other,"NGN 500,000 and above",No,36,160,16,135,3.75
+Female,Other,"NGN 50,000 – NGN 100,000",Yes,30,320,0,76,2.53
+Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,24,480,0,72,3.0
+Female,Igbo,"NGN 500,000 and above",Yes,33,330,3,108,3.27
+Female,Hausa,"Less than NGN 10,000",No,21,250,13,90,4.29
+Prefer not to say,Hausa,"Less than NGN 10,000",No,19,400,2,49,2.58
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,26,330,20,81,3.12
+Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,17,470,14,51,3.0
+Female,Igbo,"Less than NGN 10,000",No,18,490,6,23,1.28
+Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",Yes,23,260,8,81,3.52
+Prefer not to say,Hausa,No income,No,33,210,9,78,2.36
+Prefer not to say,Yoruba,"Less than NGN 10,000",No,29,240,14,63,2.17
+Prefer not to say,Other,"NGN 500,000 and above",Yes,31,440,18,109,3.52
+Female,Other,No income,No,31,420,9,103,3.32
+Female,Igbo,"NGN 100,000 – NGN 200,000",No,29,90,10,61,2.1
+Prefer not to say,Hausa,No income,No,33,370,18,93,2.82
+Female,Yoruba,"NGN 100,000 – NGN 200,000",Yes,25,100,5,69,2.76
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",Yes,21,230,7,45,2.14
+Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,17,490,10,57,3.35
+Male,Other,"NGN 500,000 and above",No,19,420,3,61,3.21
+Male,Yoruba,"NGN 500,000 and above",No,15,420,13,49,3.27
+Female,Yoruba,"NGN 500,000 and above",No,24,340,6,96,4.0
+Male,Igbo,"NGN 200,000 – NGN 500,000",No,15,420,17,35,2.33
+Male,Yoruba,"Less than NGN 10,000",No,33,110,7,93,2.82
+Female,Other,"NGN 10,000 – NGN 50,000",Yes,25,100,5,76,3.04
+Male,Igbo,"NGN 100,000 – NGN 200,000",No,24,330,13,78,3.25
+Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,22,100,8,80,3.64
+Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,29,450,16,68,2.34
+Male,Other,"Less than NGN 10,000",No,30,340,19,74,2.47
+Male,Yoruba,"Less than NGN 10,000",No,35,0,15,122,3.49
+Female,Hausa,No income,Yes,28,480,2,63,2.25
+Male,Hausa,"NGN 500,000 and above",No,28,480,1,84,3.0
+Prefer not to say,Other,"Less than NGN 10,000",Yes,18,70,1,59,3.28
+Male,Igbo,"NGN 100,000 – NGN 200,000",No,31,330,2,107,3.45
+Female,Yoruba,"NGN 200,000 – NGN 500,000",No,21,130,14,63,3.0
+Male,Hausa,No income,Yes,16,90,0,40,2.5
+Male,Other,No income,No,31,150,14,77,2.48
+Prefer not to say,Other,"NGN 500,000 and above",No,26,230,17,111,4.27
+Prefer not to say,Hausa,No income,Yes,31,130,3,91,2.94
+Male,Other,"NGN 10,000 – NGN 50,000",No,16,20,4,48,3.0
+Female,Yoruba,"NGN 500,000 and above",No,16,270,19,56,3.5
+Female,Igbo,"NGN 500,000 and above",Yes,18,320,9,54,3.0
+Prefer not to say,Other,"Less than NGN 10,000",Yes,32,320,20,120,3.75
+Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,30,210,20,90,3.0
+Male,Other,No income,No,22,270,10,66,3.0
+Female,Hausa,"NGN 500,000 and above",No,17,340,14,48,2.82
+Female,Igbo,"NGN 50,000 – NGN 100,000",Yes,24,460,12,54,2.25
+Female,Other,"NGN 100,000 – NGN 200,000",No,21,190,2,60,2.86
+Female,Yoruba,"NGN 500,000 and above",No,33,430,7,75,2.27
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,17,270,1,65,3.82
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,25,310,8,90,3.6
+Male,Hausa,"Less than NGN 10,000",No,17,260,18,52,3.06
+Female,Yoruba,"Less than NGN 10,000",No,17,400,9,60,3.53
+Male,Other,"NGN 100,000 – NGN 200,000",No,23,310,17,75,3.26
+Male,Igbo,"Less than NGN 10,000",Yes,22,320,9,54,2.45
+Male,Yoruba,"Less than NGN 10,000",Yes,28,10,2,63,2.25
+Male,Other,"NGN 500,000 and above",No,30,390,9,60,2.0
+Prefer not to say,Igbo,No income,No,32,250,5,72,2.25
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,28,170,20,112,4.0
+Female,Hausa,"NGN 500,000 and above",No,20,200,20,65,3.25
+Female,Other,"Less than NGN 10,000",No,35,350,7,124,3.54
+Prefer not to say,Yoruba,"NGN 500,000 and above",No,18,140,10,63,3.5
+Female,Hausa,"NGN 10,000 – NGN 50,000",No,15,300,11,42,2.8
+Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,30,170,4,88,2.93
+Prefer not to say,Igbo,"NGN 500,000 and above",Yes,32,460,17,72,2.25
+Female,Yoruba,No income,Yes,17,170,6,51,3.0
+Female,Yoruba,"NGN 100,000 – NGN 200,000",No,32,360,20,120,3.75
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,29,200,6,45,1.55
+Prefer not to say,Igbo,No income,No,18,360,15,44,2.44
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,16,300,5,44,2.75
+Prefer not to say,Igbo,"Less than NGN 10,000",Yes,34,210,17,109,3.21
+Prefer not to say,Yoruba,"Less than NGN 10,000",No,36,90,15,99,2.75
+Female,Igbo,No income,No,27,50,11,95,3.52
+Female,Other,"NGN 50,000 – NGN 100,000",No,35,140,12,71,2.03
+Female,Other,"Less than NGN 10,000",Yes,31,220,15,115,3.71
+Prefer not to say,Igbo,"NGN 500,000 and above",No,25,400,18,39,1.56
+Male,Yoruba,"Less than NGN 10,000",Yes,28,120,17,98,3.5
+Female,Other,"Less than NGN 10,000",No,24,50,3,54,2.25
+Male,Hausa,"NGN 500,000 and above",No,19,300,6,55,2.89
+Female,Other,"NGN 100,000 – NGN 200,000",Yes,25,200,1,68,2.72
+Male,Hausa,"NGN 500,000 and above",No,29,220,4,116,4.0
+Female,Hausa,"NGN 10,000 – NGN 50,000",No,16,430,13,32,2.0
+Female,Igbo,"NGN 100,000 – NGN 200,000",No,28,500,10,70,2.5
+Female,Yoruba,"NGN 500,000 and above",Yes,35,450,12,140,4.0
+Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,32,210,8,80,2.5
+Male,Other,"NGN 50,000 – NGN 100,000",No,35,380,20,62,1.77
+Female,Yoruba,"Less than NGN 10,000",Yes,15,400,14,19,1.27
+Female,Hausa,"NGN 50,000 – NGN 100,000",No,19,100,15,48,2.53
+Female,Igbo,"Less than NGN 10,000",Yes,28,320,3,91,3.25
+Male,Other,"NGN 200,000 – NGN 500,000",Yes,33,440,2,93,2.82
+Prefer not to say,Other,No income,Yes,36,390,10,135,3.75
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,21,310,16,48,2.29
+Prefer not to say,Igbo,"Less than NGN 10,000",No,22,170,17,62,2.82
+Prefer not to say,Hausa,"Less than NGN 10,000",Yes,17,340,4,65,3.82
+Female,Other,"NGN 200,000 – NGN 500,000",No,26,450,2,66,2.54
+Male,Other,"NGN 100,000 – NGN 200,000",Yes,23,290,16,70,3.04
+Male,Yoruba,"NGN 500,000 and above",No,20,170,14,85,4.25
+Prefer not to say,Yoruba,No income,No,21,50,1,75,3.57
+Prefer not to say,Other,No income,No,15,430,16,39,2.6
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,27,40,19,75,2.78
+Male,Other,"Less than NGN 10,000",Yes,16,450,8,16,1.0
+Male,Igbo,No income,Yes,16,400,2,40,2.5
+Male,Yoruba,"NGN 10,000 – NGN 50,000",No,20,180,0,70,3.5
+Male,Igbo,"NGN 50,000 – NGN 100,000",No,21,330,15,48,2.29
+Male,Yoruba,"NGN 100,000 – NGN 200,000",No,16,240,18,44,2.75
+Female,Igbo,"NGN 500,000 and above",Yes,20,430,3,50,2.5
+Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",Yes,31,100,3,86,2.77
+Male,Other,"NGN 200,000 – NGN 500,000",Yes,28,270,13,70,2.5
+Female,Yoruba,"NGN 500,000 and above",Yes,25,280,3,58,2.32
+Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,35,200,2,78,2.23
+Female,Other,"NGN 100,000 – NGN 200,000",No,25,480,9,93,3.72
+Male,Other,"NGN 100,000 – NGN 200,000",No,15,70,12,43,2.87
+Male,Igbo,"NGN 200,000 – NGN 500,000",No,36,470,8,117,3.25
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,25,410,8,82,3.28
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",No,19,70,12,62,3.26
+Male,Other,"NGN 50,000 – NGN 100,000",No,20,500,20,75,3.75
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,24,390,2,72,3.0
+Female,Yoruba,"NGN 100,000 – NGN 200,000",No,18,390,3,58,3.22
+Female,Hausa,"NGN 10,000 – NGN 50,000",No,18,310,18,65,3.61
+Male,Yoruba,"NGN 500,000 and above",Yes,24,270,16,78,3.25
+Female,Other,"NGN 100,000 – NGN 200,000",Yes,19,160,7,38,2.0
+Female,Hausa,"NGN 100,000 – NGN 200,000",Yes,15,210,1,52,3.47
+Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,27,140,18,88,3.26
+Male,Hausa,"NGN 500,000 and above",No,28,170,14,91,3.25
+Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",Yes,30,390,11,90,3.0
+Female,Igbo,"NGN 50,000 – NGN 100,000",Yes,16,260,9,60,3.75
+Male,Igbo,"NGN 500,000 and above",Yes,18,220,5,75,4.17
+Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,25,500,9,110,4.4
+Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,17,200,15,41,2.41
+Female,Hausa,"NGN 50,000 – NGN 100,000",No,23,40,6,59,2.57
+Male,Hausa,"Less than NGN 10,000",No,25,490,16,39,1.56
+Female,Other,"NGN 100,000 – NGN 200,000",No,33,220,17,105,3.18
+Female,Other,"NGN 500,000 and above",Yes,33,490,20,126,3.82
+Male,Igbo,"NGN 50,000 – NGN 100,000",No,19,410,10,47,2.47
+Male,Hausa,"Less than NGN 10,000",Yes,15,270,5,51,3.4
+Prefer not to say,Igbo,"NGN 500,000 and above",Yes,18,190,7,69,3.83
+Prefer not to say,Igbo,No income,No,27,70,15,80,2.96
+Prefer not to say,Other,"Less than NGN 10,000",No,28,390,15,42,1.5
+Female,Yoruba,No income,No,22,250,9,46,2.09
+Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",Yes,21,280,17,57,2.71
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,31,330,15,63,2.03
+Female,Igbo,"NGN 500,000 and above",Yes,19,380,14,76,4.0
+Female,Igbo,"NGN 10,000 – NGN 50,000",No,19,270,0,56,2.95
+Female,Other,No income,No,19,150,1,58,3.05
+Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",No,19,460,15,64,3.37
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,23,0,17,53,2.3
+Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,16,30,17,60,3.75
+Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",No,16,360,3,48,3.0
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",Yes,25,130,20,92,3.68
+Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,22,220,4,40,1.82
+Female,Other,No income,No,33,470,10,87,2.64
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,19,320,7,55,2.89
+Male,Yoruba,"NGN 50,000 – NGN 100,000",No,20,110,5,90,4.5
+Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,36,30,10,63,1.75
+Female,Other,"NGN 500,000 and above",Yes,20,70,3,35,1.75
+Male,Igbo,No income,Yes,16,250,5,72,4.5
+Male,Yoruba,"Less than NGN 10,000",Yes,26,500,2,64,2.46
+Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,27,120,20,75,2.78
+Prefer not to say,Igbo,"NGN 500,000 and above",No,19,20,17,44,2.32
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,35,50,0,150,4.29
+Female,Yoruba,"NGN 500,000 and above",Yes,15,480,17,61,4.07
+Male,Igbo,"Less than NGN 10,000",Yes,18,470,5,55,3.06
+Female,Hausa,"NGN 50,000 – NGN 100,000",No,36,200,5,144,4.0
+Prefer not to say,Hausa,"NGN 500,000 and above",No,34,360,12,120,3.53
+Male,Other,"NGN 100,000 – NGN 200,000",No,16,300,15,52,3.25
+Female,Hausa,"NGN 500,000 and above",No,17,410,18,81,4.76
+Female,Hausa,"NGN 500,000 and above",Yes,18,400,18,38,2.11
+Male,Other,"NGN 200,000 – NGN 500,000",Yes,21,90,1,51,2.43
+Female,Hausa,"Less than NGN 10,000",No,23,110,19,53,2.3
+Male,Igbo,"NGN 200,000 – NGN 500,000",No,32,170,13,72,2.25
+Prefer not to say,Yoruba,"NGN 500,000 and above",No,24,90,12,84,3.5
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,21,80,13,63,3.0
+Male,Yoruba,"NGN 50,000 – NGN 100,000",No,22,330,0,72,3.27
+Prefer not to say,Igbo,"Less than NGN 10,000",No,33,170,4,69,2.09
+Prefer not to say,Hausa,"Less than NGN 10,000",No,18,480,17,55,3.06
+Male,Igbo,No income,Yes,21,340,13,63,3.0
+Female,Hausa,"Less than NGN 10,000",No,22,500,11,94,4.27
+Male,Yoruba,"NGN 50,000 – NGN 100,000",Yes,35,470,6,88,2.51
+Male,Igbo,"NGN 10,000 – NGN 50,000",No,20,130,17,55,2.75
+Male,Other,"NGN 50,000 – NGN 100,000",Yes,26,190,6,75,2.88
+Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",Yes,20,490,18,75,3.75
+Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,31,420,20,99,3.19
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,27,380,11,102,3.78
+Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",No,18,100,14,72,4.0
+Male,Igbo,"NGN 10,000 – NGN 50,000",No,21,300,2,66,3.14
+Prefer not to say,Yoruba,"Less than NGN 10,000",No,20,240,13,30,1.5
+Female,Igbo,"NGN 50,000 – NGN 100,000",Yes,22,260,9,58,2.64
+Male,Igbo,"Less than NGN 10,000",No,34,350,12,104,3.06
+Female,Yoruba,"NGN 50,000 – NGN 100,000",No,23,30,16,57,2.48
+Female,Igbo,No income,Yes,25,360,4,74,2.96
+Prefer not to say,Igbo,"Less than NGN 10,000",Yes,28,400,3,112,4.0
+Prefer not to say,Igbo,"Less than NGN 10,000",Yes,36,330,0,117,3.25
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,24,490,0,78,3.25
+Male,Yoruba,No income,Yes,25,160,6,90,3.6
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,19,270,15,50,2.63
+Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,21,410,0,42,2.0
+Female,Yoruba,No income,Yes,24,440,18,78,3.25
+Male,Igbo,"NGN 10,000 – NGN 50,000",No,20,30,0,50,2.5
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,31,50,14,85,2.74
+Female,Other,"NGN 50,000 – NGN 100,000",Yes,27,400,1,80,2.96
+Female,Other,"NGN 200,000 – NGN 500,000",No,24,320,7,72,3.0
+Female,Hausa,"NGN 500,000 and above",No,24,20,15,54,2.25
+Female,Hausa,"NGN 50,000 – NGN 100,000",No,34,170,16,61,1.79
+Male,Yoruba,No income,No,29,0,1,73,2.52
+Female,Igbo,"NGN 100,000 – NGN 200,000",No,28,500,16,105,3.75
+Female,Other,"NGN 10,000 – NGN 50,000",No,15,130,20,47,3.13
+Female,Other,"NGN 10,000 – NGN 50,000",No,20,120,16,65,3.25
+Female,Other,"NGN 500,000 and above",No,23,190,13,39,1.7
+Female,Other,"NGN 100,000 – NGN 200,000",No,33,350,13,102,3.09
+Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",Yes,31,0,18,62,2.0
+Male,Hausa,"NGN 50,000 – NGN 100,000",No,28,40,7,91,3.25
+Male,Hausa,No income,No,28,210,5,98,3.5
+Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,21,140,1,81,3.86
+Female,Igbo,"NGN 500,000 and above",Yes,23,280,15,86,3.74
+Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",Yes,20,470,1,70,3.5
+Female,Hausa,No income,Yes,16,150,18,56,3.5
+Female,Igbo,"NGN 10,000 – NGN 50,000",No,33,230,16,123,3.73
+Female,Other,"NGN 10,000 – NGN 50,000",Yes,26,500,7,81,3.12
+Male,Other,"Less than NGN 10,000",No,22,330,8,66,3.0
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",Yes,28,250,16,98,3.5
+Female,Hausa,"NGN 100,000 – NGN 200,000",Yes,29,250,8,71,2.45
+Prefer not to say,Yoruba,"Less than NGN 10,000",No,35,470,19,114,3.26
+Female,Other,No income,No,36,310,4,117,3.25
+Male,Hausa,No income,No,30,60,13,94,3.13
+Prefer not to say,Igbo,"Less than NGN 10,000",Yes,35,220,15,122,3.49
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",Yes,22,200,9,76,3.45
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,23,160,17,70,3.04
+Male,Other,"NGN 100,000 – NGN 200,000",Yes,36,170,14,162,4.5
+Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,33,260,13,99,3.0
+Female,Other,No income,Yes,32,10,5,88,2.75
+Female,Igbo,No income,No,35,220,19,131,3.74
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,35,150,13,89,2.54
+Female,Other,"Less than NGN 10,000",Yes,26,370,11,88,3.38
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,20,90,1,95,4.75
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,34,250,15,152,4.47
+Female,Yoruba,"NGN 10,000 – NGN 50,000",No,30,20,9,52,1.73
+Male,Igbo,No income,Yes,22,390,8,56,2.55
+Male,Other,"NGN 50,000 – NGN 100,000",Yes,26,270,10,89,3.42
+Female,Hausa,"NGN 50,000 – NGN 100,000",No,27,310,12,67,2.48
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,17,170,10,66,3.88
+Female,Yoruba,"NGN 500,000 and above",Yes,25,470,14,79,3.16
+Female,Hausa,"NGN 100,000 – NGN 200,000",No,20,250,4,55,2.75
+Male,Hausa,"NGN 50,000 – NGN 100,000",No,27,400,13,87,3.22
+Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",Yes,27,440,15,67,2.48
+Female,Hausa,"NGN 100,000 – NGN 200,000",No,26,80,12,68,2.62
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,25,310,11,76,3.04
+Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",No,33,80,8,75,2.27
+Male,Hausa,"NGN 10,000 – NGN 50,000",No,17,30,2,49,2.88
+Male,Yoruba,No income,Yes,23,400,19,89,3.87
+Male,Hausa,"NGN 500,000 and above",Yes,30,210,16,82,2.73
+Female,Other,"NGN 100,000 – NGN 200,000",No,27,470,5,97,3.59
+Female,Other,"NGN 100,000 – NGN 200,000",Yes,20,130,16,55,2.75
+Prefer not to say,Yoruba,No income,No,26,250,3,78,3.0
+Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,22,440,14,66,3.0
+Male,Hausa,"NGN 500,000 and above",No,35,500,18,95,2.71
+Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,31,190,8,76,2.45
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,16,390,15,64,4.0
+Female,Other,"NGN 500,000 and above",Yes,34,360,15,97,2.85
+Female,Other,"NGN 100,000 – NGN 200,000",No,28,40,18,77,2.75
+Prefer not to say,Other,No income,No,28,60,11,56,2.0
+Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,24,380,0,108,4.5
+Female,Other,"NGN 500,000 and above",Yes,18,440,1,52,2.89
+Male,Yoruba,"NGN 100,000 – NGN 200,000",No,23,90,6,80,3.48
+Male,Yoruba,"NGN 200,000 – NGN 500,000",Yes,30,450,9,114,3.8
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,26,330,10,67,2.58
+Male,Yoruba,"NGN 100,000 – NGN 200,000",No,22,220,4,84,3.82
+Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,22,260,4,70,3.18
+Female,Igbo,No income,Yes,27,280,1,122,4.52
+Prefer not to say,Igbo,"Less than NGN 10,000",No,33,470,5,138,4.18
+Prefer not to say,Yoruba,"NGN 500,000 and above",No,26,400,13,125,4.81
+Female,Other,"NGN 50,000 – NGN 100,000",Yes,20,430,5,65,3.25
+Male,Yoruba,"NGN 10,000 – NGN 50,000",No,24,90,12,90,3.75
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,29,320,19,69,2.38
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,23,230,7,71,3.09
+Female,Yoruba,"NGN 50,000 – NGN 100,000",No,27,470,1,82,3.04
+Female,Hausa,"NGN 200,000 – NGN 500,000",No,28,20,6,112,4.0
+Male,Yoruba,"NGN 200,000 – NGN 500,000",No,25,100,4,50,2.0
+Female,Hausa,"NGN 200,000 – NGN 500,000",Yes,36,50,12,45,1.25
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,22,220,8,54,2.45
+Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,25,200,11,47,1.88
+Male,Hausa,"Less than NGN 10,000",No,21,460,5,93,4.43
+Male,Hausa,"NGN 500,000 and above",Yes,32,500,11,96,3.0
+Male,Igbo,"Less than NGN 10,000",No,33,410,14,48,1.45
+Female,Hausa,No income,No,28,420,7,84,3.0
+Female,Yoruba,"NGN 100,000 – NGN 200,000",No,19,130,7,39,2.05
+Male,Other,"NGN 50,000 – NGN 100,000",Yes,35,350,0,148,4.23
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,33,150,19,93,2.82
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,32,10,1,120,3.75
+Female,Yoruba,"Less than NGN 10,000",No,25,430,14,118,4.72
+Prefer not to say,Igbo,No income,No,22,310,8,78,3.55
+Female,Igbo,No income,No,19,290,1,59,3.11
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,24,210,12,96,4.0
+Female,Yoruba,No income,No,21,200,7,66,3.14
+Female,Igbo,"Less than NGN 10,000",No,27,350,10,107,3.96
+Prefer not to say,Other,"Less than NGN 10,000",Yes,30,80,2,52,1.73
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,33,50,13,78,2.36
+Female,Hausa,"NGN 100,000 – NGN 200,000",No,19,100,16,65,3.42
+Prefer not to say,Igbo,"Less than NGN 10,000",Yes,24,240,10,48,2.0
+Male,Other,"NGN 50,000 – NGN 100,000",No,18,110,4,80,4.44
+Female,Igbo,"NGN 500,000 and above",Yes,25,260,20,50,2.0
+Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,30,160,4,102,3.4
+Prefer not to say,Hausa,"Less than NGN 10,000",Yes,17,130,8,61,3.59
+Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",Yes,20,380,14,55,2.75
+Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,35,230,12,113,3.23
+Female,Yoruba,"NGN 100,000 – NGN 200,000",No,29,250,15,95,3.28
+Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,35,300,11,69,1.97
+Prefer not to say,Other,"Less than NGN 10,000",Yes,28,410,3,63,2.25
+Male,Yoruba,No income,Yes,21,320,4,63,3.0
+Male,Other,No income,Yes,35,170,10,98,2.8
+Female,Yoruba,"Less than NGN 10,000",Yes,32,180,17,120,3.75
+Female,Yoruba,"NGN 500,000 and above",No,22,470,6,60,2.73
+Prefer not to say,Yoruba,No income,Yes,25,250,15,97,3.88
+Male,Igbo,"NGN 10,000 – NGN 50,000",No,23,0,20,59,2.57
+Female,Yoruba,"NGN 200,000 – NGN 500,000",Yes,21,280,18,57,2.71
+Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,36,350,18,90,2.5
+Male,Hausa,"NGN 500,000 and above",No,24,390,0,60,2.5
+Female,Yoruba,No income,Yes,28,490,1,84,3.0
+Female,Igbo,"Less than NGN 10,000",No,32,10,11,112,3.5
+Female,Yoruba,"NGN 50,000 – NGN 100,000",No,25,300,6,57,2.28
+Prefer not to say,Igbo,"Less than NGN 10,000",Yes,31,210,12,94,3.03
+Female,Hausa,"NGN 200,000 – NGN 500,000",Yes,28,50,13,77,2.75
+Male,Other,"NGN 50,000 – NGN 100,000",No,22,420,19,44,2.0
+Female,Yoruba,No income,No,36,500,6,81,2.25
+Female,Igbo,No income,Yes,33,360,6,114,3.45
+Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,15,440,4,43,2.87
+Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",Yes,28,360,15,70,2.5
+Male,Igbo,"NGN 500,000 and above",No,18,60,13,69,3.83
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,27,380,7,75,2.78
+Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,32,320,6,80,2.5
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,19,40,8,48,2.53
+Male,Hausa,"NGN 10,000 – NGN 50,000",No,24,290,4,84,3.5
+Male,Igbo,"NGN 500,000 and above",No,33,300,4,156,4.73
+Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,30,230,17,106,3.53
+Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,33,230,11,123,3.73
+Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,35,40,12,112,3.2
+Female,Other,"NGN 100,000 – NGN 200,000",Yes,22,90,5,48,2.18
+Female,Igbo,"NGN 100,000 – NGN 200,000",No,34,360,16,93,2.74
+Prefer not to say,Igbo,"NGN 500,000 and above",Yes,34,430,7,120,3.53
+Female,Hausa,"NGN 200,000 – NGN 500,000",Yes,32,440,14,112,3.5
+Female,Igbo,"NGN 10,000 – NGN 50,000",Yes,36,170,4,81,2.25
+Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,17,190,7,49,2.88
+Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,28,60,15,98,3.5
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,18,500,5,48,2.67
+Female,Other,"NGN 100,000 – NGN 200,000",Yes,26,190,5,111,4.27
+Male,Hausa,"Less than NGN 10,000",No,22,380,10,92,4.18
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,36,490,18,99,2.75
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,31,100,6,100,3.23
+Female,Hausa,"NGN 500,000 and above",No,17,210,3,55,3.24
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,18,130,1,51,2.83
+Male,Hausa,"NGN 100,000 – NGN 200,000",No,27,430,7,68,2.52
+Male,Other,"NGN 100,000 – NGN 200,000",No,31,60,7,92,2.97
+Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,35,270,15,125,3.57
+Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,21,170,1,81,3.86
+Female,Other,"NGN 500,000 and above",No,29,390,0,68,2.34
+Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,17,340,17,70,4.12
+Female,Igbo,"NGN 500,000 and above",No,15,110,18,46,3.07
+Female,Other,"Less than NGN 10,000",Yes,22,330,9,60,2.73
+Male,Hausa,"Less than NGN 10,000",Yes,15,480,4,29,1.93
+Male,Hausa,"NGN 500,000 and above",No,30,430,20,100,3.33
+Male,Igbo,No income,Yes,21,480,6,57,2.71
+Male,Hausa,"NGN 50,000 – NGN 100,000",No,30,150,8,144,4.8
+Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,19,330,1,43,2.26
+Male,Yoruba,"NGN 10,000 – NGN 50,000",No,27,490,6,81,3.0
+Male,Igbo,"NGN 10,000 – NGN 50,000",No,16,410,14,60,3.75
+Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,30,210,0,126,4.2
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",Yes,20,420,8,55,2.75
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,15,360,6,32,2.13
+Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",Yes,18,300,6,49,2.72
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,23,170,7,56,2.43
+Prefer not to say,Yoruba,No income,Yes,32,280,6,120,3.75
+Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",No,34,280,3,131,3.85
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,28,270,20,119,4.25
+Male,Igbo,"NGN 500,000 and above",Yes,30,220,20,96,3.2
+Female,Other,"NGN 500,000 and above",Yes,32,240,17,88,2.75
+Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,15,490,16,29,1.93
+Male,Hausa,No income,No,32,200,6,64,2.0
+Male,Other,"NGN 500,000 and above",Yes,19,370,17,49,2.58
+Male,Yoruba,"Less than NGN 10,000",Yes,27,20,8,96,3.56
+Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,23,300,11,40,1.74
+Female,Yoruba,"Less than NGN 10,000",No,33,10,12,84,2.55
+Female,Hausa,"NGN 500,000 and above",No,21,230,20,102,4.86
+Female,Yoruba,"NGN 500,000 and above",No,18,200,2,63,3.5
+Prefer not to say,Igbo,"Less than NGN 10,000",Yes,19,190,4,61,3.21
+Female,Other,"Less than NGN 10,000",No,18,460,11,67,3.72
+Male,Other,"NGN 50,000 – NGN 100,000",No,24,390,20,72,3.0
+Female,Hausa,"Less than NGN 10,000",No,27,160,15,79,2.93
+Prefer not to say,Hausa,No income,No,21,410,17,69,3.29
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,33,500,20,57,1.73
+Female,Igbo,"NGN 100,000 – NGN 200,000",No,24,450,0,66,2.75
+Male,Hausa,"NGN 100,000 – NGN 200,000",No,29,130,8,106,3.66
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,27,400,14,88,3.26
+Female,Igbo,"NGN 50,000 – NGN 100,000",No,20,190,7,50,2.5
+Male,Other,"NGN 200,000 – NGN 500,000",No,25,140,14,67,2.68
+Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",No,35,490,3,139,3.97
+Male,Yoruba,"NGN 50,000 – NGN 100,000",No,23,270,18,70,3.04
+Male,Other,"NGN 100,000 – NGN 200,000",Yes,19,340,16,53,2.79
+Male,Other,"NGN 10,000 – NGN 50,000",Yes,33,300,20,132,4.0
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",Yes,35,420,20,78,2.23
+Male,Other,No income,Yes,20,310,11,70,3.5
+Prefer not to say,Other,"Less than NGN 10,000",Yes,27,60,3,75,2.78
+Male,Igbo,"Less than NGN 10,000",Yes,24,210,15,72,3.0
+Female,Hausa,"NGN 100,000 – NGN 200,000",No,26,260,13,95,3.65
+Male,Hausa,"NGN 50,000 – NGN 100,000",No,27,360,18,87,3.22
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,21,110,12,69,3.29
+Male,Other,No income,Yes,21,90,17,54,2.57
+Male,Other,"NGN 500,000 and above",No,34,460,0,102,3.0
+Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,18,0,20,58,3.22
+Prefer not to say,Yoruba,No income,No,29,370,20,90,3.1
+Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,19,170,12,68,3.58
+Male,Yoruba,"NGN 50,000 – NGN 100,000",No,33,490,9,102,3.09
+Male,Other,"NGN 500,000 and above",Yes,33,390,11,90,2.73
+Female,Other,"NGN 50,000 – NGN 100,000",No,35,30,11,116,3.31
+Female,Hausa,"Less than NGN 10,000",No,24,310,9,66,2.75
+Male,Other,"NGN 50,000 – NGN 100,000",No,15,250,9,41,2.73
+Male,Yoruba,"NGN 50,000 – NGN 100,000",No,21,440,4,75,3.57
+Male,Igbo,No income,Yes,27,150,3,83,3.07
+Male,Igbo,"NGN 10,000 – NGN 50,000",No,33,190,11,93,2.82
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,23,70,15,67,2.91
+Prefer not to say,Igbo,No income,No,31,220,17,70,2.26
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,36,130,7,126,3.5
+Male,Igbo,"Less than NGN 10,000",Yes,17,230,14,34,2.0
+Female,Hausa,"NGN 50,000 – NGN 100,000",No,36,370,19,90,2.5
+Male,Yoruba,"NGN 50,000 – NGN 100,000",Yes,18,290,5,54,3.0
+Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,20,290,13,70,3.5
+Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,35,70,9,79,2.26
+Male,Igbo,"Less than NGN 10,000",Yes,28,30,0,91,3.25
+Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,27,420,10,47,1.74
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,24,30,6,54,2.25
+Male,Other,"NGN 500,000 and above",No,33,70,4,90,2.73
+Male,Igbo,"Less than NGN 10,000",No,29,70,20,97,3.34
+Male,Other,"NGN 10,000 – NGN 50,000",Yes,17,210,14,78,4.59
+Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,34,410,6,97,2.85
+Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,28,160,20,98,3.5
+Prefer not to say,Igbo,"NGN 500,000 and above",No,29,290,19,84,2.9
+Male,Igbo,"Less than NGN 10,000",Yes,36,290,13,126,3.5
+Male,Hausa,"NGN 10,000 – NGN 50,000",No,15,140,16,52,3.47
+Prefer not to say,Hausa,"Less than NGN 10,000",No,28,490,16,98,3.5
+Female,Yoruba,"NGN 100,000 – NGN 200,000",Yes,36,180,11,81,2.25
+Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,32,390,19,104,3.25
+Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,22,160,6,36,1.64
+Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,21,150,8,54,2.57
+Prefer not to say,Other,"NGN 500,000 and above",No,25,420,4,60,2.4
+Female,Yoruba,No income,No,22,40,16,64,2.91
+Prefer not to say,Igbo,No income,Yes,34,420,17,102,3.0
+Female,Igbo,No income,No,18,160,6,58,3.22
+Female,Hausa,No income,No,16,440,20,40,2.5
+Male,Yoruba,"NGN 500,000 and above",Yes,18,340,18,55,3.06
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,27,300,1,55,2.04
+Prefer not to say,Igbo,No income,No,18,80,7,38,2.11
+Prefer not to say,Hausa,"Less than NGN 10,000",Yes,20,110,19,70,3.5
+Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,26,220,14,90,3.46
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,33,230,19,99,3.0
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,15,290,19,50,3.33
+Male,Igbo,No income,No,18,320,14,47,2.61
+Male,Other,"NGN 500,000 and above",Yes,27,210,16,80,2.96
+Prefer not to say,Other,"NGN 500,000 and above",No,22,250,6,76,3.45
+Male,Other,"NGN 200,000 – NGN 500,000",Yes,33,160,6,123,3.73
+Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,34,60,2,143,4.21
+Male,Yoruba,"Less than NGN 10,000",Yes,23,140,11,44,1.91
+Prefer not to say,Other,No income,Yes,33,210,0,81,2.45
+Male,Igbo,No income,No,16,170,7,60,3.75
+Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,17,410,5,60,3.53
+Male,Igbo,"Less than NGN 10,000",Yes,21,460,3,51,2.43
+Prefer not to say,Other,No income,Yes,22,400,19,70,3.18
+Male,Hausa,"Less than NGN 10,000",Yes,22,310,16,50,2.27
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,23,190,11,75,3.26
+Male,Other,"NGN 500,000 and above",Yes,23,60,18,52,2.26
+Male,Other,"NGN 10,000 – NGN 50,000",Yes,21,250,13,75,3.57
+Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",Yes,30,340,11,104,3.47
+Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,36,210,11,135,3.75
+Female,Other,"NGN 500,000 and above",No,28,410,2,84,3.0
+Female,Yoruba,"NGN 200,000 – NGN 500,000",Yes,30,230,0,66,2.2
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,36,290,4,126,3.5
+Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,21,130,10,33,1.57
+Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,36,390,0,99,2.75
+Female,Hausa,No income,Yes,23,420,12,47,2.04
+Prefer not to say,Hausa,No income,No,32,200,13,72,2.25
+Male,Hausa,"Less than NGN 10,000",Yes,18,90,13,31,1.72
+Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,24,150,20,102,4.25
+Female,Other,"NGN 10,000 – NGN 50,000",No,16,90,16,36,2.25
+Female,Yoruba,No income,Yes,33,340,12,99,3.0
+Female,Igbo,No income,Yes,32,230,20,112,3.5
+Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,23,230,1,81,3.52
+Prefer not to say,Other,No income,No,17,220,12,48,2.82
+Male,Igbo,No income,No,16,350,20,52,3.25
+Female,Yoruba,"NGN 100,000 – NGN 200,000",Yes,17,10,14,41,2.41
+Male,Igbo,No income,Yes,28,490,7,119,4.25
+Female,Hausa,"NGN 500,000 and above",No,30,430,9,118,3.93
+Male,Other,"Less than NGN 10,000",Yes,34,470,15,70,2.06
+Female,Yoruba,"NGN 500,000 and above",No,21,370,13,78,3.71
+Male,Hausa,"Less than NGN 10,000",Yes,16,500,15,56,3.5
+Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,17,220,2,60,3.53
+Male,Igbo,"NGN 500,000 and above",Yes,23,310,9,53,2.3
+Female,Other,"NGN 50,000 – NGN 100,000",No,32,470,18,104,3.25
+Female,Igbo,No income,No,17,380,18,53,3.12
+Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,18,190,17,69,3.83
+Female,Hausa,"NGN 100,000 – NGN 200,000",No,27,310,13,100,3.7
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,15,230,7,48,3.2
+Prefer not to say,Other,"NGN 100,000 – NGN 200,000",Yes,24,320,4,84,3.5
+Male,Yoruba,"NGN 500,000 and above",No,33,60,17,111,3.36
+Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,35,410,18,123,3.51
+Female,Other,No income,Yes,33,260,11,108,3.27
+Female,Igbo,"NGN 500,000 and above",No,36,250,19,117,3.25
+Male,Igbo,"NGN 100,000 – NGN 200,000",No,36,20,2,117,3.25
+Female,Other,"NGN 10,000 – NGN 50,000",Yes,17,90,0,28,1.65
+Female,Yoruba,"Less than NGN 10,000",Yes,15,500,7,47,3.13
+Female,Other,No income,No,16,330,16,36,2.25
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,24,490,10,78,3.25
+Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",Yes,35,160,5,79,2.26
+Female,Yoruba,"NGN 500,000 and above",Yes,20,400,9,45,2.25
+Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,16,400,4,48,3.0
+Female,Yoruba,"Less than NGN 10,000",No,19,70,15,57,3.0
+Male,Igbo,"NGN 200,000 – NGN 500,000",No,31,490,12,83,2.68
+Prefer not to say,Hausa,"NGN 500,000 and above",Yes,32,120,5,96,3.0
+Female,Igbo,"NGN 200,000 – NGN 500,000",No,28,260,4,112,4.0
+Female,Other,"NGN 100,000 – NGN 200,000",No,28,100,3,84,3.0
+Female,Other,No income,No,18,150,10,41,2.28
+Male,Yoruba,"NGN 50,000 – NGN 100,000",Yes,27,130,11,96,3.56
+Male,Other,"NGN 100,000 – NGN 200,000",Yes,32,470,18,120,3.75
+Female,Other,"Less than NGN 10,000",No,16,470,12,52,3.25
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,17,410,7,50,2.94
+Female,Yoruba,"NGN 10,000 – NGN 50,000",No,34,500,14,95,2.79
+Male,Hausa,No income,Yes,34,400,9,93,2.74
+Male,Other,"NGN 50,000 – NGN 100,000",No,16,190,6,72,4.5
+Prefer not to say,Hausa,"NGN 500,000 and above",Yes,22,280,18,36,1.64
+Female,Yoruba,"NGN 10,000 – NGN 50,000",No,24,0,13,60,2.5
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,19,190,7,43,2.26
+Male,Hausa,"Less than NGN 10,000",Yes,18,10,19,75,4.17
+Female,Other,"NGN 200,000 – NGN 500,000",Yes,21,290,19,45,2.14
+Female,Hausa,"NGN 50,000 – NGN 100,000",No,23,60,8,85,3.7
+Prefer not to say,Hausa,"NGN 500,000 and above",No,31,160,19,54,1.74
+Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,25,250,10,54,2.16
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,24,370,19,90,3.75
+Male,Other,"NGN 100,000 – NGN 200,000",Yes,32,280,9,88,2.75
+Male,Other,"NGN 10,000 – NGN 50,000",Yes,23,400,0,81,3.52
+Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,19,450,6,63,3.32
+Female,Igbo,"NGN 200,000 – NGN 500,000",No,16,60,17,60,3.75
+Female,Yoruba,"NGN 200,000 – NGN 500,000",No,21,160,18,63,3.0
+Prefer not to say,Hausa,"NGN 500,000 and above",Yes,25,460,11,65,2.6
+Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,21,310,10,51,2.43
+Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,17,420,9,37,2.18
+Prefer not to say,Other,"NGN 500,000 and above",Yes,28,370,13,98,3.5
+Male,Other,"Less than NGN 10,000",No,16,310,11,60,3.75
+Male,Yoruba,"NGN 500,000 and above",No,30,460,13,72,2.4
+Female,Other,"NGN 500,000 and above",No,33,440,20,105,3.18
+Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,36,150,11,99,2.75
+Female,Yoruba,"NGN 200,000 – NGN 500,000",No,18,180,6,60,3.33
+Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,30,70,2,78,2.6
+Prefer not to say,Other,"Less than NGN 10,000",No,33,350,15,69,2.09
+Female,Other,"Less than NGN 10,000",Yes,18,220,1,53,2.94
+Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,21,450,16,45,2.14
+Male,Yoruba,"Less than NGN 10,000",No,32,200,15,56,1.75
+Female,Hausa,"NGN 200,000 – NGN 500,000",No,27,360,6,62,2.3
+Prefer not to say,Hausa,"Less than NGN 10,000",No,16,210,1,44,2.75
+Female,Other,No income,Yes,17,20,1,54,3.18
+Female,Hausa,No income,No,25,330,4,64,2.56
+Prefer not to say,Hausa,No income,Yes,30,450,2,86,2.87
+Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",Yes,18,130,0,66,3.67
+Prefer not to say,Hausa,No income,Yes,17,310,4,52,3.06
+Female,Igbo,"Less than NGN 10,000",No,30,180,14,86,2.87
+Prefer not to say,Hausa,No income,No,18,230,6,61,3.39
+Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,21,450,12,27,1.29
+Female,Other,"Less than NGN 10,000",No,19,490,12,42,2.21
+Female,Yoruba,"Less than NGN 10,000",No,18,250,7,50,2.78
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,33,20,5,60,1.82
+Prefer not to say,Hausa,No income,No,36,70,11,90,2.5
+Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,24,290,12,72,3.0
+Female,Yoruba,"NGN 500,000 and above",No,15,10,14,47,3.13
+Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",Yes,19,120,6,57,3.0
+Female,Hausa,"NGN 200,000 – NGN 500,000",Yes,24,380,5,90,3.75
+Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,29,240,5,82,2.83
+Female,Other,"NGN 100,000 – NGN 200,000",Yes,36,60,6,99,2.75
+Male,Igbo,"Less than NGN 10,000",Yes,15,10,9,38,2.53
+Male,Igbo,"NGN 200,000 – NGN 500,000",No,20,40,16,80,4.0
+Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,31,290,14,86,2.77
+Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,32,220,8,120,3.75
+Female,Igbo,"NGN 50,000 – NGN 100,000",No,35,390,18,86,2.46
+Male,Igbo,No income,Yes,17,430,6,47,2.76
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,24,10,19,66,2.75
+Male,Other,"NGN 200,000 – NGN 500,000",No,17,420,2,59,3.47
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,18,20,13,54,3.0
+Male,Hausa,"NGN 100,000 – NGN 200,000",No,19,480,12,71,3.74
+Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,32,60,0,104,3.25
+Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,29,280,3,129,4.45
+Male,Other,"NGN 10,000 – NGN 50,000",No,35,470,18,104,2.97
+Female,Yoruba,"NGN 200,000 – NGN 500,000",No,24,20,3,84,3.5
+Prefer not to say,Yoruba,"Less than NGN 10,000",No,25,240,1,76,3.04
+Male,Hausa,"NGN 50,000 – NGN 100,000",No,19,290,19,70,3.68
+Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,30,360,0,94,3.13
+Female,Yoruba,No income,Yes,17,500,9,69,4.06
+Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,34,410,17,88,2.59
+Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,21,170,16,63,3.0
+Female,Other,"NGN 50,000 – NGN 100,000",Yes,28,360,13,91,3.25
+Male,Yoruba,"Less than NGN 10,000",No,30,20,12,78,2.6
+Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,31,310,0,69,2.23
+Prefer not to say,Hausa,No income,No,26,340,14,66,2.54
+Prefer not to say,Other,No income,No,30,270,6,80,2.67
+Male,Other,No income,No,27,440,4,94,3.48
+Male,Yoruba,"NGN 500,000 and above",No,24,380,13,54,2.25
+Prefer not to say,Igbo,"NGN 500,000 and above",Yes,28,110,9,77,2.75
+Prefer not to say,Hausa,"NGN 500,000 and above",Yes,21,330,9,75,3.57
+Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,34,200,14,118,3.47
+Female,Other,"NGN 50,000 – NGN 100,000",No,17,200,17,70,4.12
+Male,Yoruba,"Less than NGN 10,000",No,22,430,18,80,3.64
+Female,Igbo,"NGN 500,000 and above",No,32,60,20,96,3.0
+Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,17,250,6,48,2.82
+Female,Hausa,"NGN 50,000 – NGN 100,000",No,16,450,15,48,3.0
+Female,Igbo,"NGN 200,000 – NGN 500,000",Yes,35,90,16,131,3.74

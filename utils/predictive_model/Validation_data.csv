@@ -1,0 +1,1001 @@
+,gender,ethnicity,income,internet_access,logging_in,quiz_completion,last_session_course_unit,weighted_grade_point,performance
+4000,Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,34,111,3.26
+4001,Female,Yoruba,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,27,62,2.3
+4002,Female,Hausa,No income,No,Very often,Not Confident,26,75,2.88
+4003,Male,Hausa,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,38,68,1.79
+4004,Prefer not to say,Yoruba,No income,Yes,Not often,Not Confident,40,70,1.75
+4005,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,45,126,2.8
+4006,Female,Hausa,No income,Yes,Not often,Very Confident,41,118,2.88
+4007,Female,Hausa,"NGN 200,000 – NGN 500,000",No,Very often,Very Confident,29,108,3.72
+4008,Prefer not to say,Other,"NGN 500,000 and above",No,Very often,Very Confident,41,96,2.34
+4009,Female,Yoruba,"Less than NGN 10,000",Yes,Moderately often,Not Confident,24,72,3.0
+4010,Male,Hausa,"NGN 500,000 and above",Yes,Not often,Very Confident,34,118,3.47
+4011,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Not often,Not Confident,25,76,3.04
+4012,Female,Hausa,No income,Yes,Very often,Not Confident,31,77,2.48
+4013,Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,32,88,2.75
+4014,Female,Yoruba,"NGN 10,000 – NGN 50,000",No,Moderately often,Very Confident,34,68,2.0
+4015,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,Not often,Very Confident,35,122,3.49
+4016,Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,31,99,3.19
+4017,Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,41,140,3.41
+4018,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Not Confident,40,100,2.5
+4019,Male,Igbo,"NGN 500,000 and above",Yes,Not often,Very Confident,29,98,3.38
+4020,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Moderately often,Very Confident,40,170,4.25
+4021,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,39,108,2.77
+4022,Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,Moderately often,Not Confident,29,66,2.28
+4023,Female,Other,"NGN 100,000 – NGN 200,000",Yes,Very often,Very Confident,24,102,4.25
+4024,Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,32,56,1.75
+4025,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Moderately often,Very Confident,38,94,2.47
+4026,Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,36,108,3.0
+4027,Prefer not to say,Hausa,"NGN 500,000 and above",Yes,Not often,Not Confident,39,96,2.46
+4028,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Not Confident,37,105,2.84
+4029,Male,Igbo,"NGN 100,000 – NGN 200,000",No,Very often,Not Confident,36,126,3.5
+4030,Male,Other,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,36,72,2.0
+4031,Male,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,46,138,3.0
+4032,Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,Moderately often,Very Confident,25,55,2.2
+4033,Male,Hausa,"NGN 500,000 and above",No,Not often,Not Confident,41,123,3.0
+4034,Female,Hausa,"NGN 500,000 and above",Yes,Moderately often,Not Confident,28,63,2.25
+4035,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,Not often,Very Confident,41,101,2.46
+4036,Male,Other,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,41,131,3.2
+4037,Female,Igbo,"NGN 200,000 – NGN 500,000",No,Moderately often,Not Confident,39,165,4.23
+4038,Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,33,87,2.64
+4039,Male,Hausa,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,34,120,3.53
+4040,Male,Hausa,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,46,68,1.48
+4041,Prefer not to say,Other,"NGN 100,000 – NGN 200,000",Yes,Very often,Very Confident,46,206,4.48
+4042,Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,Moderately often,Not Confident,40,120,3.0
+4043,Male,Igbo,"NGN 500,000 and above",No,Moderately often,Very Confident,38,128,3.37
+4044,Male,Igbo,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,26,57,2.19
+4045,Male,Igbo,"Less than NGN 10,000",No,Moderately often,Not Confident,45,141,3.13
+4046,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,28,77,2.75
+4047,Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,25,71,2.84
+4048,Female,Yoruba,No income,Yes,Very often,Very Confident,44,165,3.75
+4049,Male,Yoruba,"NGN 200,000 – NGN 500,000",No,Not often,Very Confident,39,99,2.54
+4050,Female,Igbo,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,34,124,3.65
+4051,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,30,116,3.87
+4052,Male,Hausa,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,26,45,1.73
+4053,Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,45,177,3.93
+4054,Male,Igbo,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,30,92,3.07
+4055,Male,Yoruba,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,46,152,3.3
+4056,Male,Hausa,No income,No,Moderately often,Very Confident,36,108,3.0
+4057,Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,41,156,3.8
+4058,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,Very often,Very Confident,35,114,3.26
+4059,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Very Confident,43,161,3.74
+4060,Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,30,60,2.0
+4061,Male,Igbo,"NGN 500,000 and above",Yes,Not often,Very Confident,27,87,3.22
+4062,Male,Hausa,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,35,105,3.0
+4063,Female,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Very often,Very Confident,46,128,2.78
+4064,Female,Yoruba,"NGN 100,000 – NGN 200,000",No,Very often,Not Confident,28,70,2.5
+4065,Prefer not to say,Other,"Less than NGN 10,000",No,Not often,Very Confident,36,117,3.25
+4066,Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,28,84,3.0
+4067,Female,Yoruba,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,27,102,3.78
+4068,Female,Igbo,"Less than NGN 10,000",No,Very often,Very Confident,45,123,2.73
+4069,Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,44,176,4.0
+4070,Prefer not to say,Hausa,"Less than NGN 10,000",Yes,Not often,Not Confident,25,67,2.68
+4071,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,39,98,2.51
+4072,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Not Confident,33,87,2.64
+4073,Male,Yoruba,"Less than NGN 10,000",Yes,Very often,Very Confident,46,80,1.74
+4074,Female,Other,"NGN 500,000 and above",No,Not often,Very Confident,26,81,3.12
+4075,Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,32,104,3.25
+4076,Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,Very often,Very Confident,32,128,4.0
+4077,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",Yes,Very often,Not Confident,31,107,3.45
+4078,Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,24,66,2.75
+4079,Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,44,132,3.0
+4080,Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,27,61,2.26
+4081,Male,Other,"NGN 100,000 – NGN 200,000",Yes,Very often,Very Confident,24,66,2.75
+4082,Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Not Confident,36,108,3.0
+4083,Male,Other,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,26,89,3.42
+4084,Female,Hausa,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Not Confident,32,56,1.75
+4085,Male,Yoruba,"Less than NGN 10,000",Yes,Not often,Not Confident,33,72,2.18
+4086,Prefer not to say,Igbo,"NGN 500,000 and above",No,Very often,Very Confident,35,105,3.0
+4087,Female,Hausa,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,28,98,3.5
+4088,Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,Very often,Very Confident,42,137,3.26
+4089,Male,Hausa,"Less than NGN 10,000",Yes,Moderately often,Not Confident,43,108,2.51
+4090,Female,Igbo,"NGN 500,000 and above",No,Very often,Not Confident,36,81,2.25
+4091,Male,Yoruba,"NGN 500,000 and above",Yes,Very often,Very Confident,33,111,3.36
+4092,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,35,79,2.26
+4093,Male,Igbo,"NGN 10,000 – NGN 50,000",No,Very often,Very Confident,46,154,3.35
+4094,Male,Hausa,"Less than NGN 10,000",Yes,Not often,Not Confident,38,88,2.32
+4095,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,33,96,2.91
+4096,Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Not Confident,32,112,3.5
+4097,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,30,86,2.87
+4098,Female,Yoruba,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Very Confident,30,74,2.47
+4099,Male,Igbo,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,26,85,3.27
+4100,Male,Other,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,43,140,3.26
+4101,Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,43,119,2.77
+4102,Male,Yoruba,"Less than NGN 10,000",No,Moderately often,Not Confident,39,49,1.26
+4103,Male,Igbo,"NGN 500,000 and above",Yes,Moderately often,Not Confident,27,55,2.04
+4104,Male,Other,"NGN 50,000 – NGN 100,000",No,Moderately often,Very Confident,27,74,2.74
+4105,Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Not often,Not Confident,45,147,3.27
+4106,Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,35,121,3.46
+4107,Prefer not to say,Other,"Less than NGN 10,000",Yes,Very often,Not Confident,31,62,2.0
+4108,Prefer not to say,Other,No income,Yes,Not often,Very Confident,31,91,2.94
+4109,Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,Moderately often,Not Confident,31,94,3.03
+4110,Female,Hausa,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,32,120,3.75
+4111,Female,Igbo,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,42,135,3.21
+4112,Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Not Confident,38,110,2.89
+4113,Female,Igbo,"Less than NGN 10,000",Yes,Not often,Very Confident,29,121,4.17
+4114,Prefer not to say,Hausa,"Less than NGN 10,000",No,Moderately often,Not Confident,43,108,2.51
+4115,Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,Not often,Not Confident,37,118,3.19
+4116,Male,Hausa,"NGN 500,000 and above",Yes,Not often,Not Confident,43,76,1.77
+4117,Male,Igbo,"NGN 200,000 – NGN 500,000",Yes,Not often,Not Confident,38,56,1.47
+4118,Prefer not to say,Other,"NGN 500,000 and above",No,Very often,Very Confident,24,72,3.0
+4119,Female,Hausa,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,26,87,3.35
+4120,Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,Very often,Not Confident,24,72,3.0
+4121,Female,Igbo,"NGN 200,000 – NGN 500,000",Yes,Not often,Not Confident,25,43,1.72
+4122,Female,Other,"NGN 500,000 and above",Yes,Not often,Very Confident,30,102,3.4
+4123,Male,Other,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,44,132,3.0
+4124,Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,33,57,1.73
+4125,Prefer not to say,Yoruba,"Less than NGN 10,000",No,Not often,Not Confident,31,78,2.52
+4126,Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,Moderately often,Very Confident,33,96,2.91
+4127,Male,Yoruba,"NGN 50,000 – NGN 100,000",No,Not often,Very Confident,33,78,2.36
+4128,Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,Not often,Very Confident,43,161,3.74
+4129,Male,Other,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Very Confident,43,152,3.53
+4130,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,39,127,3.26
+4131,Female,Other,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,35,121,3.46
+4132,Prefer not to say,Other,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,46,142,3.09
+4133,Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,41,151,3.68
+4134,Prefer not to say,Igbo,"Less than NGN 10,000",No,Not often,Very Confident,46,158,3.43
+4135,Female,Igbo,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,35,112,3.2
+4136,Female,Other,"NGN 100,000 – NGN 200,000",No,Very often,Not Confident,41,115,2.8
+4137,Female,Igbo,No income,No,Very often,Not Confident,46,100,2.17
+4138,Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,37,154,4.16
+4139,Prefer not to say,Hausa,No income,No,Very often,Very Confident,44,121,2.75
+4140,Male,Hausa,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,26,85,3.27
+4141,Male,Hausa,"NGN 500,000 and above",No,Moderately often,Not Confident,40,150,3.75
+4142,Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Very often,Very Confident,40,150,3.75
+4143,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,Not often,Very Confident,40,190,4.75
+4144,Male,Other,No income,No,Not often,Not Confident,26,80,3.08
+4145,Prefer not to say,Other,No income,Yes,Moderately often,Not Confident,39,105,2.69
+4146,Female,Igbo,"Less than NGN 10,000",Yes,Not often,Not Confident,40,60,1.5
+4147,Prefer not to say,Other,"NGN 500,000 and above",Yes,Not often,Very Confident,36,72,2.0
+4148,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,25,106,4.24
+4149,Male,Igbo,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,46,130,2.83
+4150,Female,Other,"NGN 50,000 – NGN 100,000",No,Not often,Very Confident,28,84,3.0
+4151,Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,27,116,4.3
+4152,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,35,114,3.26
+4153,Male,Yoruba,"NGN 500,000 and above",Yes,Moderately often,Not Confident,42,106,2.52
+4154,Female,Other,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,42,69,1.64
+4155,Male,Hausa,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,28,63,2.25
+4156,Male,Other,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,39,107,2.74
+4157,Male,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,43,127,2.95
+4158,Male,Igbo,"Less than NGN 10,000",No,Very often,Not Confident,32,96,3.0
+4159,Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",No,Very often,Very Confident,30,80,2.67
+4160,Female,Other,No income,Yes,Moderately often,Very Confident,38,144,3.79
+4161,Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,37,108,2.92
+4162,Male,Igbo,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,31,83,2.68
+4163,Male,Yoruba,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,40,130,3.25
+4164,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,28,84,3.0
+4165,Male,Other,No income,No,Moderately often,Very Confident,39,98,2.51
+4166,Male,Other,"NGN 50,000 – NGN 100,000",Yes,Very often,Not Confident,33,96,2.91
+4167,Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,Not often,Very Confident,42,84,2.0
+4168,Female,Igbo,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,25,114,4.56
+4169,Female,Other,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,30,104,3.47
+4170,Male,Igbo,No income,No,Not often,Very Confident,30,48,1.6
+4171,Female,Hausa,"Less than NGN 10,000",Yes,Not often,Not Confident,27,79,2.93
+4172,Female,Yoruba,"Less than NGN 10,000",Yes,Very often,Very Confident,29,93,3.21
+4173,Female,Hausa,No income,No,Moderately often,Very Confident,29,74,2.55
+4174,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,29,89,3.07
+4175,Female,Yoruba,"NGN 500,000 and above",Yes,Not often,Not Confident,31,92,2.97
+4176,Male,Yoruba,"NGN 500,000 and above",No,Very often,Very Confident,43,193,4.49
+4177,Male,Yoruba,No income,Yes,Moderately often,Very Confident,34,79,2.32
+4178,Prefer not to say,Hausa,No income,No,Not often,Not Confident,32,152,4.75
+4179,Male,Other,"NGN 500,000 and above",No,Not often,Not Confident,41,137,3.34
+4180,Prefer not to say,Other,No income,Yes,Very often,Very Confident,25,82,3.28
+4181,Male,Other,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Not Confident,38,170,4.47
+4182,Male,Other,No income,Yes,Very often,Not Confident,24,72,3.0
+4183,Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,33,69,2.09
+4184,Female,Other,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,38,88,2.32
+4185,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Very Confident,30,70,2.33
+4186,Male,Igbo,"Less than NGN 10,000",Yes,Not often,Very Confident,45,168,3.73
+4187,Male,Yoruba,"NGN 500,000 and above",No,Moderately often,Very Confident,27,82,3.04
+4188,Male,Igbo,No income,Yes,Moderately often,Not Confident,33,78,2.36
+4189,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,40,120,3.0
+4190,Female,Hausa,"NGN 200,000 – NGN 500,000",No,Not often,Very Confident,30,86,2.87
+4191,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,Not often,Very Confident,36,117,3.25
+4192,Prefer not to say,Other,"Less than NGN 10,000",Yes,Very often,Not Confident,41,161,3.93
+4193,Female,Hausa,No income,Yes,Moderately often,Not Confident,38,130,3.42
+4194,Female,Other,"NGN 200,000 – NGN 500,000",Yes,Very often,Not Confident,33,78,2.36
+4195,Male,Igbo,"NGN 100,000 – NGN 200,000",No,Very often,Not Confident,38,102,2.68
+4196,Prefer not to say,Hausa,No income,No,Very often,Very Confident,39,96,2.46
+4197,Prefer not to say,Yoruba,No income,No,Moderately often,Very Confident,39,149,3.82
+4198,Female,Igbo,No income,Yes,Not often,Very Confident,32,120,3.75
+4199,Male,Hausa,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,24,96,4.0
+4200,Male,Other,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,38,134,3.53
+4201,Female,Hausa,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,24,60,2.5
+4202,Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Not Confident,31,59,1.9
+4203,Male,Other,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,36,99,2.75
+4204,Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,36,81,2.25
+4205,Prefer not to say,Hausa,"Less than NGN 10,000",No,Not often,Not Confident,37,125,3.38
+4206,Female,Other,"Less than NGN 10,000",Yes,Not often,Very Confident,35,95,2.71
+4207,Male,Hausa,"Less than NGN 10,000",Yes,Not often,Very Confident,36,117,3.25
+4208,Female,Igbo,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,24,84,3.5
+4209,Male,Igbo,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,24,72,3.0
+4210,Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,45,177,3.93
+4211,Female,Igbo,"NGN 500,000 and above",No,Very often,Very Confident,38,96,2.53
+4212,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,36,90,2.5
+4213,Female,Hausa,"NGN 100,000 – NGN 200,000",Yes,Not often,Not Confident,46,154,3.35
+4214,Male,Hausa,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,28,49,1.75
+4215,Female,Yoruba,"NGN 500,000 and above",Yes,Very often,Not Confident,29,101,3.48
+4216,Male,Hausa,"Less than NGN 10,000",Yes,Very often,Not Confident,41,128,3.12
+4217,Male,Hausa,"Less than NGN 10,000",Yes,Not often,Very Confident,28,56,2.0
+4218,Prefer not to say,Igbo,No income,Yes,Moderately often,Very Confident,27,74,2.74
+4219,Female,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,29,61,2.1
+4220,Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,45,138,3.07
+4221,Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,44,143,3.25
+4222,Female,Other,"NGN 500,000 and above",No,Not often,Very Confident,41,183,4.46
+4223,Male,Other,"Less than NGN 10,000",Yes,Not often,Very Confident,28,49,1.75
+4224,Female,Igbo,"Less than NGN 10,000",Yes,Not often,Not Confident,27,53,1.96
+4225,Prefer not to say,Igbo,"NGN 500,000 and above",Yes,Moderately often,Not Confident,42,148,3.52
+4226,Male,Hausa,"NGN 500,000 and above",Yes,Very often,Not Confident,30,62,2.07
+4227,Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,40,130,3.25
+4228,Female,Yoruba,"Less than NGN 10,000",Yes,Not often,Very Confident,37,145,3.92
+4229,Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,41,151,3.68
+4230,Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,29,113,3.9
+4231,Female,Igbo,No income,Yes,Moderately often,Very Confident,39,165,4.23
+4232,Male,Yoruba,"Less than NGN 10,000",No,Not often,Not Confident,41,101,2.46
+4233,Male,Igbo,No income,No,Moderately often,Not Confident,32,128,4.0
+4234,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,38,118,3.11
+4235,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,Moderately often,Not Confident,28,91,3.25
+4236,Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,37,94,2.54
+4237,Female,Igbo,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,32,96,3.0
+4238,Male,Yoruba,"NGN 500,000 and above",No,Moderately often,Very Confident,46,182,3.96
+4239,Male,Other,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,30,60,2.0
+4240,Female,Yoruba,No income,No,Moderately often,Very Confident,43,175,4.07
+4241,Female,Hausa,No income,No,Moderately often,Very Confident,30,122,4.07
+4242,Female,Igbo,"Less than NGN 10,000",Yes,Moderately often,Very Confident,30,94,3.13
+4243,Male,Hausa,"NGN 500,000 and above",Yes,Very often,Not Confident,24,84,3.5
+4244,Female,Other,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,33,105,3.18
+4245,Male,Other,"Less than NGN 10,000",No,Not often,Very Confident,35,116,3.31
+4246,Female,Igbo,"Less than NGN 10,000",No,Very often,Very Confident,44,121,2.75
+4247,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,42,172,4.1
+4248,Male,Hausa,"NGN 100,000 – NGN 200,000",No,Not often,Not Confident,37,67,1.81
+4249,Prefer not to say,Yoruba,"Less than NGN 10,000",No,Not often,Not Confident,42,210,5.0
+4250,Prefer not to say,Yoruba,"Less than NGN 10,000",No,Not often,Not Confident,29,124,4.28
+4251,Male,Other,"Less than NGN 10,000",Yes,Very often,Very Confident,45,162,3.6
+4252,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Very Confident,25,54,2.16
+4253,Prefer not to say,Other,No income,Yes,Not often,Not Confident,36,108,3.0
+4254,Male,Hausa,No income,No,Very often,Very Confident,36,99,2.75
+4255,Male,Yoruba,"Less than NGN 10,000",Yes,Moderately often,Not Confident,45,135,3.0
+4256,Female,Igbo,"NGN 200,000 – NGN 500,000",No,Not often,Very Confident,36,108,3.0
+4257,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,25,83,3.32
+4258,Female,Yoruba,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,32,88,2.75
+4259,Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,41,96,2.34
+4260,Prefer not to say,Yoruba,"NGN 500,000 and above",No,Very often,Very Confident,35,105,3.0
+4261,Female,Igbo,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,31,100,3.23
+4262,Female,Yoruba,"NGN 500,000 and above",No,Moderately often,Very Confident,27,62,2.3
+4263,Female,Hausa,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,29,95,3.28
+4264,Male,Igbo,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,30,94,3.13
+4265,Prefer not to say,Hausa,"Less than NGN 10,000",No,Not often,Not Confident,32,96,3.0
+4266,Female,Hausa,"Less than NGN 10,000",No,Not often,Not Confident,44,165,3.75
+4267,Prefer not to say,Other,No income,Yes,Moderately often,Very Confident,32,96,3.0
+4268,Male,Yoruba,"NGN 500,000 and above",No,Moderately often,Very Confident,30,62,2.07
+4269,Male,Hausa,No income,Yes,Not often,Very Confident,34,116,3.41
+4270,Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Not often,Very Confident,40,80,2.0
+4271,Female,Other,"NGN 200,000 – NGN 500,000",No,Not often,Very Confident,32,80,2.5
+4272,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Not often,Very Confident,42,146,3.48
+4273,Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Not Confident,41,153,3.73
+4274,Prefer not to say,Igbo,"Less than NGN 10,000",Yes,Very often,Very Confident,26,76,2.92
+4275,Male,Yoruba,"NGN 200,000 – NGN 500,000",No,Moderately often,Not Confident,27,66,2.44
+4276,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,40,110,2.75
+4277,Male,Igbo,"NGN 500,000 and above",Yes,Very often,Very Confident,45,165,3.67
+4278,Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,33,90,2.73
+4279,Male,Other,"NGN 500,000 and above",Yes,Moderately often,Very Confident,37,148,4.0
+4280,Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,Not often,Very Confident,35,115,3.29
+4281,Female,Igbo,No income,Yes,Not often,Very Confident,27,100,3.7
+4282,Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,28,84,3.0
+4283,Prefer not to say,Other,"NGN 500,000 and above",Yes,Moderately often,Not Confident,32,128,4.0
+4284,Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,29,121,4.17
+4285,Female,Other,"Less than NGN 10,000",No,Not often,Very Confident,27,128,4.74
+4286,Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",Yes,Very often,Very Confident,24,102,4.25
+4287,Female,Other,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,36,108,3.0
+4288,Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,Very often,Not Confident,31,110,3.55
+4289,Prefer not to say,Igbo,"NGN 500,000 and above",Yes,Not often,Not Confident,38,104,2.74
+4290,Male,Igbo,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,41,120,2.93
+4291,Female,Yoruba,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,45,144,3.2
+4292,Female,Igbo,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,26,75,2.88
+4293,Male,Yoruba,No income,Yes,Very often,Not Confident,39,68,1.74
+4294,Male,Other,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,46,56,1.22
+4295,Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,24,60,2.5
+4296,Male,Other,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,33,120,3.64
+4297,Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",No,Not often,Very Confident,41,148,3.61
+4298,Prefer not to say,Igbo,"NGN 500,000 and above",No,Very often,Not Confident,46,82,1.78
+4299,Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,31,78,2.52
+4300,Male,Other,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,36,99,2.75
+4301,Male,Hausa,"Less than NGN 10,000",Yes,Not often,Very Confident,32,104,3.25
+4302,Female,Other,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,44,143,3.25
+4303,Female,Igbo,"Less than NGN 10,000",Yes,Not often,Very Confident,40,130,3.25
+4304,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Very often,Very Confident,27,107,3.96
+4305,Prefer not to say,Other,No income,Yes,Not often,Very Confident,26,108,4.15
+4306,Male,Igbo,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,46,184,4.0
+4307,Male,Hausa,"NGN 500,000 and above",No,Not often,Not Confident,37,108,2.92
+4308,Female,Igbo,"NGN 200,000 – NGN 500,000",No,Very often,Very Confident,34,116,3.41
+4309,Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,42,166,3.95
+4310,Female,Other,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,35,97,2.77
+4311,Male,Other,"Less than NGN 10,000",Yes,Very often,Very Confident,35,78,2.23
+4312,Prefer not to say,Other,"NGN 500,000 and above",Yes,Very often,Not Confident,41,95,2.32
+4313,Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,44,143,3.25
+4314,Prefer not to say,Other,"Less than NGN 10,000",No,Not often,Not Confident,46,110,2.39
+4315,Prefer not to say,Hausa,"Less than NGN 10,000",Yes,Not often,Not Confident,35,133,3.8
+4316,Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,42,113,2.69
+4317,Male,Igbo,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,32,96,3.0
+4318,Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,29,93,3.21
+4319,Female,Hausa,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,26,87,3.35
+4320,Male,Other,"Less than NGN 10,000",Yes,Very often,Very Confident,43,141,3.28
+4321,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,31,87,2.81
+4322,Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,39,69,1.77
+4323,Male,Igbo,"Less than NGN 10,000",No,Very often,Not Confident,42,148,3.52
+4324,Female,Other,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,30,58,1.93
+4325,Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,27,95,3.52
+4326,Female,Igbo,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,30,108,3.6
+4327,Prefer not to say,Other,No income,No,Moderately often,Very Confident,37,91,2.46
+4328,Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Very Confident,30,124,4.13
+4329,Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Not often,Not Confident,46,90,1.96
+4330,Prefer not to say,Hausa,"Less than NGN 10,000",Yes,Not often,Not Confident,36,126,3.5
+4331,Male,Other,"NGN 200,000 – NGN 500,000",No,Very often,Very Confident,34,77,2.26
+4332,Female,Igbo,"NGN 200,000 – NGN 500,000",Yes,Very often,Very Confident,42,126,3.0
+4333,Prefer not to say,Other,No income,No,Very often,Not Confident,39,78,2.0
+4334,Female,Other,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,29,93,3.21
+4335,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,39,129,3.31
+4336,Male,Igbo,"NGN 500,000 and above",Yes,Very often,Not Confident,36,108,3.0
+4337,Female,Yoruba,No income,No,Very often,Very Confident,38,94,2.47
+4338,Female,Hausa,"NGN 50,000 – NGN 100,000",No,Moderately often,Very Confident,37,57,1.54
+4339,Female,Hausa,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,40,120,3.0
+4340,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,39,139,3.56
+4341,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,39,108,2.77
+4342,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,39,125,3.21
+4343,Prefer not to say,Hausa,No income,Yes,Moderately often,Very Confident,35,114,3.26
+4344,Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,42,84,2.0
+4345,Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,30,94,3.13
+4346,Male,Other,"NGN 200,000 – NGN 500,000",Yes,Very often,Very Confident,35,105,3.0
+4347,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,41,150,3.66
+4348,Female,Other,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,37,148,4.0
+4349,Prefer not to say,Other,No income,Yes,Not often,Not Confident,26,111,4.27
+4350,Male,Other,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,30,78,2.6
+4351,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,33,123,3.73
+4352,Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Not Confident,26,52,2.0
+4353,Female,Hausa,"Less than NGN 10,000",No,Not often,Not Confident,39,147,3.77
+4354,Male,Other,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Very Confident,32,104,3.25
+4355,Male,Igbo,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,43,129,3.0
+4356,Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Not Confident,26,57,2.19
+4357,Female,Yoruba,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,42,135,3.21
+4358,Female,Hausa,"Less than NGN 10,000",No,Very often,Very Confident,35,105,3.0
+4359,Prefer not to say,Other,"Less than NGN 10,000",Yes,Not often,Very Confident,31,100,3.23
+4360,Male,Other,"Less than NGN 10,000",Yes,Moderately often,Not Confident,41,183,4.46
+4361,Female,Igbo,"NGN 500,000 and above",No,Very often,Not Confident,24,90,3.75
+4362,Female,Igbo,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,41,106,2.59
+4363,Male,Igbo,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Very Confident,44,121,2.75
+4364,Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,41,178,4.34
+4365,Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,33,75,2.27
+4366,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,Not often,Not Confident,29,60,2.07
+4367,Male,Yoruba,"NGN 500,000 and above",Yes,Not often,Very Confident,37,125,3.38
+4368,Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,Moderately often,Very Confident,39,136,3.49
+4369,Prefer not to say,Other,"NGN 500,000 and above",Yes,Not often,Not Confident,28,77,2.75
+4370,Male,Yoruba,No income,Yes,Not often,Not Confident,30,102,3.4
+4371,Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,30,98,3.27
+4372,Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,43,108,2.51
+4373,Male,Yoruba,No income,Yes,Moderately often,Very Confident,43,109,2.53
+4374,Prefer not to say,Yoruba,"NGN 500,000 and above",No,Moderately often,Very Confident,24,78,3.25
+4375,Male,Igbo,"Less than NGN 10,000",Yes,Not often,Very Confident,45,117,2.6
+4376,Prefer not to say,Hausa,No income,No,Moderately often,Not Confident,39,175,4.49
+4377,Female,Igbo,"NGN 200,000 – NGN 500,000",Yes,Very often,Not Confident,36,135,3.75
+4378,Prefer not to say,Igbo,"Less than NGN 10,000",No,Moderately often,Very Confident,27,47,1.74
+4379,Prefer not to say,Other,No income,No,Moderately often,Not Confident,35,133,3.8
+4380,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,Very often,Very Confident,24,102,4.25
+4381,Male,Hausa,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,25,82,3.28
+4382,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,27,68,2.52
+4383,Male,Hausa,No income,No,Very often,Very Confident,26,52,2.0
+4384,Female,Hausa,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,26,73,2.81
+4385,Female,Other,No income,Yes,Very often,Not Confident,31,117,3.77
+4386,Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,43,161,3.74
+4387,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,27,102,3.78
+4388,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,34,140,4.12
+4389,Female,Yoruba,"Less than NGN 10,000",Yes,Moderately often,Not Confident,33,114,3.45
+4390,Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,40,70,1.75
+4391,Male,Yoruba,"Less than NGN 10,000",Yes,Very often,Not Confident,24,36,1.5
+4392,Male,Other,"NGN 500,000 and above",No,Not often,Very Confident,33,90,2.73
+4393,Female,Other,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,33,93,2.82
+4394,Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Not Confident,29,82,2.83
+4395,Female,Igbo,"NGN 500,000 and above",Yes,Not often,Very Confident,30,62,2.07
+4396,Female,Hausa,"Less than NGN 10,000",No,Very often,Very Confident,37,145,3.92
+4397,Prefer not to say,Hausa,"Less than NGN 10,000",No,Moderately often,Very Confident,32,136,4.25
+4398,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,39,126,3.23
+4399,Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,43,128,2.98
+4400,Female,Igbo,"Less than NGN 10,000",No,Very often,Very Confident,29,90,3.1
+4401,Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Not often,Not Confident,26,92,3.54
+4402,Prefer not to say,Hausa,No income,No,Moderately often,Not Confident,32,96,3.0
+4403,Prefer not to say,Yoruba,"Less than NGN 10,000",No,Not often,Very Confident,42,119,2.83
+4404,Prefer not to say,Other,"NGN 500,000 and above",Yes,Not often,Very Confident,43,74,1.72
+4405,Female,Other,No income,No,Not often,Very Confident,24,90,3.75
+4406,Female,Igbo,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,26,87,3.35
+4407,Prefer not to say,Hausa,No income,No,Very often,Not Confident,24,78,3.25
+4408,Female,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,40,110,2.75
+4409,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Very Confident,36,81,2.25
+4410,Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,Not often,Very Confident,27,96,3.56
+4411,Male,Other,"NGN 500,000 and above",No,Moderately often,Not Confident,36,117,3.25
+4412,Male,Yoruba,"NGN 500,000 and above",No,Moderately often,Not Confident,32,96,3.0
+4413,Female,Yoruba,"NGN 500,000 and above",No,Very often,Very Confident,38,116,3.05
+4414,Male,Igbo,"NGN 200,000 – NGN 500,000",No,Moderately often,Not Confident,46,158,3.43
+4415,Male,Yoruba,"Less than NGN 10,000",No,Moderately often,Very Confident,43,139,3.23
+4416,Female,Other,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,24,78,3.25
+4417,Male,Igbo,"NGN 100,000 – NGN 200,000",No,Not often,Not Confident,33,75,2.27
+4418,Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,Very often,Not Confident,44,165,3.75
+4419,Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,Very often,Not Confident,45,138,3.07
+4420,Male,Other,"Less than NGN 10,000",No,Very often,Very Confident,43,129,3.0
+4421,Male,Yoruba,"Less than NGN 10,000",No,Moderately often,Not Confident,42,137,3.26
+4422,Female,Hausa,No income,Yes,Very often,Not Confident,26,88,3.38
+4423,Male,Hausa,"NGN 500,000 and above",No,Moderately often,Very Confident,34,77,2.26
+4424,Prefer not to say,Other,"Less than NGN 10,000",Yes,Moderately often,Not Confident,39,126,3.23
+4425,Male,Igbo,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,31,71,2.29
+4426,Female,Yoruba,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,40,170,4.25
+4427,Male,Hausa,No income,Yes,Not often,Not Confident,45,144,3.2
+4428,Male,Other,No income,No,Very often,Not Confident,24,60,2.5
+4429,Prefer not to say,Other,"NGN 500,000 and above",No,Very often,Very Confident,36,108,3.0
+4430,Prefer not to say,Hausa,No income,Yes,Very often,Not Confident,38,112,2.95
+4431,Male,Other,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,43,129,3.0
+4432,Female,Yoruba,"NGN 500,000 and above",No,Moderately often,Very Confident,42,133,3.17
+4433,Female,Igbo,"NGN 500,000 and above",Yes,Very often,Very Confident,36,72,2.0
+4434,Prefer not to say,Other,"Less than NGN 10,000",Yes,Very often,Very Confident,38,106,2.79
+4435,Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,45,144,3.2
+4436,Male,Other,No income,No,Not often,Very Confident,31,63,2.03
+4437,Female,Hausa,"NGN 500,000 and above",No,Moderately often,Not Confident,36,117,3.25
+4438,Female,Igbo,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,38,72,1.89
+4439,Female,Other,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,29,101,3.48
+4440,Female,Yoruba,"NGN 500,000 and above",No,Not often,Very Confident,25,74,2.96
+4441,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,42,148,3.52
+4442,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,Not often,Not Confident,45,102,2.27
+4443,Male,Hausa,"Less than NGN 10,000",No,Not often,Very Confident,36,54,1.5
+4444,Female,Yoruba,"Less than NGN 10,000",No,Very often,Very Confident,27,89,3.3
+4445,Male,Other,"NGN 100,000 – NGN 200,000",No,Not often,Not Confident,25,54,2.16
+4446,Male,Igbo,"Less than NGN 10,000",Yes,Very often,Very Confident,29,137,4.72
+4447,Male,Yoruba,"Less than NGN 10,000",Yes,Not often,Not Confident,30,98,3.27
+4448,Male,Other,"NGN 500,000 and above",No,Not often,Not Confident,38,116,3.05
+4449,Prefer not to say,Igbo,No income,No,Moderately often,Not Confident,29,105,3.62
+4450,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Moderately often,Very Confident,37,95,2.57
+4451,Female,Hausa,"NGN 500,000 and above",No,Not often,Not Confident,33,120,3.64
+4452,Female,Other,"Less than NGN 10,000",No,Moderately often,Very Confident,31,124,4.0
+4453,Prefer not to say,Yoruba,"NGN 500,000 and above",No,Not often,Very Confident,45,120,2.67
+4454,Female,Hausa,"NGN 10,000 – NGN 50,000",No,Very often,Very Confident,29,61,2.1
+4455,Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,25,74,2.96
+4456,Prefer not to say,Igbo,"NGN 500,000 and above",Yes,Very often,Not Confident,35,69,1.97
+4457,Female,Yoruba,No income,Yes,Not often,Not Confident,40,110,2.75
+4458,Female,Yoruba,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,36,117,3.25
+4459,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,42,80,1.9
+4460,Prefer not to say,Igbo,No income,No,Moderately often,Not Confident,42,150,3.57
+4461,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,38,108,2.84
+4462,Prefer not to say,Igbo,"Less than NGN 10,000",Yes,Moderately often,Not Confident,29,65,2.24
+4463,Prefer not to say,Yoruba,"Less than NGN 10,000",No,Not often,Very Confident,32,104,3.25
+4464,Female,Igbo,No income,No,Moderately often,Not Confident,35,71,2.03
+4465,Female,Other,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,43,107,2.49
+4466,Female,Other,"Less than NGN 10,000",Yes,Moderately often,Very Confident,39,136,3.49
+4467,Prefer not to say,Igbo,"NGN 500,000 and above",No,Moderately often,Not Confident,27,80,2.96
+4468,Male,Yoruba,"Less than NGN 10,000",Yes,Not often,Not Confident,45,144,3.2
+4469,Female,Other,"Less than NGN 10,000",No,Moderately often,Not Confident,44,110,2.5
+4470,Male,Hausa,"NGN 500,000 and above",No,Very often,Not Confident,35,97,2.77
+4471,Female,Other,"NGN 100,000 – NGN 200,000",Yes,Very often,Very Confident,35,122,3.49
+4472,Male,Hausa,"NGN 500,000 and above",No,Moderately often,Not Confident,45,183,4.07
+4473,Female,Hausa,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,38,134,3.53
+4474,Female,Igbo,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,43,142,3.3
+4475,Female,Yoruba,"NGN 500,000 and above",Yes,Moderately often,Not Confident,30,78,2.6
+4476,Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,29,89,3.07
+4477,Male,Other,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,39,145,3.72
+4478,Female,Yoruba,"Less than NGN 10,000",Yes,Moderately often,Not Confident,38,96,2.53
+4479,Female,Hausa,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,24,66,2.75
+4480,Female,Igbo,"Less than NGN 10,000",Yes,Very often,Very Confident,27,97,3.59
+4481,Male,Other,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,27,81,3.0
+4482,Prefer not to say,Other,No income,Yes,Moderately often,Not Confident,45,117,2.6
+4483,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Not Confident,34,77,2.26
+4484,Prefer not to say,Igbo,"Less than NGN 10,000",No,Very often,Not Confident,33,129,3.91
+4485,Prefer not to say,Hausa,"Less than NGN 10,000",Yes,Moderately often,Not Confident,45,174,3.87
+4486,Female,Other,"NGN 200,000 – NGN 500,000",No,Not often,Very Confident,43,149,3.47
+4487,Male,Other,"NGN 100,000 – NGN 200,000",Yes,Not often,Not Confident,27,67,2.48
+4488,Male,Yoruba,"NGN 500,000 and above",No,Very often,Not Confident,38,120,3.16
+4489,Prefer not to say,Yoruba,No income,No,Very often,Not Confident,45,105,2.33
+4490,Prefer not to say,Other,No income,No,Moderately often,Very Confident,39,108,2.77
+4491,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,30,74,2.47
+4492,Male,Other,"Less than NGN 10,000",Yes,Moderately often,Very Confident,44,88,2.0
+4493,Male,Igbo,No income,Yes,Moderately often,Very Confident,29,45,1.55
+4494,Male,Yoruba,"NGN 10,000 – NGN 50,000",No,Moderately often,Very Confident,37,118,3.19
+4495,Male,Igbo,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,24,78,3.25
+4496,Male,Yoruba,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,42,82,1.95
+4497,Female,Igbo,"NGN 500,000 and above",Yes,Not often,Very Confident,37,134,3.62
+4498,Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",Yes,Not often,Very Confident,40,150,3.75
+4499,Male,Other,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,34,107,3.15
+4500,Female,Yoruba,"NGN 500,000 and above",Yes,Very often,Very Confident,37,108,2.92
+4501,Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,40,110,2.75
+4502,Female,Other,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,41,142,3.46
+4503,Male,Other,"NGN 100,000 – NGN 200,000",No,Very often,Not Confident,46,186,4.04
+4504,Male,Igbo,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,41,126,3.07
+4505,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,Not often,Very Confident,44,121,2.75
+4506,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,45,162,3.6
+4507,Male,Other,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,41,145,3.54
+4508,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,Not often,Not Confident,37,147,3.97
+4509,Female,Yoruba,"NGN 100,000 – NGN 200,000",No,Very often,Not Confident,26,61,2.35
+4510,Female,Hausa,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,25,79,3.16
+4511,Male,Yoruba,"NGN 500,000 and above",Yes,Very often,Very Confident,40,150,3.75
+4512,Female,Other,"NGN 100,000 – NGN 200,000",Yes,Very often,Very Confident,34,127,3.74
+4513,Female,Hausa,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,45,171,3.8
+4514,Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,43,139,3.23
+4515,Male,Hausa,"NGN 500,000 and above",No,Moderately often,Not Confident,39,129,3.31
+4516,Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",Yes,Not often,Not Confident,30,112,3.73
+4517,Female,Igbo,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,35,112,3.2
+4518,Male,Igbo,"NGN 500,000 and above",Yes,Not often,Very Confident,40,140,3.5
+4519,Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,36,99,2.75
+4520,Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,39,99,2.54
+4521,Female,Hausa,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,42,144,3.43
+4522,Male,Hausa,"Less than NGN 10,000",No,Very often,Not Confident,33,69,2.09
+4523,Female,Other,"NGN 100,000 – NGN 200,000",No,Very often,Not Confident,30,62,2.07
+4524,Female,Other,"NGN 500,000 and above",Yes,Very often,Very Confident,46,150,3.26
+4525,Male,Igbo,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,30,86,2.87
+4526,Male,Hausa,"Less than NGN 10,000",Yes,Moderately often,Very Confident,37,87,2.35
+4527,Prefer not to say,Igbo,"NGN 500,000 and above",Yes,Very often,Very Confident,32,96,3.0
+4528,Prefer not to say,Igbo,No income,No,Moderately often,Not Confident,32,64,2.0
+4529,Prefer not to say,Other,"Less than NGN 10,000",No,Not often,Very Confident,39,147,3.77
+4530,Female,Yoruba,No income,No,Moderately often,Very Confident,25,83,3.32
+4531,Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,29,82,2.83
+4532,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,36,117,3.25
+4533,Female,Igbo,"NGN 500,000 and above",Yes,Moderately often,Not Confident,30,92,3.07
+4534,Female,Igbo,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,28,105,3.75
+4535,Female,Other,No income,No,Not often,Very Confident,39,128,3.28
+4536,Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,36,117,3.25
+4537,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,39,128,3.28
+4538,Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,Very often,Not Confident,45,138,3.07
+4539,Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",No,Not often,Very Confident,37,115,3.11
+4540,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Very Confident,35,107,3.06
+4541,Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Very Confident,43,119,2.77
+4542,Female,Other,No income,No,Very often,Not Confident,36,72,2.0
+4543,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Not Confident,32,104,3.25
+4544,Male,Yoruba,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,34,95,2.79
+4545,Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,Moderately often,Very Confident,40,140,3.5
+4546,Female,Other,"NGN 500,000 and above",Yes,Moderately often,Not Confident,38,96,2.53
+4547,Male,Igbo,No income,Yes,Moderately often,Very Confident,44,77,1.75
+4548,Male,Yoruba,"Less than NGN 10,000",Yes,Moderately often,Not Confident,36,90,2.5
+4549,Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,36,135,3.75
+4550,Prefer not to say,Igbo,"NGN 500,000 and above",No,Moderately often,Very Confident,43,160,3.72
+4551,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Not Confident,32,104,3.25
+4552,Female,Yoruba,"NGN 500,000 and above",Yes,Very often,Very Confident,42,128,3.05
+4553,Male,Igbo,"Less than NGN 10,000",Yes,Not often,Very Confident,44,143,3.25
+4554,Female,Hausa,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,32,104,3.25
+4555,Prefer not to say,Hausa,"NGN 500,000 and above",No,Moderately often,Not Confident,38,96,2.53
+4556,Male,Other,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,26,73,2.81
+4557,Female,Hausa,"NGN 500,000 and above",No,Not often,Very Confident,35,80,2.29
+4558,Female,Hausa,"NGN 500,000 and above",Yes,Not often,Very Confident,35,131,3.74
+4559,Male,Other,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Very Confident,44,132,3.0
+4560,Female,Hausa,"Less than NGN 10,000",No,Not often,Very Confident,31,99,3.19
+4561,Male,Igbo,"NGN 200,000 – NGN 500,000",No,Moderately often,Very Confident,32,88,2.75
+4562,Prefer not to say,Yoruba,"NGN 500,000 and above",No,Not often,Not Confident,38,92,2.42
+4563,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,Very often,Very Confident,32,136,4.25
+4564,Male,Yoruba,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,34,50,1.47
+4565,Prefer not to say,Igbo,"Less than NGN 10,000",No,Moderately often,Very Confident,44,132,3.0
+4566,Prefer not to say,Hausa,"Less than NGN 10,000",No,Moderately often,Not Confident,25,53,2.12
+4567,Male,Igbo,No income,Yes,Not often,Very Confident,46,104,2.26
+4568,Female,Hausa,"Less than NGN 10,000",No,Not often,Very Confident,44,99,2.25
+4569,Male,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Very often,Not Confident,28,49,1.75
+4570,Male,Igbo,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,32,112,3.5
+4571,Male,Other,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,24,72,3.0
+4572,Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Not Confident,35,80,2.29
+4573,Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,Very often,Not Confident,31,110,3.55
+4574,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,Moderately often,Not Confident,38,132,3.47
+4575,Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,39,97,2.49
+4576,Male,Igbo,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,29,79,2.72
+4577,Prefer not to say,Yoruba,"Less than NGN 10,000",No,Very often,Not Confident,43,98,2.28
+4578,Female,Igbo,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,44,99,2.25
+4579,Male,Igbo,"Less than NGN 10,000",No,Not often,Not Confident,24,42,1.75
+4580,Female,Yoruba,"NGN 50,000 – NGN 100,000",No,Not often,Very Confident,41,118,2.88
+4581,Female,Igbo,No income,Yes,Very often,Not Confident,32,80,2.5
+4582,Prefer not to say,Igbo,"Less than NGN 10,000",Yes,Moderately often,Very Confident,45,150,3.33
+4583,Prefer not to say,Igbo,"Less than NGN 10,000",Yes,Not often,Not Confident,40,90,2.25
+4584,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,43,142,3.3
+4585,Male,Yoruba,No income,Yes,Very often,Very Confident,36,153,4.25
+4586,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,34,116,3.41
+4587,Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Very Confident,31,54,1.74
+4588,Female,Yoruba,No income,Yes,Very often,Not Confident,44,132,3.0
+4589,Male,Igbo,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,43,138,3.21
+4590,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,32,120,3.75
+4591,Female,Other,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,34,109,3.21
+4592,Female,Other,"NGN 200,000 – NGN 500,000",No,Not often,Very Confident,24,60,2.5
+4593,Female,Hausa,"NGN 500,000 and above",No,Moderately often,Very Confident,31,102,3.29
+4594,Female,Hausa,"NGN 50,000 – NGN 100,000",No,Moderately often,Very Confident,38,56,1.47
+4595,Male,Yoruba,No income,No,Not often,Very Confident,35,125,3.57
+4596,Female,Igbo,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,32,120,3.75
+4597,Female,Other,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,41,115,2.8
+4598,Female,Other,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,25,85,3.4
+4599,Female,Other,"NGN 500,000 and above",No,Moderately often,Not Confident,39,157,4.03
+4600,Female,Other,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,40,170,4.25
+4601,Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,24,60,2.5
+4602,Male,Hausa,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,35,122,3.49
+4603,Male,Hausa,No income,No,Moderately often,Not Confident,31,103,3.32
+4604,Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,Moderately often,Not Confident,41,162,3.95
+4605,Female,Igbo,"NGN 500,000 and above",Yes,Moderately often,Very Confident,30,134,4.47
+4606,Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,30,76,2.53
+4607,Female,Hausa,No income,Yes,Not often,Not Confident,41,106,2.59
+4608,Female,Igbo,"NGN 10,000 – NGN 50,000",No,Very often,Very Confident,35,113,3.23
+4609,Female,Other,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,36,99,2.75
+4610,Male,Other,"Less than NGN 10,000",No,Not often,Very Confident,42,108,2.57
+4611,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,30,74,2.47
+4612,Female,Hausa,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,29,63,2.17
+4613,Prefer not to say,Yoruba,"Less than NGN 10,000",No,Moderately often,Very Confident,43,139,3.23
+4614,Female,Other,No income,No,Moderately often,Very Confident,27,90,3.33
+4615,Male,Hausa,No income,No,Not often,Not Confident,31,69,2.23
+4616,Prefer not to say,Igbo,"Less than NGN 10,000",Yes,Not often,Very Confident,37,138,3.73
+4617,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",Yes,Very often,Not Confident,43,138,3.21
+4618,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Very often,Not Confident,36,117,3.25
+4619,Male,Other,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,33,138,4.18
+4620,Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,40,130,3.25
+4621,Female,Other,No income,Yes,Moderately often,Very Confident,25,82,3.28
+4622,Female,Igbo,No income,No,Not often,Very Confident,46,146,3.17
+4623,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,32,96,3.0
+4624,Female,Other,"Less than NGN 10,000",Yes,Not often,Very Confident,24,84,3.5
+4625,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Very often,Not Confident,39,145,3.72
+4626,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",Yes,Not often,Not Confident,31,94,3.03
+4627,Female,Yoruba,"NGN 10,000 – NGN 50,000",No,Not often,Not Confident,38,118,3.11
+4628,Male,Igbo,No income,Yes,Not often,Not Confident,30,110,3.67
+4629,Male,Other,"NGN 50,000 – NGN 100,000",Yes,Not often,Very Confident,25,55,2.2
+4630,Female,Hausa,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,32,128,4.0
+4631,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,26,68,2.62
+4632,Female,Yoruba,"NGN 500,000 and above",Yes,Very often,Not Confident,35,79,2.26
+4633,Female,Hausa,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,24,84,3.5
+4634,Male,Hausa,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,36,99,2.75
+4635,Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,30,94,3.13
+4636,Female,Hausa,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,29,95,3.28
+4637,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,46,118,2.57
+4638,Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,32,64,2.0
+4639,Male,Hausa,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,24,84,3.5
+4640,Male,Yoruba,No income,Yes,Very often,Not Confident,34,102,3.0
+4641,Male,Hausa,"NGN 500,000 and above",Yes,Not often,Not Confident,27,94,3.48
+4642,Female,Other,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,25,74,2.96
+4643,Female,Other,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,28,112,4.0
+4644,Prefer not to say,Yoruba,No income,No,Moderately often,Very Confident,37,105,2.84
+4645,Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,35,88,2.51
+4646,Male,Hausa,"NGN 500,000 and above",No,Moderately often,Not Confident,40,80,2.0
+4647,Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,31,92,2.97
+4648,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,41,137,3.34
+4649,Female,Other,"NGN 500,000 and above",Yes,Very often,Not Confident,38,132,3.47
+4650,Female,Other,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,44,99,2.25
+4651,Prefer not to say,Other,No income,No,Not often,Very Confident,42,119,2.83
+4652,Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,Moderately often,Very Confident,37,127,3.43
+4653,Female,Other,"NGN 500,000 and above",Yes,Very often,Not Confident,30,46,1.53
+4654,Male,Yoruba,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,30,78,2.6
+4655,Male,Yoruba,"NGN 200,000 – NGN 500,000",Yes,Very often,Not Confident,33,81,2.45
+4656,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Very often,Very Confident,36,171,4.75
+4657,Male,Yoruba,"NGN 100,000 – NGN 200,000",No,Very often,Not Confident,38,134,3.53
+4658,Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,32,72,2.25
+4659,Female,Igbo,No income,Yes,Very often,Very Confident,44,132,3.0
+4660,Prefer not to say,Igbo,"Less than NGN 10,000",No,Not often,Very Confident,37,145,3.92
+4661,Prefer not to say,Yoruba,"NGN 500,000 and above",No,Not often,Very Confident,32,96,3.0
+4662,Female,Other,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,46,176,3.83
+4663,Male,Yoruba,"NGN 10,000 – NGN 50,000",No,Moderately often,Very Confident,36,63,1.75
+4664,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,Not often,Very Confident,37,141,3.81
+4665,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,25,46,1.84
+4666,Female,Yoruba,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,31,140,4.52
+4667,Female,Hausa,"NGN 200,000 – NGN 500,000",No,Very often,Very Confident,30,134,4.47
+4668,Male,Yoruba,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,28,77,2.75
+4669,Female,Hausa,"NGN 200,000 – NGN 500,000",Yes,Very often,Very Confident,39,149,3.82
+4670,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,30,74,2.47
+4671,Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,Moderately often,Not Confident,42,133,3.17
+4672,Male,Hausa,"Less than NGN 10,000",No,Moderately often,Very Confident,43,130,3.02
+4673,Male,Hausa,"NGN 500,000 and above",Yes,Not often,Not Confident,39,129,3.31
+4674,Male,Igbo,"Less than NGN 10,000",No,Very often,Very Confident,32,120,3.75
+4675,Female,Hausa,No income,No,Moderately often,Very Confident,27,107,3.96
+4676,Female,Yoruba,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,34,68,2.0
+4677,Male,Other,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Not Confident,43,73,1.7
+4678,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,28,98,3.5
+4679,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Not often,Very Confident,25,93,3.72
+4680,Female,Yoruba,"Less than NGN 10,000",No,Very often,Very Confident,46,130,2.83
+4681,Prefer not to say,Igbo,No income,No,Very often,Very Confident,42,97,2.31
+4682,Female,Igbo,No income,No,Moderately often,Not Confident,33,84,2.55
+4683,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Not Confident,26,90,3.46
+4684,Female,Yoruba,No income,No,Not often,Very Confident,25,55,2.2
+4685,Female,Igbo,"Less than NGN 10,000",No,Very often,Not Confident,26,50,1.92
+4686,Prefer not to say,Other,"Less than NGN 10,000",Yes,Moderately often,Not Confident,24,78,3.25
+4687,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Very often,Not Confident,29,84,2.9
+4688,Female,Hausa,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,44,110,2.5
+4689,Prefer not to say,Igbo,"Less than NGN 10,000",Yes,Moderately often,Not Confident,39,87,2.23
+4690,Male,Other,"NGN 50,000 – NGN 100,000",No,Moderately often,Very Confident,37,74,2.0
+4691,Female,Igbo,"NGN 500,000 and above",Yes,Moderately often,Very Confident,25,47,1.88
+4692,Prefer not to say,Yoruba,"NGN 500,000 and above",Yes,Very often,Very Confident,39,115,2.95
+4693,Prefer not to say,Hausa,"Less than NGN 10,000",Yes,Moderately often,Not Confident,41,115,2.8
+4694,Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,27,82,3.04
+4695,Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,45,75,1.67
+4696,Female,Yoruba,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,43,173,4.02
+4697,Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,34,88,2.59
+4698,Prefer not to say,Other,"Less than NGN 10,000",Yes,Very often,Very Confident,27,69,2.56
+4699,Male,Yoruba,No income,Yes,Very often,Very Confident,36,126,3.5
+4700,Male,Other,No income,Yes,Moderately often,Very Confident,33,69,2.09
+4701,Female,Yoruba,"Less than NGN 10,000",Yes,Very often,Very Confident,40,110,2.75
+4702,Female,Yoruba,"NGN 500,000 and above",No,Moderately often,Not Confident,32,88,2.75
+4703,Prefer not to say,Yoruba,No income,Yes,Moderately often,Very Confident,42,135,3.21
+4704,Male,Igbo,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,38,84,2.21
+4705,Female,Yoruba,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Very Confident,39,148,3.79
+4706,Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,42,144,3.43
+4707,Male,Hausa,"NGN 500,000 and above",No,Moderately often,Very Confident,44,154,3.5
+4708,Female,Yoruba,No income,Yes,Very often,Not Confident,39,155,3.97
+4709,Female,Igbo,"Less than NGN 10,000",No,Moderately often,Very Confident,30,102,3.4
+4710,Female,Yoruba,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,40,110,2.75
+4711,Prefer not to say,Igbo,"Less than NGN 10,000",Yes,Very often,Very Confident,30,76,2.53
+4712,Female,Hausa,"NGN 200,000 – NGN 500,000",Yes,Not often,Not Confident,31,117,3.77
+4713,Male,Other,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,24,42,1.75
+4714,Female,Yoruba,No income,No,Very often,Not Confident,37,135,3.65
+4715,Female,Igbo,No income,Yes,Moderately often,Very Confident,26,71,2.73
+4716,Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,32,72,2.25
+4717,Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Not Confident,32,96,3.0
+4718,Male,Igbo,"NGN 500,000 and above",No,Very often,Very Confident,30,62,2.07
+4719,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,34,62,1.82
+4720,Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,38,92,2.42
+4721,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,44,121,2.75
+4722,Male,Hausa,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,35,87,2.49
+4723,Male,Igbo,"NGN 500,000 and above",No,Not often,Very Confident,32,120,3.75
+4724,Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,46,182,3.96
+4725,Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Not Confident,39,78,2.0
+4726,Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,40,190,4.75
+4727,Female,Other,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,42,102,2.43
+4728,Female,Igbo,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,30,94,3.13
+4729,Prefer not to say,Igbo,"NGN 500,000 and above",Yes,Moderately often,Very Confident,34,98,2.88
+4730,Female,Hausa,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,24,84,3.5
+4731,Female,Igbo,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,35,80,2.29
+4732,Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,45,165,3.67
+4733,Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,44,99,2.25
+4734,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,45,123,2.73
+4735,Female,Other,"NGN 100,000 – NGN 200,000",Yes,Not often,Not Confident,29,76,2.62
+4736,Male,Hausa,"Less than NGN 10,000",No,Moderately often,Not Confident,37,158,4.27
+4737,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,Moderately often,Very Confident,25,83,3.32
+4738,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,Moderately often,Very Confident,29,58,2.0
+4739,Female,Hausa,"NGN 500,000 and above",No,Very often,Not Confident,38,110,2.89
+4740,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Not Confident,24,54,2.25
+4741,Male,Hausa,"NGN 100,000 – NGN 200,000",No,Not often,Not Confident,36,126,3.5
+4742,Male,Other,"NGN 100,000 – NGN 200,000",No,Very often,Not Confident,40,160,4.0
+4743,Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,Very often,Very Confident,39,106,2.72
+4744,Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,34,77,2.26
+4745,Female,Other,"NGN 500,000 and above",No,Not often,Not Confident,37,94,2.54
+4746,Female,Igbo,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,39,138,3.54
+4747,Female,Igbo,"NGN 500,000 and above",No,Very often,Very Confident,25,79,3.16
+4748,Female,Other,"Less than NGN 10,000",Yes,Very often,Very Confident,39,129,3.31
+4749,Male,Hausa,"Less than NGN 10,000",Yes,Not often,Not Confident,26,66,2.54
+4750,Male,Hausa,"NGN 500,000 and above",No,Moderately often,Not Confident,44,88,2.0
+4751,Male,Igbo,No income,Yes,Moderately often,Not Confident,46,116,2.52
+4752,Male,Hausa,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,41,107,2.61
+4753,Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,Not often,Very Confident,45,126,2.8
+4754,Male,Yoruba,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,27,75,2.78
+4755,Male,Igbo,"NGN 10,000 – NGN 50,000",No,Very often,Very Confident,29,65,2.24
+4756,Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,43,128,2.98
+4757,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",Yes,Moderately often,Very Confident,29,97,3.34
+4758,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,31,125,4.03
+4759,Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Not Confident,36,135,3.75
+4760,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Not often,Very Confident,27,61,2.26
+4761,Prefer not to say,Yoruba,No income,Yes,Moderately often,Very Confident,30,84,2.8
+4762,Prefer not to say,Igbo,"NGN 100,000 – NGN 200,000",No,Moderately often,Not Confident,42,115,2.74
+4763,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,27,68,2.52
+4764,Male,Igbo,"NGN 500,000 and above",Yes,Very often,Very Confident,28,91,3.25
+4765,Female,Other,"NGN 500,000 and above",Yes,Not often,Very Confident,30,46,1.53
+4766,Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,39,118,3.03
+4767,Male,Hausa,No income,No,Very often,Very Confident,38,120,3.16
+4768,Male,Other,"NGN 500,000 and above",Yes,Not often,Very Confident,32,96,3.0
+4769,Male,Yoruba,"Less than NGN 10,000",Yes,Very often,Very Confident,35,133,3.8
+4770,Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,43,128,2.98
+4771,Female,Yoruba,"Less than NGN 10,000",No,Moderately often,Not Confident,44,176,4.0
+4772,Female,Hausa,"NGN 500,000 and above",No,Very often,Not Confident,42,150,3.57
+4773,Female,Yoruba,"NGN 500,000 and above",No,Very often,Very Confident,40,160,4.0
+4774,Prefer not to say,Igbo,"Less than NGN 10,000",Yes,Very often,Very Confident,33,51,1.55
+4775,Female,Other,"Less than NGN 10,000",No,Moderately often,Very Confident,45,129,2.87
+4776,Male,Other,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,27,62,2.3
+4777,Female,Hausa,"Less than NGN 10,000",No,Moderately often,Not Confident,46,196,4.26
+4778,Prefer not to say,Hausa,No income,No,Moderately often,Not Confident,30,104,3.47
+4779,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",No,Not often,Very Confident,31,95,3.06
+4780,Female,Igbo,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,39,145,3.72
+4781,Male,Hausa,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,37,47,1.27
+4782,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,40,110,2.75
+4783,Female,Igbo,"NGN 50,000 – NGN 100,000",No,Moderately often,Very Confident,38,140,3.68
+4784,Male,Other,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,24,66,2.75
+4785,Prefer not to say,Igbo,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,34,127,3.74
+4786,Male,Yoruba,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,46,136,2.96
+4787,Male,Other,"NGN 100,000 – NGN 200,000",Yes,Not often,Not Confident,40,150,3.75
+4788,Male,Other,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,24,90,3.75
+4789,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,39,107,2.74
+4790,Male,Other,No income,Yes,Moderately often,Not Confident,42,168,4.0
+4791,Prefer not to say,Other,"Less than NGN 10,000",Yes,Very often,Very Confident,26,75,2.88
+4792,Male,Igbo,"Less than NGN 10,000",Yes,Very often,Not Confident,25,92,3.68
+4793,Female,Hausa,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,44,165,3.75
+4794,Male,Hausa,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,36,108,3.0
+4795,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Not often,Not Confident,44,154,3.5
+4796,Male,Other,No income,Yes,Moderately often,Very Confident,35,116,3.31
+4797,Male,Other,"NGN 500,000 and above",No,Not often,Very Confident,27,41,1.52
+4798,Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,24,72,3.0
+4799,Prefer not to say,Yoruba,No income,No,Moderately often,Not Confident,37,134,3.62
+4800,Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,32,128,4.0
+4801,Male,Yoruba,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,25,90,3.6
+4802,Male,Other,"NGN 500,000 and above",Yes,Very often,Not Confident,39,138,3.54
+4803,Female,Other,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,25,61,2.44
+4804,Female,Hausa,"Less than NGN 10,000",No,Very often,Not Confident,38,108,2.84
+4805,Male,Other,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,40,160,4.0
+4806,Male,Yoruba,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,30,144,4.8
+4807,Male,Igbo,No income,Yes,Moderately often,Very Confident,41,93,2.27
+4808,Male,Igbo,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,45,105,2.33
+4809,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,44,121,2.75
+4810,Prefer not to say,Igbo,No income,No,Moderately often,Very Confident,33,51,1.55
+4811,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,38,94,2.47
+4812,Male,Igbo,"Less than NGN 10,000",Yes,Very often,Very Confident,40,70,1.75
+4813,Female,Hausa,"NGN 50,000 – NGN 100,000",No,Moderately often,Very Confident,32,96,3.0
+4814,Male,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,40,140,3.5
+4815,Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,30,110,3.67
+4816,Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,24,66,2.75
+4817,Male,Igbo,"Less than NGN 10,000",Yes,Moderately often,Very Confident,31,75,2.42
+4818,Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,32,104,3.25
+4819,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,40,120,3.0
+4820,Male,Other,"NGN 500,000 and above",No,Very often,Not Confident,35,87,2.49
+4821,Male,Igbo,"Less than NGN 10,000",No,Very often,Very Confident,38,114,3.0
+4822,Male,Other,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,30,94,3.13
+4823,Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,Not often,Not Confident,37,61,1.65
+4824,Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,34,97,2.85
+4825,Prefer not to say,Igbo,"NGN 500,000 and above",No,Not often,Very Confident,45,147,3.27
+4826,Male,Igbo,"Less than NGN 10,000",Yes,Very often,Very Confident,33,105,3.18
+4827,Male,Hausa,"NGN 10,000 – NGN 50,000",No,Very often,Very Confident,46,184,4.0
+4828,Prefer not to say,Hausa,"Less than NGN 10,000",No,Very often,Not Confident,45,138,3.07
+4829,Female,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,24,42,1.75
+4830,Male,Igbo,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,33,78,2.36
+4831,Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,32,80,2.5
+4832,Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Not Confident,43,151,3.51
+4833,Prefer not to say,Other,"NGN 500,000 and above",No,Very often,Very Confident,28,98,3.5
+4834,Female,Yoruba,No income,No,Very often,Not Confident,39,165,4.23
+4835,Prefer not to say,Igbo,No income,Yes,Moderately often,Very Confident,29,87,3.0
+4836,Female,Igbo,No income,No,Very often,Very Confident,40,140,3.5
+4837,Female,Hausa,No income,No,Not often,Not Confident,25,92,3.68
+4838,Male,Yoruba,"NGN 500,000 and above",Yes,Very often,Very Confident,43,151,3.51
+4839,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,Moderately often,Very Confident,24,66,2.75
+4840,Prefer not to say,Igbo,No income,No,Very often,Very Confident,30,118,3.93
+4841,Prefer not to say,Hausa,"Less than NGN 10,000",Yes,Very often,Not Confident,27,94,3.48
+4842,Male,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,38,38,1.0
+4843,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,41,120,2.93
+4844,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,40,170,4.25
+4845,Male,Igbo,No income,No,Moderately often,Not Confident,31,68,2.19
+4846,Male,Other,"NGN 500,000 and above",Yes,Not often,Not Confident,45,105,2.33
+4847,Prefer not to say,Other,"NGN 500,000 and above",No,Moderately often,Not Confident,36,126,3.5
+4848,Male,Other,"NGN 200,000 – NGN 500,000",Yes,Very often,Not Confident,32,80,2.5
+4849,Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,31,111,3.58
+4850,Male,Yoruba,"Less than NGN 10,000",Yes,Very often,Very Confident,26,40,1.54
+4851,Prefer not to say,Other,No income,Yes,Very often,Very Confident,37,77,2.08
+4852,Male,Igbo,No income,No,Moderately often,Very Confident,39,119,3.05
+4853,Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,40,130,3.25
+4854,Male,Igbo,"Less than NGN 10,000",Yes,Very often,Not Confident,34,84,2.47
+4855,Prefer not to say,Other,No income,Yes,Not often,Not Confident,43,151,3.51
+4856,Male,Hausa,"Less than NGN 10,000",Yes,Moderately often,Not Confident,40,120,3.0
+4857,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,32,112,3.5
+4858,Male,Other,"NGN 500,000 and above",Yes,Very often,Very Confident,32,80,2.5
+4859,Male,Other,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,32,96,3.0
+4860,Prefer not to say,Yoruba,"NGN 200,000 – NGN 500,000",Yes,Not often,Not Confident,25,95,3.8
+4861,Prefer not to say,Hausa,"NGN 200,000 – NGN 500,000",No,Moderately often,Very Confident,41,153,3.73
+4862,Female,Other,"NGN 500,000 and above",No,Not often,Very Confident,41,172,4.2
+4863,Female,Yoruba,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,45,132,2.93
+4864,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,42,157,3.74
+4865,Prefer not to say,Igbo,"NGN 200,000 – NGN 500,000",No,Moderately often,Very Confident,34,134,3.94
+4866,Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,42,104,2.48
+4867,Female,Hausa,No income,Yes,Very often,Very Confident,30,72,2.4
+4868,Prefer not to say,Hausa,No income,No,Moderately often,Not Confident,24,78,3.25
+4869,Male,Hausa,"Less than NGN 10,000",Yes,Moderately often,Very Confident,30,122,4.07
+4870,Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,29,37,1.28
+4871,Female,Other,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,44,143,3.25
+4872,Female,Yoruba,No income,Yes,Not often,Not Confident,25,88,3.52
+4873,Female,Igbo,No income,Yes,Not often,Very Confident,38,102,2.68
+4874,Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,Not often,Not Confident,44,110,2.5
+4875,Prefer not to say,Other,No income,No,Very often,Very Confident,35,115,3.29
+4876,Male,Igbo,No income,No,Very often,Not Confident,37,91,2.46
+4877,Female,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,24,84,3.5
+4878,Male,Igbo,No income,Yes,Not often,Very Confident,46,116,2.52
+4879,Female,Hausa,"NGN 500,000 and above",No,Not often,Very Confident,34,80,2.35
+4880,Male,Other,"Less than NGN 10,000",Yes,Very often,Not Confident,28,84,3.0
+4881,Female,Yoruba,"NGN 500,000 and above",No,Very often,Very Confident,37,145,3.92
+4882,Male,Hausa,"Less than NGN 10,000",Yes,Not often,Not Confident,43,149,3.47
+4883,Prefer not to say,Other,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,43,108,2.51
+4884,Male,Igbo,"NGN 500,000 and above",Yes,Moderately often,Very Confident,25,114,4.56
+4885,Female,Other,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,27,95,3.52
+4886,Female,Igbo,No income,No,Very often,Not Confident,35,130,3.71
+4887,Prefer not to say,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,29,122,4.21
+4888,Female,Hausa,"NGN 100,000 – NGN 200,000",No,Not often,Very Confident,30,60,2.0
+4889,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,44,110,2.5
+4890,Prefer not to say,Other,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,25,64,2.56
+4891,Male,Yoruba,"NGN 500,000 and above",No,Moderately often,Not Confident,28,84,3.0
+4892,Male,Hausa,"NGN 100,000 – NGN 200,000",Yes,Very often,Very Confident,43,128,2.98
+4893,Female,Other,No income,Yes,Very often,Very Confident,43,194,4.51
+4894,Female,Igbo,"NGN 500,000 and above",No,Very often,Not Confident,45,120,2.67
+4895,Male,Igbo,"NGN 100,000 – NGN 200,000",No,Very often,Not Confident,43,130,3.02
+4896,Female,Other,"NGN 10,000 – NGN 50,000",Yes,Very often,Not Confident,36,153,4.25
+4897,Female,Yoruba,"Less than NGN 10,000",Yes,Very often,Very Confident,36,99,2.75
+4898,Female,Other,No income,No,Not often,Not Confident,30,136,4.53
+4899,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,31,94,3.03
+4900,Prefer not to say,Hausa,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,24,90,3.75
+4901,Female,Yoruba,"NGN 500,000 and above",Yes,Not often,Not Confident,43,106,2.47
+4902,Prefer not to say,Other,"NGN 10,000 – NGN 50,000",No,Not often,Very Confident,29,93,3.21
+4903,Female,Yoruba,"Less than NGN 10,000",No,Moderately often,Very Confident,31,94,3.03
+4904,Male,Igbo,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,35,88,2.51
+4905,Prefer not to say,Hausa,"NGN 500,000 and above",Yes,Very often,Not Confident,36,108,3.0
+4906,Female,Igbo,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,35,123,3.51
+4907,Female,Other,"NGN 100,000 – NGN 200,000",No,Moderately often,Very Confident,32,96,3.0
+4908,Female,Other,No income,No,Very often,Not Confident,24,78,3.25
+4909,Male,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,31,108,3.48
+4910,Male,Other,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Not Confident,24,54,2.25
+4911,Female,Other,"Less than NGN 10,000",No,Not often,Not Confident,38,116,3.05
+4912,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,Very often,Very Confident,43,119,2.77
+4913,Female,Yoruba,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,44,121,2.75
+4914,Male,Hausa,No income,Yes,Moderately often,Very Confident,42,135,3.21
+4915,Male,Other,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,27,107,3.96
+4916,Prefer not to say,Hausa,"NGN 500,000 and above",Yes,Very often,Not Confident,35,78,2.23
+4917,Female,Yoruba,"NGN 10,000 – NGN 50,000",No,Moderately often,Very Confident,32,88,2.75
+4918,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,Moderately often,Very Confident,25,64,2.56
+4919,Male,Hausa,"Less than NGN 10,000",Yes,Moderately often,Very Confident,29,97,3.34
+4920,Female,Other,"NGN 200,000 – NGN 500,000",Yes,Very often,Not Confident,45,132,2.93
+4921,Female,Hausa,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,38,66,1.74
+4922,Prefer not to say,Hausa,"NGN 500,000 and above",No,Moderately often,Not Confident,30,124,4.13
+4923,Prefer not to say,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Very often,Very Confident,29,114,3.93
+4924,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,Moderately often,Not Confident,24,54,2.25
+4925,Male,Other,"NGN 100,000 – NGN 200,000",Yes,Moderately often,Very Confident,27,114,4.22
+4926,Male,Other,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,28,91,3.25
+4927,Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,44,198,4.5
+4928,Female,Igbo,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,43,109,2.53
+4929,Female,Yoruba,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,35,80,2.29
+4930,Prefer not to say,Hausa,"NGN 500,000 and above",Yes,Very often,Not Confident,30,80,2.67
+4931,Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,Very often,Very Confident,26,64,2.46
+4932,Male,Igbo,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Not Confident,41,101,2.46
+4933,Prefer not to say,Other,"NGN 500,000 and above",Yes,Moderately often,Very Confident,34,77,2.26
+4934,Male,Other,"Less than NGN 10,000",No,Very often,Very Confident,24,42,1.75
+4935,Male,Yoruba,"NGN 500,000 and above",No,Very often,Not Confident,24,60,2.5
+4936,Female,Other,"NGN 500,000 and above",No,Not often,Not Confident,33,96,2.91
+4937,Male,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Not Confident,28,98,3.5
+4938,Female,Yoruba,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,30,74,2.47
+4939,Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,26,47,1.81
+4940,Prefer not to say,Other,"Less than NGN 10,000",No,Very often,Very Confident,45,117,2.6
+4941,Female,Other,"Less than NGN 10,000",Yes,Very often,Very Confident,41,71,1.73
+4942,Male,Hausa,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Not Confident,28,112,4.0
+4943,Male,Yoruba,"Less than NGN 10,000",No,Very often,Very Confident,46,118,2.57
+4944,Female,Hausa,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,25,64,2.56
+4945,Prefer not to say,Hausa,"Less than NGN 10,000",No,Moderately often,Very Confident,46,90,1.96
+4946,Female,Other,No income,Yes,Very often,Not Confident,36,135,3.75
+4947,Female,Hausa,No income,No,Not often,Not Confident,40,110,2.75
+4948,Prefer not to say,Hausa,No income,Yes,Very often,Very Confident,28,56,2.0
+4949,Prefer not to say,Yoruba,"NGN 100,000 – NGN 200,000",Yes,Very often,Not Confident,25,79,3.16
+4950,Prefer not to say,Hausa,No income,Yes,Not often,Not Confident,33,129,3.91
+4951,Female,Igbo,"Less than NGN 10,000",No,Very often,Very Confident,40,130,3.25
+4952,Prefer not to say,Hausa,No income,No,Very often,Very Confident,27,67,2.48
+4953,Female,Hausa,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Not Confident,46,126,2.74
+4954,Female,Other,"Less than NGN 10,000",No,Moderately often,Very Confident,25,86,3.44
+4955,Female,Yoruba,"Less than NGN 10,000",No,Very often,Very Confident,42,146,3.48
+4956,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,31,123,3.97
+4957,Prefer not to say,Hausa,No income,No,Very often,Very Confident,25,85,3.4
+4958,Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,35,97,2.77
+4959,Female,Yoruba,"NGN 500,000 and above",No,Not often,Very Confident,33,102,3.09
+4960,Prefer not to say,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,40,130,3.25
+4961,Female,Hausa,"NGN 200,000 – NGN 500,000",Yes,Not often,Very Confident,33,93,2.82
+4962,Male,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,46,118,2.57
+4963,Female,Other,"NGN 100,000 – NGN 200,000",Yes,Very often,Very Confident,38,130,3.42
+4964,Male,Igbo,"Less than NGN 10,000",Yes,Very often,Not Confident,30,120,4.0
+4965,Male,Igbo,"NGN 200,000 – NGN 500,000",No,Very often,Not Confident,40,160,4.0
+4966,Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Moderately often,Very Confident,35,80,2.29
+4967,Female,Yoruba,"NGN 50,000 – NGN 100,000",Yes,Not often,Not Confident,38,78,2.05
+4968,Female,Igbo,"NGN 50,000 – NGN 100,000",No,Moderately often,Very Confident,39,98,2.51
+4969,Male,Igbo,No income,Yes,Very often,Not Confident,43,160,3.72
+4970,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",No,Very often,Very Confident,38,86,2.26
+4971,Male,Other,"NGN 200,000 – NGN 500,000",No,Not often,Not Confident,30,76,2.53
+4972,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Very often,Not Confident,42,155,3.69
+4973,Male,Hausa,"NGN 100,000 – NGN 200,000",No,Very often,Very Confident,40,130,3.25
+4974,Prefer not to say,Other,"NGN 200,000 – NGN 500,000",Yes,Very often,Very Confident,28,84,3.0
+4975,Male,Igbo,"NGN 100,000 – NGN 200,000",Yes,Not often,Very Confident,32,104,3.25
+4976,Male,Other,"NGN 10,000 – NGN 50,000",No,Very often,Very Confident,46,160,3.48
+4977,Female,Yoruba,"NGN 200,000 – NGN 500,000",No,Moderately often,Very Confident,34,98,2.88
+4978,Prefer not to say,Yoruba,"Less than NGN 10,000",No,Very often,Very Confident,44,143,3.25
+4979,Male,Hausa,"NGN 50,000 – NGN 100,000",No,Not often,Very Confident,45,144,3.2
+4980,Male,Hausa,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Very Confident,34,122,3.59
+4981,Female,Yoruba,No income,Yes,Very often,Not Confident,31,155,5.0
+4982,Prefer not to say,Igbo,"NGN 10,000 – NGN 50,000",No,Very often,Not Confident,40,170,4.25
+4983,Prefer not to say,Yoruba,"Less than NGN 10,000",Yes,Very often,Very Confident,27,73,2.7
+4984,Female,Other,"NGN 50,000 – NGN 100,000",Yes,Very often,Not Confident,35,121,3.46
+4985,Male,Yoruba,"Less than NGN 10,000",No,Not often,Not Confident,26,110,4.23
+4986,Female,Hausa,"NGN 10,000 – NGN 50,000",Yes,Not often,Very Confident,41,120,2.93
+4987,Prefer not to say,Hausa,No income,No,Moderately often,Very Confident,29,97,3.34
+4988,Prefer not to say,Other,No income,No,Moderately often,Very Confident,39,69,1.77
+4989,Male,Other,No income,No,Moderately often,Very Confident,28,91,3.25
+4990,Male,Yoruba,"NGN 500,000 and above",No,Not often,Very Confident,45,135,3.0
+4991,Prefer not to say,Igbo,"NGN 500,000 and above",Yes,Moderately often,Not Confident,30,120,4.0
+4992,Prefer not to say,Hausa,"NGN 500,000 and above",Yes,Moderately often,Not Confident,40,130,3.25
+4993,Female,Yoruba,"NGN 10,000 – NGN 50,000",Yes,Very often,Very Confident,28,77,2.75
+4994,Female,Other,"NGN 50,000 – NGN 100,000",No,Very often,Not Confident,37,101,2.73
+4995,Male,Yoruba,"Less than NGN 10,000",No,Moderately often,Not Confident,32,80,2.5
+4996,Female,Igbo,"NGN 500,000 and above",No,Very often,Very Confident,28,112,4.0
+4997,Prefer not to say,Hausa,"NGN 50,000 – NGN 100,000",No,Not often,Not Confident,42,148,3.52
+4998,Female,Hausa,"NGN 50,000 – NGN 100,000",No,Moderately often,Not Confident,35,79,2.26
+4999,Female,Igbo,"NGN 200,000 – NGN 500,000",Yes,Moderately often,Not Confident,27,101,3.74
