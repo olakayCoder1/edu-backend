@@ -14,7 +14,7 @@ class UserService:
     """
     
     @staticmethod
-    def get_all_users(filters: Optional[Dict] = None, search_term: Optional[str] = None) -> List[User]:
+    def get_all_users(filters: Optional[Dict] = None, search_term: Optional[str] = None):
         """
         Get all users with optional filtering and search
         
@@ -58,7 +58,7 @@ class UserService:
         return queryset
     
     @staticmethod
-    def get_user_by_id(user_id: str) -> Optional[User]:
+    def get_user_by_id(user_id: str):
         """
         Get user by ID
         
@@ -74,7 +74,7 @@ class UserService:
             return None
     
     @staticmethod
-    def get_user_by_email(email: str) -> Optional[User]:
+    def get_user_by_email(email: str):
         """
         Get user by email
         
@@ -91,7 +91,7 @@ class UserService:
     
     @staticmethod
     @transaction.atomic
-    def create_user(user_data: Dict[str, Any]) -> Tuple[User, bool, str]:
+    def create_user(user_data: Dict[str, Any]):
         """
         Create a new user
         
@@ -138,7 +138,7 @@ class UserService:
     
     @staticmethod
     @transaction.atomic
-    def update_user(user_id: str, update_data: Dict[str, Any]) -> Tuple[Optional[User], bool, str]:
+    def update_user(user_id: str, update_data: Dict[str, Any]):
         """
         Update user data
         
@@ -283,7 +283,7 @@ class UserService:
         }
     
     @staticmethod
-    def format_user_for_frontend(user: User) -> Dict[str, Any]:
+    def format_user_for_frontend(user):
         """
         Format user data for frontend response
         
