@@ -1,0 +1,160 @@
+[
+  {
+    "module_name": "Internet Model (TCP/IP)",
+    "questions": [
+      {
+        "question": "Which protocol suite is used by the Internet?",
+        "options": [
+          "OSI Model",
+          "TCP/IP",
+          "UDP/IP",
+          "HTTP/HTTPS"
+        ],
+        "answer": "TCP/IP",
+        "difficulty": 1,
+        "topics": [
+          "Internet Model (TCP/IP)"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "The Internet Model has how many layers?",
+        "options": [
+          "5",
+          "7",
+          "4",
+          "3"
+        ],
+        "answer": "4",
+        "difficulty": 1,
+        "topics": [
+          "Internet Model (TCP/IP)"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "True or False: The Internet Model is dependent on the underlying network architecture.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "difficulty": 2,
+        "topics": [
+          "Internet Model (TCP/IP)"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which layer of the Internet Model is responsible for end-to-end data delivery and ensures data arrives in order?",
+        "options": [
+          "Application Layer",
+          "Transport Layer",
+          "Internet Layer",
+          "Link Layer"
+        ],
+        "answer": "Transport Layer",
+        "difficulty": 2,
+        "topics": [
+          "Internet Model (TCP/IP)"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "The protocol that handles host addressing and routing is found in which layer of the Internet Model?",
+        "options": [
+          "Application Layer",
+          "Transport Layer",
+          "Internet Layer",
+          "Link Layer"
+        ],
+        "answer": "Internet Layer",
+        "difficulty": 2,
+        "topics": [
+          "Internet Model (TCP/IP)"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Network Layer Routing",
+    "questions": [
+      {
+        "question": "What is the process of selecting a path for data packets to reach their destination when multiple paths exist?",
+        "options": [
+          "Switching",
+          "Routing",
+          "Forwarding",
+          "Addressing"
+        ],
+        "answer": "Routing",
+        "difficulty": 1,
+        "topics": [
+          "Network Layer Routing"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following is NOT a factor a router might use to choose between multiple paths to a destination?",
+        "options": [
+          "Hop Count",
+          "Bandwidth",
+          "Packet Size",
+          "Delay"
+        ],
+        "answer": "Packet Size",
+        "difficulty": 2,
+        "topics": [
+          "Network Layer Routing"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "A default route in a router is used when:",
+        "options": [
+          "The router is overloaded",
+          "No specific route is found for a destination",
+          "The destination is on the same network",
+          "The network is congested"
+        ],
+        "answer": "No specific route is found for a destination",
+        "difficulty": 2,
+        "topics": [
+          "Network Layer Routing"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "True or False:  Routers typically forward broadcast packets across different networks.",
+        "options": [
+          true,
+          false
+        ],
+        "answer": false,
+        "difficulty": 3,
+        "topics": [
+          "Network Layer Routing",
+          "Broadcast Routing"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Unicast routing is the simplest form of routing because:",
+        "options": [
+          "It uses fewer resources",
+          "The destination address is known",
+          "It is faster than other routing methods",
+          "It requires less configuration"
+        ],
+        "answer": "The destination address is known",
+        "difficulty": 2,
+        "topics": [
+          "Network Layer Routing",
+          "Unicast Routing"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  }
+]

@@ -122,13 +122,27 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'account.User'
 
-# CORS_ALLOW_ALL_ORIGINS = False  
-
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
-CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:3000",
-]
-# CORS_ALLOW_CREDENTIALS = True
 
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        # Add other authentication classes if needed, e.g., SessionAuthentication
+        'rest_framework.authentication.SessionAuthentication',
+    ),
+}
+
+# Optional: Configure JWT settings
+from datetime import timedelta
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=10),  # Access token validity
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=70),     # Refresh token validity
+    'AUTH_HEADER_TYPES': ('Bearer',),                # Expect 'Bearer' in Authorization header
+    'USER_ID_FIELD': 'id',                          # Field to identify the user
+    'USER_ID_CLAIM': 'user_id',                     # Claim name in JWT payload
+}

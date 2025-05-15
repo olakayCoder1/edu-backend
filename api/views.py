@@ -1,39 +1,82 @@
+from langchain_google_genai import ChatGoogleGenerativeAI
 from rest_framework import viewsets, status, generics, permissions
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from django.utils import timezone
 from django.db.models import Max
 from django.shortcuts import get_object_or_404
-
-from .models import Course, Lesson, QuizResponse, QuizAttempt, UserProgress
+import os
+from dotenv import load_dotenv
+import tempfile
+from django.core.files.storage import default_storage
+from django.core.files.base import ContentFile
+from api.helpers.module_generation import LangGraphAgent
+from api.helpers.user_service import UserService
+from utils.response.response_format import paginate_success_response_with_serializer, success_response,bad_request_response, internal_server_error_response
+from django.contrib.auth import get_user_model
+from datetime import timedelta
+import csv
+from django.http import HttpResponse
+import io
+from .models import Course, Lesson, Option, Question, Quiz, QuizResponse, QuizAttempt, UserProgress
 from .serializers import (
+    CourseDetailSerializer,
     CourseSerializer,
+    CourseUploadSerializer,
     LessonSerializer,
     QuizAttemptSerializer,
+    StudentSerializer,
     UserProgressSerializer,
     QuizAttemptResultSerializer,
     QuizSubmitSerializer,
+    UserSerializer, 
+    UserDetailSerializer,
+    UserCreateSerializer,
+    UserStatusUpdateSerializer,
+    BulkUserActionSerializer
 )
-
+load_dotenv()
+from django.db import transaction
 
 class CourseViewSet(viewsets.ModelViewSet):
     serializer_class = CourseSerializer
     permission_classes = [permissions.IsAuthenticated]
+    queryset = Course.objects.all()
     
-    def get_queryset(self):
-        return Course.objects.filter(user=self.request.user)
+    # def get_queryset(self):
+    #     return Course.objects.filter(user=self.request.user)
+
+    # override the list endpoint
+    def list(self, request, *args, **kwargs):
+        return success_response(
+            data=self.serializer_class(self.get_queryset(),many=True,context={'request': request}).data
+        )
+
     
-    def perform_create(self, serializer):
-        course = serializer.save(user=self.request.user)
-        
-        # Create initial progress for this course
-        if course.lessons.exists():
-            first_lesson = course.lessons.order_by('order').first()
-            UserProgress.objects.create(
-                user=self.request.user,
-                course=course,
-                current_lesson=first_lesson
-            )
+
+class CourseViewSet1(viewsets.ModelViewSet):
+    permission_classes = [permissions.IsAuthenticated]
+
+    queryset = Course.objects.all()
+    
+    def get_serializer_class(self):
+        if self.action == 'retrieve':
+            return CourseDetailSerializer
+        return CourseSerializer
+    
+    # def get_queryset(self):
+    #     return Course.objects.filter(user=self.request.user)
+    
+    def list(self, request, *args, **kwargs):
+        return success_response(
+            data=self.get_serializer_class()(self.get_queryset(), many=True, context={'request': request}).data
+        )
+    
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        serializer = self.get_serializer(instance, context={'request': request})
+        return success_response(data=serializer.data)
+
 
 
 class LessonViewSet(viewsets.ModelViewSet):
@@ -156,7 +199,7 @@ class QuizAttemptViewSet(viewsets.ModelViewSet):
                 status=status.HTTP_200_OK
             )
         
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        return bad_request_response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 class LessonAccessAPIView(generics.RetrieveAPIView):
@@ -223,3 +266,506 @@ class LessonAccessAPIView(generics.RetrieveAPIView):
         }
         
         return Response(response_data)
+
+
+# Let's create an endpoint to mark a lesson as completed
+
+class CompleteLessonView(generics.GenericAPIView):
+    permission_classes = [permissions.IsAuthenticated]
+    
+    def post(self, request, course_id, lesson_id):
+        course = get_object_or_404(Course, id=course_id)
+        lesson = get_object_or_404(Lesson, id=lesson_id, course=course)
+        
+        # Get or create progress record
+        user_progress, created = UserProgress.objects.get_or_create(
+            user=request.user,
+            course=course,
+            defaults={'current_lesson': lesson}
+        )
+        
+        # Add to completed lessons
+        user_progress.completed_lessons.add(lesson)
+        
+        # Update current lesson to next lesson if available
+        try:
+            next_lesson = Lesson.objects.filter(
+                course=course
+            ).order_by('created_at')
+            
+            found = False
+            for les in next_lesson:
+                if found:
+                    user_progress.current_lesson = les
+                    user_progress.save()
+                    break
+
+                if les.id == lesson.id:
+                    found = True
+                    
+        except Lesson.DoesNotExist:
+            # No next lesson, this was the last one
+            pass
+        
+        # Return updated lesson data
+        serializer = LessonSerializer(lesson, context={'request': request})
+        return success_response(
+            message="Lesson marked as completed",
+            data=serializer.data
+        )
+
+
+class InProgressCoursesView(generics.ListAPIView):
+    permission_classes = [permissions.IsAuthenticated]  # Ensure the user is authenticated
+    serializer_class = CourseSerializer
+
+    def get_queryset(self):
+        # Get the authenticated user
+        user = self.request.user
+        
+        # Check if there is a UserProgress entry for the user and course, and filter based on that
+        in_progress_courses = Course.objects.filter(
+            user_progress__user=user,  # Filter using the related UserProgress model
+            user_progress__current_lesson__isnull=False  # Ensure current lesson is not null
+        )
+        
+        return in_progress_courses
+
+
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        serializer = self.get_serializer(instance, context={'request': request})
+        return success_response(data=serializer.data)
+    
+
+    def list(self, request, *args, **kwargs):
+        return success_response(
+            data=self.get_serializer_class()(self.get_queryset(), many=True, context={'request': request}).data
+        )
+
+# class CourseUploadView(generics.GenericAPIView):
+#     permission_classes = [permissions.IsAuthenticated] 
+#     serializer_class = CourseUploadSerializer
+
+#     def post(self, request):
+
+#         serializer = self.serializer_class(data=request.data)
+#         serializer.is_valid(raise_exception=True)
+
+#         title = serializer.validated_data['title']
+#         description = serializer.validated_data['description']
+#         pdf_file = serializer.validated_data['pdf_file']
+#         return success_response(
+#             message="Course uploaded successfully",
+#         )
+
+
+
+
+class CourseUploadView(generics.GenericAPIView):
+    permission_classes = [permissions.IsAuthenticated]
+    serializer_class = CourseUploadSerializer
+
+    def post(self, request):
+        serializer = self.serializer_class(data=request.data)
+        serializer.is_valid(raise_exception=True)
+
+        title = serializer.validated_data['title']
+        description = serializer.validated_data['description']
+        pdf_file = serializer.validated_data['pdf_file']
+
+        try:
+            with transaction.atomic():
+                course = Course.objects.create(
+                    title=title,
+                    description=description,
+                    user=request.user
+                )
+
+                pdf_path = default_storage.save(
+                    f'courses/{course.id}/{pdf_file.name}',
+                    ContentFile(pdf_file.read())
+                )
+                course.file_path = pdf_path
+                course.save()
+
+                with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as temp_file:
+                    pdf_file.seek(0)
+                    temp_file.write(pdf_file.read())
+                    temp_path = temp_file.name
+
+                model = ChatGoogleGenerativeAI(
+                    model="gemini-1.5-flash",
+                    temperature=0.2,
+                    api_key=os.getenv('GOOGLE_API_KEY')
+                )
+
+                hints_db = {}
+                agent = LangGraphAgent(model, hints_db=hints_db, max_chunk_size=1500)
+
+                modules_data = agent.process_document(temp_path)
+
+                for module_data in modules_data:
+                    lesson = Lesson.objects.create(
+                        course=course,
+                        title=module_data['name'],
+                        summary=module_data.get('summary', ''),
+                        content=module_data['content']
+                    )
+                    lesson.prerequisites = module_data.get('prerequisites', [])
+                    lesson.save()
+
+                    try:
+                        quiz_questions = agent.quiz_generator.generate_quiz(module_data)
+
+                        if quiz_questions:
+                            quiz = Quiz.objects.create(
+                                module=lesson,
+                                title=f"Quiz: {lesson.title}"
+                            )
+
+                            for q_data in quiz_questions:
+                                question = Question.objects.create(
+                                    quiz=quiz,
+                                    text=q_data['question'],
+                                    # difficulty=q_data.get('difficulty', 3)
+                                )
+
+                                for i, option_text in enumerate(q_data.get('options', [])):
+                                    is_correct = (i == q_data.get('answer', 0))
+                                    Option.objects.create(
+                                        question=question,
+                                        text=option_text,
+                                        is_correct=is_correct
+                                    )
+                    except Exception as e:
+                        print(f"Error generating quiz for lesson {lesson.title}: {str(e)}")
+
+                os.unlink(temp_path)
+
+                return success_response(
+                    message="Course uploaded and processed successfully",
+                    data={
+                        "course_id": course.id,
+                        "lesson_count": Lesson.objects.filter(course=course).count()
+                    }
+                )
+
+        except Exception as e:
+            print(e)
+            return internal_server_error_response(
+                message=f"Course upload failed"
+            )
+
+
+
+
+User = get_user_model()
+
+class UserViewSet(viewsets.ModelViewSet):
+    """
+    ViewSet for user management operations
+    """
+    serializer_class = UserSerializer
+    permission_classes = [permissions.IsAuthenticated, permissions.IsAdminUser]
+    
+    def get_queryset(self):
+        """
+        Get filtered users based on query parameters
+        """
+        # Build filters
+        filters = {}
+        
+        # Role filter
+        role = self.request.query_params.get('role')
+        if role and role != 'all':
+            filters['role'] = role
+            
+        # Status filter
+        status = self.request.query_params.get('status')
+        if status and status != 'all':
+            filters['status'] = status
+            
+        # Search term
+        search = self.request.query_params.get('search')
+        
+        # Get users from service
+        return UserService.get_all_users(filters, search)
+    
+    def list(self, request, *args, **kwargs):
+        """
+        List users with pagination and formatted response
+        """
+        queryset = self.get_queryset()
+        page = self.paginate_queryset(queryset)
+        
+        if page is not None:
+            # Format each user for frontend
+            users = [UserService.format_user_for_frontend(user) for user in page]
+            return self.get_paginated_response(users)
+        
+        # If pagination is not used
+        users = [UserService.format_user_for_frontend(user) for user in queryset]
+        return Response(users)
+    
+    def retrieve(self, request, *args, **kwargs):
+        """
+        Get user details by ID
+        """
+        instance = self.get_object()
+        serializer = UserDetailSerializer(instance)
+        return Response(serializer.data)
+    
+    def create(self, request, *args, **kwargs):
+        """
+        Create a new user
+        """
+        serializer = UserCreateSerializer(data=request.data)
+        if serializer.is_valid():
+            user, success, message = UserService.create_user(serializer.validated_data)
+            
+            if success:
+                return Response(
+                    {
+                        'status': True,
+                        'message': message,
+                        'user': UserService.format_user_for_frontend(user)
+                    }, 
+                    status=status.HTTP_201_CREATED
+                )
+            else:
+                return Response(
+                    {'status': False, 'message': message}, 
+                    status=status.HTTP_400_BAD_REQUEST
+                )
+        
+        return Response(
+            {'status': False, 'message': serializer.errors}, 
+            status=status.HTTP_400_BAD_REQUEST
+        )
+    
+    def update(self, request, *args, **kwargs):
+        """
+        Update user details
+        """
+        partial = kwargs.pop('partial', False)
+        instance = self.get_object()
+        serializer = UserDetailSerializer(instance, data=request.data, partial=partial)
+        
+        if serializer.is_valid():
+            user, success, message = UserService.update_user(
+                str(instance.id), 
+                serializer.validated_data
+            )
+            
+            if success:
+                return Response(
+                    {
+                        'status': True,
+                        'message': message,
+                        'user': UserService.format_user_for_frontend(user)
+                    }
+                )
+            else:
+                return Response(
+                    {'status': False, 'message': message}, 
+                    status=status.HTTP_400_BAD_REQUEST
+                )
+        
+        return Response(
+            {'status': False, 'message': serializer.errors}, 
+            status=status.HTTP_400_BAD_REQUEST
+        )
+    
+    def destroy(self, request, *args, **kwargs):
+        """
+        Delete a user
+        """
+        instance = self.get_object()
+        success, message = UserService.delete_user(str(instance.id))
+        
+        if success:
+            return Response(
+                {'status': True, 'message': message},
+                status=status.HTTP_200_OK
+            )
+        else:
+            return Response(
+                {'status': False, 'message': message},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+    
+    @action(detail=True, methods=['patch'])
+    def update_status(self, request, *args, **kwargs):
+        """
+        Update user status (approve, reject, deactivate)
+        """
+        instance = self.get_object()
+        serializer = UserStatusUpdateSerializer(data=request.data)
+        
+        if serializer.is_valid():
+            status_value = serializer.validated_data['status']
+            update_data = {'status': status_value}
+            
+            user, success, message = UserService.update_user(
+                str(instance.id),
+                update_data
+            )
+            
+            if success:
+                return Response({
+                    'status': True,
+                    'message': message,
+                    'user': UserService.format_user_for_frontend(user)
+                })
+            else:
+                return Response(
+                    {'status': False, 'message': message},
+                    status=status.HTTP_400_BAD_REQUEST
+                )
+        
+        return Response(
+            {'status': False, 'message': serializer.errors},
+            status=status.HTTP_400_BAD_REQUEST
+        )
+    
+    @action(detail=False, methods=['post'])
+    def bulk_update_status(self, request, *args, **kwargs):
+        """
+        Update status for multiple users
+        """
+        serializer = BulkUserActionSerializer(data=request.data)
+        
+        if serializer.is_valid():
+            user_ids = serializer.validated_data['user_ids']
+            status_value = serializer.validated_data['status']
+            
+            updated_count, failed_ids, message = UserService.bulk_update_status(
+                user_ids,
+                status_value
+            )
+            
+            return Response({
+                'status': True,
+                'message': message,
+                'updated_count': updated_count,
+                'failed_ids': failed_ids
+            })
+        
+        return Response(
+            {'status': False, 'message': serializer.errors},
+            status=status.HTTP_400_BAD_REQUEST
+        )
+    
+    @action(detail=False, methods=['get'])
+    def stats(self, request, *args, **kwargs):
+        """
+        Get user statistics
+        """
+        stats = UserService.get_user_stats()
+        return Response(stats)
+    
+    @action(detail=False, methods=['post'])
+    def approve_all_pending(self, request, *args, **kwargs):
+        """
+        Approve all pending users
+        """
+        pending_users = User.objects.filter(is_verify=False)
+        user_ids = [str(user.id) for user in pending_users]
+        
+        updated_count, failed_ids, message = UserService.bulk_update_status(
+            user_ids,
+            'approved'
+        )
+        
+        return Response({
+            'status': True,
+            'message': f"Approved {updated_count} pending users",
+            'updated_count': updated_count,
+            'failed_ids': failed_ids
+        })
+    
+    @action(detail=False, methods=['post'])
+    def deactivate_inactive(self, request, *args, **kwargs):
+        """
+        Deactivate users who haven't been active in the last 60 days
+        """
+        # Calculate cutoff date (60 days ago)
+        cutoff_date = timezone.now() - timedelta(days=60)
+        
+        # Find users with no activity since cutoff date
+        inactive_users = User.objects.filter(updated_at__lt=cutoff_date, is_active=True)
+        user_ids = [str(user.id) for user in inactive_users]
+        
+        updated_count, failed_ids, message = UserService.bulk_update_status(
+            user_ids,
+            'inactive'
+        )
+        
+        return Response({
+            'status': True,
+            'message': f"Deactivated {updated_count} inactive users",
+            'updated_count': updated_count,
+            'failed_ids': failed_ids
+        })
+    
+    @action(detail=False, methods=['get'])
+    def export_csv(self, request, *args, **kwargs):
+        """
+        Export users data as CSV
+        """
+        # Get all users from the filtered queryset
+        queryset = self.get_queryset()
+        
+        # Create CSV file
+        csv_buffer = io.StringIO()
+        writer = csv.writer(csv_buffer)
+        
+        # Write header
+        writer.writerow([
+            'ID', 'Name', 'Email', 'Role', 'Status', 
+            'Registered Date', 'Last Active'
+        ])
+        
+        # Write user data
+        for user in queryset:
+            status_value = 'pending'
+            if user.is_verify and user.is_active:
+                status_value = 'approved'
+            elif not user.is_active:
+                status_value = 'inactive'
+                
+            name = f"{user.first_name or ''} {user.last_name or ''}".strip()
+            if not name:
+                name = user.email.split('@')[0]
+                
+            writer.writerow([
+                user.id,
+                name,
+                user.email,
+                user.app_level_role,
+                status_value,
+                user.created_at.strftime('%Y-%m-%d %H:%M:%S'),
+                user.updated_at.strftime('%Y-%m-%d %H:%M:%S') if user.updated_at else ''
+            ])
+        
+        # Create response
+        response = HttpResponse(csv_buffer.getvalue(), content_type='text/csv')
+        response['Content-Disposition'] = 'attachment; filename="users.csv"'
+        
+        return response
+    
+    
+
+
+class StudentViewSet(viewsets.ReadOnlyModelViewSet):
+    """
+    Allows tutors to list and retrieve students.
+    """
+    serializer_class = StudentSerializer
+    permission_classes = [permissions.IsAuthenticated]
+    # permission_classes = [permissions.IsAuthenticated, IsTutor]
+
+    def get_queryset(self):
+        return User.objects.all()
+        # return User.objects.filter(app_level_role='student')

@@ -1,15 +1,19 @@
 from django.shortcuts import render
-from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 import json
-from django.views import View
-from django.contrib.auth.mixins import LoginRequiredMixin
+from rest_framework.views import APIView
+from rest_framework.permissions import IsAuthenticated
+
+from account.models import User
+from account.serializers import UserSerializer
+from utils.response.response_format import bad_request_response, success_response
+from utils.tokens import TokenManager
 
 # Create your views here.
-class RegisterView(View):
+class RegisterView(APIView):
     def post(self, request):
         data = json.loads(request.body)
         username = data.get('username')
@@ -22,25 +26,35 @@ class RegisterView(View):
         user = User.objects.create_user(username=username, password=password, email=email)
         return JsonResponse({'message': 'User registered successfully'}, status=201)
 
-@method_decorator(csrf_exempt, name='dispatch') 
-class LoginView(View):
+
+class LoginView(APIView):
     def post(self, request):
         data = json.loads(request.body)
-        username = data.get('username')
+        email = data.get('email')
         password = data.get('password')
-        user = authenticate(request, username=username, password=password)
-        if user is not None:
-            login(request, user)
-            return JsonResponse({'message': 'Login successful'}, status=200)
-        else:
-            return JsonResponse({'error': 'Invalid credentials'}, status=400)
 
-class ProfileView(LoginRequiredMixin, View):
+        user = authenticate(username=email, password=password)
+        if user is not None :
+            if user.is_active:
+                user:User
+                response = {
+                    "tokens" : TokenManager.get_tokens_for_user(user) , 
+                    'user' : UserSerializer(user).data
+                }
+                return success_response(data=response)
+            else:
+                return bad_request_response(message="Your account is disabled, kindly contact the administrative", status_code=401)
+            
+        return bad_request_response(message='Invalid login credentials')
+
+
+class ProfileView(APIView):
+    permission_classes = [IsAuthenticated]
+
     def get(self, request):
-        return JsonResponse({
-            'username': request.user.username,
-            'email': request.user.email
-        }, status=200)
+        return success_response(
+            data=UserSerializer(request.user).data
+        )
 
     def put(self, request):
         data = json.loads(request.body)

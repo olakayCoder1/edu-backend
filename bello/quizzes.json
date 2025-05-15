@@ -1,0 +1,6042 @@
+[
+  {
+    "module_name": "Introduction to Data Communication and Computer Networks",
+    "questions": [
+      {
+        "question": "What is the primary function of a computer network?",
+        "options": [
+          "To connect computers to the internet only",
+          "To facilitate information sharing among computers",
+          "To control individual computer processes",
+          "To store large amounts of data centrally"
+        ],
+        "answer": "To facilitate information sharing among computers",
+        "difficulty": 1,
+        "topics": [
+          "Network Basics",
+          "Applications of Networks"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What are the two main types of media used to establish physical connections between networked devices?",
+        "options": [
+          "Fiber optic and coaxial cable",
+          "Cable media and wireless media",
+          "Ethernet and Wi-Fi",
+          "Twisted pair and satellite"
+        ],
+        "answer": "Cable media and wireless media",
+        "difficulty": 2,
+        "topics": [
+          "Network Basics",
+          "Network Media"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is the best-known example of a computer network?",
+        "options": [
+          "A Local Area Network (LAN)",
+          "A Wide Area Network (WAN)",
+          "The Internet",
+          "An Intranet"
+        ],
+        "answer": "The Internet",
+        "difficulty": 1,
+        "topics": [
+          "Network Basics",
+          "Internet"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is the term for a network of networks?",
+        "options": [
+          "LAN",
+          "WAN",
+          "Internet",
+          "Intranet"
+        ],
+        "answer": "Internet",
+        "difficulty": 2,
+        "topics": [
+          "Internet"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Which of the following is NOT an application of computer networks?",
+        "options": [
+          "Resource sharing (printers, storage)",
+          "Exchange of information (email, FTP)",
+          "Individual computer process control",
+          "Video conferencing"
+        ],
+        "answer": "Individual computer process control",
+        "difficulty": 3,
+        "topics": [
+          "Applications of Networks"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Computer Network Classification and Applications",
+    "questions": [
+      {
+        "question": "Which network type covers the entire world?",
+        "options": [
+          "PAN",
+          "LAN",
+          "MAN",
+          "WAN",
+          "Internet"
+        ],
+        "answer": "Internet",
+        "difficulty": 1,
+        "topics": [
+          "Geographical Span"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "A network where all devices connect to a central hub is described as what type of architecture?",
+        "options": [
+          "Mesh",
+          "Bus",
+          "Star",
+          "Ring",
+          "Hybrid"
+        ],
+        "answer": "Star",
+        "difficulty": 2,
+        "topics": [
+          "Inter-Connectivity"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "A network accessible only within a single organization is classified as:",
+        "options": [
+          "Public Network",
+          "Private Network",
+          "Hybrid Network",
+          "Peer-to-Peer Network"
+        ],
+        "answer": "Private Network",
+        "difficulty": 2,
+        "topics": [
+          "Administration"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following is NOT a common application of computer networks?",
+        "options": [
+          "Resource sharing",
+          "Parallel computing",
+          "Independent data storage",
+          "Instant messaging"
+        ],
+        "answer": "Independent data storage",
+        "difficulty": 3,
+        "topics": [
+          "Network Applications"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "A Personal Area Network (PAN) typically has a geographical span of:",
+        "options": [
+          "A few meters",
+          "A building",
+          "A city",
+          "Multiple cities",
+          "Worldwide"
+        ],
+        "answer": "A few meters",
+        "difficulty": 2,
+        "topics": [
+          "Geographical Span",
+          "Personal Area Network"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Personal Area Network (PAN)",
+    "questions": [
+      {
+        "question": "What is the typical range of a Personal Area Network (PAN)?",
+        "options": [
+          "100 meters",
+          "10 meters",
+          "1 kilometer",
+          "10 kilometers"
+        ],
+        "answer": "10 meters",
+        "difficulty": 2,
+        "topics": [
+          "PAN Range",
+          "PAN Characteristics"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following is NOT a common example of a device used in a Personal Area Network?",
+        "options": [
+          "Bluetooth headphones",
+          "Wireless keyboard",
+          "Wireless printer",
+          "Wi-Fi router"
+        ],
+        "answer": "Wi-Fi router",
+        "difficulty": 3,
+        "topics": [
+          "PAN Examples",
+          "PAN Devices"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "A Piconet is a type of PAN that uses which wireless technology?",
+        "options": [
+          "Wi-Fi",
+          "Zigbee",
+          "Bluetooth",
+          "Infrared"
+        ],
+        "answer": "Bluetooth",
+        "difficulty": 4,
+        "topics": [
+          "PAN Types",
+          "Bluetooth",
+          "Piconet"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is the typical connection topology of a Piconet?",
+        "options": [
+          "Mesh",
+          "Star",
+          "Ring",
+          "Bus"
+        ],
+        "answer": "Star",
+        "difficulty": 4,
+        "topics": [
+          "Piconet",
+          "PAN Topology"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Local Area Network (LAN)",
+    "questions": [
+      {
+        "question": "What is a Local Area Network (LAN)?",
+        "options": [
+          "A network spanning a wide geographical area",
+          "A network confined to a single building or campus under a single administration",
+          "A network connecting devices across different countries",
+          "A network using only wireless connections"
+        ],
+        "answer": "A network confined to a single building or campus under a single administration",
+        "difficulty": 1,
+        "topics": [
+          "Definition of LAN"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following is NOT a typical resource shared on a LAN?",
+        "options": [
+          "Printers",
+          "File Servers",
+          "Internet Access",
+          "Global Satellite Networks"
+        ],
+        "answer": "Global Satellite Networks",
+        "difficulty": 2,
+        "topics": [
+          "LAN Resources"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is the most commonly used technology for LANs?",
+        "options": [
+          "Token Ring",
+          "Ethernet",
+          "FDDI",
+          "ATM"
+        ],
+        "answer": "Ethernet",
+        "difficulty": 2,
+        "topics": [
+          "LAN Technologies"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which topology is most commonly associated with Ethernet LANs?",
+        "options": [
+          "Bus",
+          "Ring",
+          "Star",
+          "Mesh"
+        ],
+        "answer": "Star",
+        "difficulty": 3,
+        "topics": [
+          "LAN Topologies"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What is a characteristic of IP addresses typically used within a LAN?",
+        "options": [
+          "They are publicly routable on the internet",
+          "They are globally unique",
+          "They are private and not directly accessible from the internet",
+          "They require complex routing protocols"
+        ],
+        "answer": "They are private and not directly accessible from the internet",
+        "difficulty": 4,
+        "topics": [
+          "LAN IP Addressing"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Metropolitan Area Network (MAN)",
+    "questions": [
+      {
+        "question": "Which of the following best describes a Metropolitan Area Network (MAN)?",
+        "options": [
+          "A network connecting devices within a single building",
+          "A network spanning a geographical area the size of a city or metropolitan region",
+          "A network connecting devices across multiple continents",
+          "A network connecting devices within a single home"
+        ],
+        "answer": "A network spanning a geographical area the size of a city or metropolitan region",
+        "difficulty": 2,
+        "topics": [
+          "MAN Definition"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is a common example of a technology used as the backbone of a MAN?",
+        "options": [
+          "Twisted-pair copper cabling",
+          "Coaxial cable",
+          "High-capacity fiber optics",
+          "Wireless radio waves"
+        ],
+        "answer": "High-capacity fiber optics",
+        "difficulty": 3,
+        "topics": [
+          "MAN Infrastructure"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "How does a MAN typically relate to LANs and WANs?",
+        "options": [
+          "MANs are completely independent of LANs and WANs",
+          "MANs replace both LANs and WANs",
+          "MANs connect LANs to WANs or the internet",
+          "MANs are smaller than LANs but larger than WANs"
+        ],
+        "answer": "MANs connect LANs to WANs or the internet",
+        "difficulty": 3,
+        "topics": [
+          "MAN Role",
+          "LAN/WAN Relationship"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following is NOT a technology that might be used in a MAN?",
+        "options": [
+          "Ethernet",
+          "Token Ring",
+          "ATM",
+          "Bluetooth"
+        ],
+        "answer": "Bluetooth",
+        "difficulty": 4,
+        "topics": [
+          "MAN Technologies"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Wide Area Network (WAN)",
+    "questions": [
+      {
+        "question": "Which of the following is NOT a characteristic of a Wide Area Network (WAN)?",
+        "options": [
+          "Covers a large geographical area",
+          "Typically uses expensive network equipment",
+          "Connects LANs and MANs",
+          "Usually managed by a single administrator"
+        ],
+        "answer": "Usually managed by a single administrator",
+        "difficulty": 2,
+        "topics": [
+          "WAN characteristics",
+          "WAN administration"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What technology is commonly used in WANs to provide high-speed connectivity?",
+        "options": [
+          "Ethernet",
+          "Token Ring",
+          "SONET",
+          "USB"
+        ],
+        "answer": "SONET",
+        "difficulty": 3,
+        "topics": [
+          "WAN technologies"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "A WAN typically spans which geographical area?",
+        "options": [
+          "A single building",
+          "A city or town",
+          "Multiple cities or provinces",
+          "A single room"
+        ],
+        "answer": "Multiple cities or provinces",
+        "difficulty": 1,
+        "topics": [
+          "WAN scale"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following technologies is an example of a WAN technology?",
+        "options": [
+          "Ethernet",
+          "Wi-Fi",
+          "Frame Relay",
+          "Bluetooth"
+        ],
+        "answer": "Frame Relay",
+        "difficulty": 3,
+        "topics": [
+          "WAN technologies"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Internetwork (Internet)",
+    "questions": [
+      {
+        "question": "What is the term for a network of networks, often used synonymously with the largest network in existence?",
+        "options": [
+          "Intranet",
+          "Extranet",
+          "Internetwork",
+          "Local Area Network"
+        ],
+        "answer": "Internetwork",
+        "difficulty": 1,
+        "topics": [
+          "Internet Definition"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which protocol suite is primarily used by the Internet for addressing and communication?",
+        "options": [
+          "NetBIOS",
+          "OSI Model",
+          "TCP/IP",
+          "HTTP"
+        ],
+        "answer": "TCP/IP",
+        "difficulty": 2,
+        "topics": [
+          "Internet Protocols"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is the primary reason for the gradual migration from IPv4 to IPv6?",
+        "options": [
+          "Increased security needs",
+          "Improved speed",
+          "Shortage of address space",
+          "Decreased cost"
+        ],
+        "answer": "Shortage of address space",
+        "difficulty": 3,
+        "topics": [
+          "IP Addressing"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which technology is used to create the high-speed backbone of the internet, often connecting continents undersea?",
+        "options": [
+          "Microwave towers",
+          "Satellite links",
+          "Copper cables",
+          "Submarine communication cables"
+        ],
+        "answer": "Submarine communication cables",
+        "difficulty": 2,
+        "topics": [
+          "Internet Infrastructure"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What client-server model is largely used by the internet to enable the sharing of information?",
+        "options": [
+          "Peer-to-peer",
+          "Client-Server",
+          "Hybrid",
+          "None of the above"
+        ],
+        "answer": "Client-Server",
+        "difficulty": 1,
+        "topics": [
+          "Internet Architecture"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Ethernet Technology",
+    "questions": [
+      {
+        "question": "What technology does Ethernet use to detect collisions on a shared media network?",
+        "options": [
+          "CSMA/CA",
+          "Token Ring",
+          "TDMA",
+          "CSMA/CD"
+        ],
+        "answer": "CSMA/CD",
+        "difficulty": 2,
+        "topics": [
+          "Ethernet Basics",
+          "CSMA/CD"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What does the 'T' in 10BASE-T Ethernet stand for?",
+        "options": [
+          "Twisted Pair",
+          "Thick Ethernet",
+          "Thin Ethernet",
+          "Token Ring"
+        ],
+        "answer": "Twisted Pair",
+        "difficulty": 3,
+        "topics": [
+          "Ethernet Standards",
+          "10BASE-T"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which Ethernet standard provides speeds up to 100 Mbps using Cat-5 twisted pair cable?",
+        "options": [
+          "10BASE-T",
+          "100BASE-FX",
+          "100BASE-T",
+          "1000BASE-T"
+        ],
+        "answer": "100BASE-T",
+        "difficulty": 3,
+        "topics": [
+          "Ethernet Standards",
+          "100BASE-T"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is the maximum segment length for 10BASE-T Ethernet using twisted pair cable?",
+        "options": [
+          "100 meters",
+          "200 meters",
+          "1000 meters",
+          "2000 meters"
+        ],
+        "answer": "100 meters",
+        "difficulty": 2,
+        "topics": [
+          "Ethernet Standards",
+          "10BASE-T",
+          "Topology"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "In what year was Ethernet standardized in IEEE 802.3?",
+        "options": [
+          "1970",
+          "1980",
+          "1995",
+          "2000"
+        ],
+        "answer": "1980",
+        "difficulty": 1,
+        "topics": [
+          "Ethernet History",
+          "Standardization"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Ethernet and VLANs",
+    "questions": [
+      {
+        "question": "Which IEEE standard defines Gigabit Ethernet over fiber optic cable?",
+        "options": [
+          "IEEE 802.3ab",
+          "IEEE 802.3ah",
+          "IEEE 802.3az",
+          "IEEE 802.1Q"
+        ],
+        "answer": "IEEE 802.3ah",
+        "difficulty": 2,
+        "topics": [
+          "Ethernet Standards"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Before the introduction of switches, what type of domain did Ethernet create?",
+        "options": [
+          "Separate Broadcast domains and separate Collision domains",
+          "One Broadcast domain and separate Collision domains",
+          "Separate Broadcast domains and one Collision domain",
+          "One Broadcast domain and one Collision domain"
+        ],
+        "answer": "One Broadcast domain and one Collision domain",
+        "difficulty": 3,
+        "topics": [
+          "Ethernet Fundamentals",
+          "Collision Domains",
+          "Broadcast Domains"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What networking technology is used to segment a single broadcast domain into multiple broadcast domains?",
+        "options": [
+          "IP Subnetting",
+          "Routing",
+          "VLANs",
+          "NAT"
+        ],
+        "answer": "VLANs",
+        "difficulty": 2,
+        "topics": [
+          "VLANs",
+          "Broadcast Domains"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which layer of the OSI model does VLAN technology operate on?",
+        "options": [
+          "Layer 1 (Physical)",
+          "Layer 2 (Data Link)",
+          "Layer 3 (Network)",
+          "Layer 4 (Transport)"
+        ],
+        "answer": "Layer 2 (Data Link)",
+        "difficulty": 1,
+        "topics": [
+          "VLANs",
+          "OSI Model"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What type of device is typically required to route traffic between different VLANs?",
+        "options": [
+          "Switch",
+          "Hub",
+          "Repeater",
+          "Router"
+        ],
+        "answer": "Router",
+        "difficulty": 2,
+        "topics": [
+          "VLANs",
+          "Routing"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Point-to-Point Network Topology",
+    "questions": [
+      {
+        "question": "Which of the following BEST describes a point-to-point network topology?",
+        "options": [
+          "A network where multiple devices share a single communication channel.",
+          "A network connecting two devices directly with a single link.",
+          "A network with a central hub or switch connecting all devices.",
+          "A network using wireless communication between devices."
+        ],
+        "answer": "A network connecting two devices directly with a single link.",
+        "difficulty": 2,
+        "topics": [
+          "Point-to-Point Topology",
+          "Network Topologies"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In a point-to-point network, how many hosts are directly connected?",
+        "options": [
+          "One",
+          "Two",
+          "Three or more",
+          "It varies depending on the network size"
+        ],
+        "answer": "Two",
+        "difficulty": 1,
+        "topics": [
+          "Point-to-Point Topology",
+          "Network Basics"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is a key characteristic of a point-to-point connection, even with intermediate devices?",
+        "options": [
+          "High bandwidth sharing among multiple devices.",
+          "The end hosts are aware of all intermediate devices.",
+          "The end hosts perceive a direct connection to each other.",
+          "It is highly susceptible to network congestion."
+        ],
+        "answer": "The end hosts perceive a direct connection to each other.",
+        "difficulty": 3,
+        "topics": [
+          "Point-to-Point Topology",
+          "Network Characteristics"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following is a common application of point-to-point network topology?",
+        "options": [
+          "Connecting many computers in a large office.",
+          "Creating a local area network (LAN) for home use.",
+          "Establishing a dedicated link between two routers.",
+          "Building a wireless network for mobile devices."
+        ],
+        "answer": "Establishing a dedicated link between two routers.",
+        "difficulty": 3,
+        "topics": [
+          "Point-to-Point Topology",
+          "Network Applications"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Bus Topology",
+    "questions": [
+      {
+        "question": "In a bus topology network, what is the primary method used to avoid data collisions when multiple devices transmit simultaneously?",
+        "options": [
+          "Polling",
+          "Token Passing",
+          "CSMA/CD",
+          "Bus Mastering"
+        ],
+        "answer": "CSMA/CD",
+        "difficulty": 3,
+        "topics": [
+          "Bus Topology",
+          "CSMA/CD"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following is NOT an advantage of a bus topology network?",
+        "options": [
+          "Simple and inexpensive to implement",
+          "Easy to expand",
+          "High reliability of individual devices",
+          "Centralized management"
+        ],
+        "answer": "Centralized management",
+        "difficulty": 2,
+        "topics": [
+          "Bus Topology",
+          "Advantages"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is the role of a line terminator in a bus topology network?",
+        "options": [
+          "To amplify the signal",
+          "To prevent signal reflections",
+          "To prioritize data transmission",
+          "To manage network security"
+        ],
+        "answer": "To prevent signal reflections",
+        "difficulty": 4,
+        "topics": [
+          "Bus Topology",
+          "Line Terminator"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is the biggest disadvantage of a bus topology network?",
+        "options": [
+          "High cost",
+          "Complex configuration",
+          "Single point of failure in the cable",
+          "Limited scalability"
+        ],
+        "answer": "Single point of failure in the cable",
+        "difficulty": 2,
+        "topics": [
+          "Bus Topology",
+          "Disadvantages"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Star Topology",
+    "questions": [
+      {
+        "question": "In a star topology, all devices connect to a central ________.",
+        "options": [
+          "bus",
+          "ring",
+          "device",
+          "node"
+        ],
+        "answer": "device",
+        "difficulty": 1,
+        "topics": [
+          "Star Topology",
+          "Central Device"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following is NOT a device that can function as the central device in a star topology?",
+        "options": [
+          "Hub",
+          "Switch",
+          "Router",
+          "Bridge",
+          "Modem"
+        ],
+        "answer": "Modem",
+        "difficulty": 2,
+        "topics": [
+          "Star Topology",
+          "Central Device"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is a significant disadvantage of a star topology?",
+        "options": [
+          "High cost of implementation",
+          "Complex configuration",
+          "Single point of failure",
+          "Limited scalability"
+        ],
+        "answer": "Single point of failure",
+        "difficulty": 3,
+        "topics": [
+          "Star Topology",
+          "Disadvantages"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Compared to a bus topology, what is a key advantage of star topology regarding adding new devices?",
+        "options": [
+          "Requires less cabling",
+          "Is less expensive",
+          "Is more reliable",
+          "Requires only one cable per new device"
+        ],
+        "answer": "Requires only one cable per new device",
+        "difficulty": 4,
+        "topics": [
+          "Star Topology",
+          "Advantages",
+          "Bus Topology"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "A Layer-3 device used as the central device in a star topology would be a:",
+        "options": [
+          "Hub",
+          "Switch",
+          "Router",
+          "Bridge"
+        ],
+        "answer": "Router",
+        "difficulty": 5,
+        "topics": [
+          "Star Topology",
+          "Central Device",
+          "Network Layers"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Ring Topology",
+    "questions": [
+      {
+        "question": "In a ring topology, how many other machines does each host connect to?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Variable"
+        ],
+        "answer": "Two",
+        "difficulty": 1,
+        "topics": [
+          "Ring Topology",
+          "Basic Structure"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What happens when a message needs to be sent between two non-adjacent hosts in a ring topology?",
+        "options": [
+          "The message is lost.",
+          "The message is sent directly.",
+          "The message travels through all intermediate hosts.",
+          "The message is duplicated and sent on multiple paths."
+        ],
+        "answer": "The message travels through all intermediate hosts.",
+        "difficulty": 2,
+        "topics": [
+          "Ring Topology",
+          "Data Transmission"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is a significant drawback of a ring topology concerning host failures?",
+        "options": [
+          "Slow data transmission speeds.",
+          "High cost of implementation.",
+          "Failure of one host can bring down the entire network.",
+          "Limited scalability."
+        ],
+        "answer": "Failure of one host can bring down the entire network.",
+        "difficulty": 3,
+        "topics": [
+          "Ring Topology",
+          "Failure Implications"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "How many additional cables are typically needed to add one more host to an existing ring topology?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "It depends on the network size"
+        ],
+        "answer": "One",
+        "difficulty": 2,
+        "topics": [
+          "Ring Topology",
+          "Network Expansion"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What is a common method to improve the reliability of a ring topology?",
+        "options": [
+          "Using a star topology as a backup.",
+          "Employing a dual ring or backup ring.",
+          "Implementing redundant hosts.",
+          "Using a mesh topology."
+        ],
+        "answer": "Employing a dual ring or backup ring.",
+        "difficulty": 4,
+        "topics": [
+          "Ring Topology",
+          "Reliability",
+          "Redundancy"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Mesh Topology",
+    "questions": [
+      {
+        "question": "In a full mesh topology, how many connections are required for a network with 'n' hosts?",
+        "options": [
+          "n",
+          "n-1",
+          "n(n-1)/2",
+          "n(n+1)/2"
+        ],
+        "answer": "n(n-1)/2",
+        "difficulty": 3,
+        "topics": [
+          "Full Mesh Topology",
+          "Network Connections"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following best describes a partially mesh topology?",
+        "options": [
+          "Every host is connected to every other host.",
+          "Hosts are connected to each other in an arbitrary fashion, not all hosts are connected to every other host.",
+          "Hosts are connected in a ring structure.",
+          "Hosts are connected to a central hub."
+        ],
+        "answer": "Hosts are connected to each other in an arbitrary fashion, not all hosts are connected to every other host.",
+        "difficulty": 2,
+        "topics": [
+          "Partially Mesh Topology",
+          "Network Connections"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Compared to other network topologies, what is the primary advantage of a full mesh topology?",
+        "options": [
+          "Simplicity",
+          "Cost-effectiveness",
+          "High reliability",
+          "Ease of scalability"
+        ],
+        "answer": "High reliability",
+        "difficulty": 2,
+        "topics": [
+          "Full Mesh Topology",
+          "Reliability"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "In a mesh topology, if a single connection fails, what is the impact on the network?",
+        "options": [
+          "The entire network fails.",
+          "Only the two hosts directly connected by the failed link are affected in a full mesh.",
+          "Only the two hosts directly connected by the failed link are affected, and potentially others in a partial mesh.",
+          "The impact depends on the routing protocol used."
+        ],
+        "answer": "Only the two hosts directly connected by the failed link are affected in a full mesh, and potentially others in a partial mesh.",
+        "difficulty": 4,
+        "topics": [
+          "Mesh Topology",
+          "Reliability",
+          "Fault Tolerance"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Tree Topology",
+    "questions": [
+      {
+        "question": "Which of the following best describes a tree topology network?",
+        "options": [
+          "A network where all devices are connected to a central hub.",
+          "A hierarchical network with multiple layers of devices.",
+          "A network where devices are connected in a ring.",
+          "A network where devices are connected in a linear fashion."
+        ],
+        "answer": "A hierarchical network with multiple layers of devices.",
+        "difficulty": 2,
+        "topics": [
+          "Tree Topology",
+          "Hierarchical Structure"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In a tree topology network, what is the role of the core layer?",
+        "options": [
+          "To connect individual computers to the network.",
+          "To act as a mediator between the access and core layers.",
+          "To serve as the central point of the network, the root of the tree.",
+          "To provide internet connectivity to the network."
+        ],
+        "answer": "To serve as the central point of the network, the root of the tree.",
+        "difficulty": 3,
+        "topics": [
+          "Tree Topology",
+          "Core Layer",
+          "Hierarchical Structure"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is a significant drawback of a tree topology network?",
+        "options": [
+          "High cost of implementation.",
+          "Limited scalability.",
+          "Single point of failure at the root node.",
+          "Complex configuration and management."
+        ],
+        "answer": "Single point of failure at the root node.",
+        "difficulty": 4,
+        "topics": [
+          "Tree Topology",
+          "Failure Implications"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which other topology does a tree topology resemble, and what characteristic does it inherit?",
+        "options": [
+          "Ring topology; its circular structure.",
+          "Bus topology; its vulnerability to a single point of failure.",
+          "Star topology; its central hub.",
+          "Mesh topology; its redundancy."
+        ],
+        "answer": "Star topology; its central hub.",
+        "difficulty": 3,
+        "topics": [
+          "Tree Topology",
+          "Star Topology",
+          "Bus Topology"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Daisy Chain Topology",
+    "questions": [
+      {
+        "question": "In a daisy chain topology, how many other hosts is each intermediate host directly connected to?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": "Two",
+        "difficulty": 2,
+        "topics": [
+          "Daisy Chain Topology",
+          "Network Topology"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What happens to a daisy chain network if a single link fails?",
+        "options": [
+          "The entire network shuts down.",
+          "The network continues to function normally.",
+          "The network is split into two segments.",
+          "Only the host connected to the failed link is affected."
+        ],
+        "answer": "The network is split into two segments.",
+        "difficulty": 3,
+        "topics": [
+          "Daisy Chain Topology",
+          "Network Failure",
+          "Single Point of Failure"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "How does a daisy chain topology differ from a ring topology?",
+        "options": [
+          "They are identical.",
+          "A daisy chain is linear; a ring is circular.",
+          "A daisy chain uses switches; a ring uses hubs.",
+          "A daisy chain is more reliable than a ring."
+        ],
+        "answer": "A daisy chain is linear; a ring is circular.",
+        "difficulty": 4,
+        "topics": [
+          "Daisy Chain Topology",
+          "Ring Topology",
+          "Network Topology Comparison"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "If the end hosts in a daisy chain topology are connected, what topology is formed?",
+        "options": [
+          "Bus topology",
+          "Star topology",
+          "Mesh topology",
+          "Ring topology"
+        ],
+        "answer": "Ring topology",
+        "difficulty": 3,
+        "topics": [
+          "Daisy Chain Topology",
+          "Ring Topology",
+          "Network Topology Transformation"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Hybrid Network Topologies",
+    "questions": [
+      {
+        "question": "Which of the following BEST describes a hybrid network topology?",
+        "options": [
+          "A network using only a single topology, such as a star topology.",
+          "A network structure that combines elements of two or more different topologies.",
+          "A network topology that is exclusively used for WAN connections.",
+          "A network topology that is simpler to manage than other topologies."
+        ],
+        "answer": "A network structure that combines elements of two or more different topologies.",
+        "difficulty": 2,
+        "topics": [
+          "Hybrid Topology",
+          "Network Topologies"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is a significant advantage of using a hybrid network topology?",
+        "options": [
+          "Simplified troubleshooting and maintenance.",
+          "Reduced cost compared to other topologies.",
+          "Inheriting the advantages of multiple underlying topologies.",
+          "Improved security compared to other topologies."
+        ],
+        "answer": "Inheriting the advantages of multiple underlying topologies.",
+        "difficulty": 3,
+        "topics": [
+          "Hybrid Topology",
+          "Advantages of Hybrid Topology"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which of the following is a common example of a large-scale hybrid network topology?",
+        "options": [
+          "A small office network using a star topology.",
+          "The Internet.",
+          "A home network using a bus topology.",
+          "A local area network (LAN) using a ring topology."
+        ],
+        "answer": "The Internet.",
+        "difficulty": 4,
+        "topics": [
+          "Hybrid Topology",
+          "Examples of Hybrid Topology"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "A hybrid network combining a star topology for LANs and a dual-ring topology for WAN connections would likely benefit from which characteristics of each topology?",
+        "options": [
+          "The simplicity of the star topology and the redundancy of the dual-ring topology.",
+          "The high speed of the star topology and the low cost of the dual-ring topology.",
+          "The centralized management of the star topology and the decentralized management of the dual-ring topology.",
+          "The scalability of the star topology and the security of the dual-ring topology."
+        ],
+        "answer": "The simplicity of the star topology and the redundancy of the dual-ring topology.",
+        "difficulty": 4,
+        "topics": [
+          "Hybrid Topology",
+          "Advantages of Hybrid Topology",
+          "Star Topology",
+          "Ring Topology"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Computer Network Models: Introduction",
+    "questions": [
+      {
+        "question": "What is the primary purpose of using a layered network model in computer networking?",
+        "options": [
+          "To increase the complexity of network engineering",
+          "To simplify network engineering by dividing tasks into manageable units",
+          "To make networks faster by eliminating unnecessary steps",
+          "To reduce the cost of network hardware"
+        ],
+        "answer": "To simplify network engineering by dividing tasks into manageable units",
+        "difficulty": 2,
+        "topics": [
+          "Layered Network Models",
+          "Network Engineering"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In a layered network model, how do layers interact with each other?",
+        "options": [
+          "They are completely independent and have no interaction.",
+          "They share data and depend on each other for input and output.",
+          "They compete for resources and only the fastest layer succeeds.",
+          "They operate in parallel without any communication."
+        ],
+        "answer": "They share data and depend on each other for input and output.",
+        "difficulty": 3,
+        "topics": [
+          "Layer Interaction",
+          "Data Sharing"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "How does a layered architecture handle a task initiated by the topmost layer?",
+        "options": [
+          "The topmost layer completes the task independently.",
+          "The task is passed down to lower layers for processing.",
+          "The task is randomly assigned to a lower layer.",
+          "The task is ignored."
+        ],
+        "answer": "The task is passed down to lower layers for processing.",
+        "difficulty": 3,
+        "topics": [
+          "Task Initiation",
+          "Layer Communication"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What mechanism do layers use to identify their counterparts in a layered communication system?",
+        "options": [
+          "Unique layer names",
+          "IP addresses",
+          "Encapsulation headers and tails",
+          "MAC addresses"
+        ],
+        "answer": "Encapsulation headers and tails",
+        "difficulty": 4,
+        "topics": [
+          "Layer Identification",
+          "Encapsulation"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "OSI Model",
+    "questions": [
+      {
+        "question": "Which layer of the OSI model is responsible for providing an interface to the application user and encompasses protocols that directly interact with the user?",
+        "options": [
+          "Presentation Layer",
+          "Application Layer",
+          "Session Layer",
+          "Transport Layer"
+        ],
+        "answer": "Application Layer",
+        "difficulty": 1,
+        "topics": [
+          "Application Layer",
+          "OSI Model Layers"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "The OSI model layer that handles end-to-end delivery of data between hosts is:",
+        "options": [
+          "Network Layer",
+          "Data Link Layer",
+          "Transport Layer",
+          "Physical Layer"
+        ],
+        "answer": "Transport Layer",
+        "difficulty": 2,
+        "topics": [
+          "Transport Layer",
+          "OSI Model Layers"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which layer of the OSI model is responsible for defining the hardware, cabling, wiring, power output, and pulse rate?",
+        "options": [
+          "Data Link Layer",
+          "Network Layer",
+          "Physical Layer",
+          "Presentation Layer"
+        ],
+        "answer": "Physical Layer",
+        "difficulty": 1,
+        "topics": [
+          "Physical Layer",
+          "OSI Model Layers"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Maintaining sessions between remote hosts, such as keeping a user logged in after authentication, is the responsibility of which OSI layer?",
+        "options": [
+          "Application Layer",
+          "Session Layer",
+          "Presentation Layer",
+          "Transport Layer"
+        ],
+        "answer": "Session Layer",
+        "difficulty": 2,
+        "topics": [
+          "Session Layer",
+          "OSI Model Layers"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "The layer responsible for addressing hosts uniquely within a network is the:",
+        "options": [
+          "Data Link Layer",
+          "Network Layer",
+          "Transport Layer",
+          "Application Layer"
+        ],
+        "answer": "Network Layer",
+        "difficulty": 3,
+        "topics": [
+          "Network Layer",
+          "OSI Model Layers",
+          "Addressing"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Internet Model (TCP/IP)",
+    "questions": [
+      {
+        "question": "Which protocol suite is used by the Internet Model?",
+        "options": [
+          "OSI Model",
+          "TCP/IP",
+          "UDP/IP",
+          "NetBIOS"
+        ],
+        "answer": "TCP/IP",
+        "difficulty": 1,
+        "topics": [
+          "Internet Model",
+          "Protocols"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "At which layer of the Internet Model would you find the HTTP protocol?",
+        "options": [
+          "Link Layer",
+          "Internet Layer",
+          "Transport Layer",
+          "Application Layer"
+        ],
+        "answer": "Application Layer",
+        "difficulty": 2,
+        "topics": [
+          "Internet Model",
+          "Application Layer",
+          "Protocols"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is the primary responsibility of the Transport Layer in the Internet Model?",
+        "options": [
+          "Host addressing",
+          "Data routing",
+          "End-to-end data delivery",
+          "Physical transmission of data"
+        ],
+        "answer": "End-to-end data delivery",
+        "difficulty": 3,
+        "topics": [
+          "Internet Model",
+          "Transport Layer",
+          "TCP"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which protocol is primarily associated with the Internet Layer of the Internet Model?",
+        "options": [
+          "TCP",
+          "HTTP",
+          "FTP",
+          "IP"
+        ],
+        "answer": "IP",
+        "difficulty": 2,
+        "topics": [
+          "Internet Model",
+          "Internet Layer",
+          "Protocols"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "How does the Internet Model's Link Layer differ from its OSI Model counterpart?",
+        "options": [
+          "It uses different protocols",
+          "It is dependent on the underlying network architecture",
+          "It is independent of the underlying network architecture",
+          "It handles higher-level data processing"
+        ],
+        "answer": "It is independent of the underlying network architecture",
+        "difficulty": 4,
+        "topics": [
+          "Internet Model",
+          "Link Layer",
+          "OSI Model"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Computer Network Security Threats",
+    "questions": [
+      {
+        "question": "Which security threat category involves the unauthorized access or interception of data intended for a specific user?",
+        "options": [
+          "Interruption",
+          "Privacy-Breach",
+          "Integrity",
+          "Authenticity"
+        ],
+        "answer": "Privacy-Breach",
+        "difficulty": 2,
+        "topics": [
+          "Privacy-Breach",
+          "Security Threats"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "A denial-of-service attack, which prevents legitimate users from accessing a resource, falls under which security threat category?",
+        "options": [
+          "Privacy-Breach",
+          "Integrity",
+          "Authenticity",
+          "Interruption"
+        ],
+        "answer": "Interruption",
+        "difficulty": 3,
+        "topics": [
+          "Interruption",
+          "DoS Attacks",
+          "Security Threats"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "An attacker modifies a bank transaction to redirect funds to their own account. This is an example of which security threat?",
+        "options": [
+          "Interruption",
+          "Privacy-Breach",
+          "Integrity",
+          "Authenticity"
+        ],
+        "answer": "Integrity",
+        "difficulty": 3,
+        "topics": [
+          "Integrity",
+          "Security Threats",
+          "Data Modification"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "A phishing email attempting to trick a user into revealing their password exemplifies which security threat category?",
+        "options": [
+          "Interruption",
+          "Privacy-Breach",
+          "Integrity",
+          "Authenticity"
+        ],
+        "answer": "Authenticity",
+        "difficulty": 4,
+        "topics": [
+          "Authenticity",
+          "Phishing",
+          "Social Engineering",
+          "Security Threats"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Cryptography Basics",
+    "questions": [
+      {
+        "question": "What is the primary purpose of cryptography?",
+        "options": [
+          "To compress data for efficient storage",
+          "To encrypt data, making it difficult to understand without the proper key",
+          "To speed up data transmission",
+          "To organize data into easily searchable formats"
+        ],
+        "answer": "To encrypt data, making it difficult to understand without the proper key",
+        "difficulty": 1,
+        "topics": [
+          "Introduction to Cryptography"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In Secret Key Encryption, how many keys are used between two communicating parties?",
+        "options": [
+          "One key, shared between both parties",
+          "Two keys, one public and one private",
+          "Three keys, one for each party and one shared key",
+          "Multiple keys, one for each message"
+        ],
+        "answer": "One key, shared between both parties",
+        "difficulty": 2,
+        "topics": [
+          "Secret Key Encryption"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which of the following is an example of a Public Key Encryption algorithm?",
+        "options": [
+          "DES",
+          "MD5",
+          "RSA",
+          "AES"
+        ],
+        "answer": "RSA",
+        "difficulty": 3,
+        "topics": [
+          "Public Key Encryption"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is the main function of a Message Digest algorithm like MD5?",
+        "options": [
+          "To encrypt the entire message for secure transmission",
+          "To generate a unique hash value representing the data",
+          "To decrypt an encrypted message",
+          "To digitally sign a document"
+        ],
+        "answer": "To generate a unique hash value representing the data",
+        "difficulty": 3,
+        "topics": [
+          "Message Digest"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "A major drawback of Secret Key Encryption is:",
+        "options": [
+          "Slow encryption speeds",
+          "Difficulty in key distribution and management",
+          "Lack of authentication",
+          "Susceptibility to brute-force attacks"
+        ],
+        "answer": "Difficulty in key distribution and management",
+        "difficulty": 4,
+        "topics": [
+          "Secret Key Encryption"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Physical Layer Introduction",
+    "questions": [
+      {
+        "question": "Which layer of the OSI model deals directly with the physical hardware and signaling?",
+        "options": [
+          "Application Layer",
+          "Network Layer",
+          "Physical Layer",
+          "Data Link Layer"
+        ],
+        "answer": "Physical Layer",
+        "difficulty": 1,
+        "topics": [
+          "OSI Model",
+          "Physical Layer Introduction"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is attenuation in the context of signal transmission?",
+        "options": [
+          "The spreading of a signal over time",
+          "The introduction of random disturbances",
+          "The weakening of a signal over distance",
+          "The interference of multiple signals"
+        ],
+        "answer": "The weakening of a signal over distance",
+        "difficulty": 2,
+        "topics": [
+          "Transmission Impairments",
+          "Attenuation"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which type of noise is caused by the interference of multiple signals sharing a medium?",
+        "options": [
+          "Thermal Noise",
+          "Impulse Noise",
+          "Crosstalk",
+          "Intermodulation Noise"
+        ],
+        "answer": "Intermodulation Noise",
+        "difficulty": 3,
+        "topics": [
+          "Noise",
+          "Intermodulation Noise"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Give an example of a guided transmission media.",
+        "options": [
+          "Radio Waves",
+          "Fiber Optics",
+          "Infrared",
+          "Microwaves"
+        ],
+        "answer": "Fiber Optics",
+        "difficulty": 2,
+        "topics": [
+          "Transmission Media",
+          "Guided Media"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What are the three factors affecting channel capacity?",
+        "options": [
+          "Bandwidth, Error-rate, Encoding",
+          "Signal Strength, Noise Level, Distance",
+          "Frequency, Amplitude, Phase",
+          "Protocol, Topology, Medium"
+        ],
+        "answer": "Bandwidth, Error-rate, Encoding",
+        "difficulty": 4,
+        "topics": [
+          "Channel Capacity",
+          "Bandwidth",
+          "Error-rate",
+          "Encoding"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Multiplexing and Demultiplexing",
+    "questions": [
+      {
+        "question": "What is the primary function of a multiplexer (MUX)?",
+        "options": [
+          "To amplify signals",
+          "To combine multiple data streams into one",
+          "To convert analog signals to digital signals",
+          "To filter noise from signals"
+        ],
+        "answer": "To combine multiple data streams into one",
+        "difficulty": 2,
+        "topics": [
+          "Multiplexing",
+          "MUX"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "A demultiplexer (DMUX) performs the opposite function of a multiplexer. What does a DMUX do?",
+        "options": [
+          "Combines multiple data streams",
+          "Separates a single data stream into multiple streams",
+          "Amplifies the signal strength",
+          "Reduces the noise in a signal"
+        ],
+        "answer": "Separates a single data stream into multiple streams",
+        "difficulty": 2,
+        "topics": [
+          "Demultiplexing",
+          "DMUX"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which of the following best describes the role of a select line in a multiplexer?",
+        "options": [
+          "It determines the data rate",
+          "It selects which input line is passed to the output",
+          "It controls the amplification level",
+          "It filters out unwanted frequencies"
+        ],
+        "answer": "It selects which input line is passed to the output",
+        "difficulty": 3,
+        "topics": [
+          "Multiplexing",
+          "MUX",
+          "Select Line"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is the main advantage of using multiplexing and demultiplexing techniques?",
+        "options": [
+          "Increased signal strength",
+          "Reduced signal noise",
+          "Efficient use of communication channels",
+          "Improved signal clarity"
+        ],
+        "answer": "Efficient use of communication channels",
+        "difficulty": 3,
+        "topics": [
+          "Multiplexing",
+          "DMUX",
+          "Advantages"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Switching in Networks",
+    "questions": [
+      {
+        "question": "What is the primary function of a switch in a network?",
+        "options": [
+          "To amplify network signals",
+          "To route data between non-directly connected devices",
+          "To terminate network cables",
+          "To convert analog signals to digital signals"
+        ],
+        "answer": "To route data between non-directly connected devices",
+        "difficulty": 2,
+        "topics": [
+          "Switching Mechanisms",
+          "Network Devices"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following best describes the process of switching in a network?",
+        "options": [
+          "Data is transmitted directly from source to destination without any intermediate devices.",
+          "Data is transmitted through a single, dedicated path between source and destination.",
+          "Data is received, analyzed, and forwarded by intermediate devices towards the destination.",
+          "Data is converted into a different format before transmission."
+        ],
+        "answer": "Data is received, analyzed, and forwarded by intermediate devices towards the destination.",
+        "difficulty": 3,
+        "topics": [
+          "Switching Process",
+          "Data Forwarding"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is a key difference between switching and routing?",
+        "options": [
+          "Switching operates at the network layer, while routing operates at the data link layer.",
+          "Switching operates at the data link layer, while routing operates at the network layer.",
+          "Both operate at the same layer, but switching is faster.",
+          "There is no significant difference between switching and routing."
+        ],
+        "answer": "Switching operates at the data link layer, while routing operates at the network layer.",
+        "difficulty": 4,
+        "topics": [
+          "Switching vs. Routing",
+          "Network Layers"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "A network switch uses which of the following to determine the destination of a data frame?",
+        "options": [
+          "IP address",
+          "MAC address",
+          "Port number",
+          "URL"
+        ],
+        "answer": "MAC address",
+        "difficulty": 3,
+        "topics": [
+          "Data Link Layer",
+          "MAC Addresses"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Digital Transmission in Computer Networks",
+    "questions": [
+      {
+        "question": "Which of the following is NOT a characteristic of digital data?",
+        "options": [
+          "Discrete values",
+          "Continuous values",
+          "Represented by binary digits",
+          "Easily processed by computers"
+        ],
+        "answer": "Continuous values",
+        "difficulty": 2,
+        "topics": [
+          "Data Representation",
+          "Digital vs. Analog"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Why must data be in digital form for a computer to use it?",
+        "options": [
+          "Computers are inherently analog devices.",
+          "Digital data is easier to transmit over long distances.",
+          "Computers process information using discrete binary values.",
+          "Digital data requires less storage space than analog data."
+        ],
+        "answer": "Computers process information using discrete binary values.",
+        "difficulty": 3,
+        "topics": [
+          "Data Representation",
+          "Computer Architecture"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is the process of converting analog data into digital data called?",
+        "options": [
+          "Digital-to-analog conversion",
+          "Analog-to-digital conversion",
+          "Modulation",
+          "Demodulation"
+        ],
+        "answer": "Analog-to-digital conversion",
+        "difficulty": 2,
+        "topics": [
+          "Data Conversion",
+          "Signal Processing"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which statement best describes the relationship between data and signals in digital transmission?",
+        "options": [
+          "Data and signals are always the same.",
+          "Data is the information being transmitted, and the signal is the method of transmission.",
+          "Signals are only used for analog transmission, not digital.",
+          "Data is only used for digital transmission, not analog."
+        ],
+        "answer": "Data is the information being transmitted, and the signal is the method of transmission.",
+        "difficulty": 4,
+        "topics": [
+          "Data Transmission",
+          "Signal Types"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Digital-to-Digital Conversion: Line Coding and Block Coding",
+    "questions": [
+      {
+        "question": "What is the primary purpose of line coding in digital-to-digital conversion?",
+        "options": [
+          "To compress digital data for efficient storage.",
+          "To convert digital data into a suitable format for transmission over a physical medium.",
+          "To encrypt digital data for security purposes.",
+          "To detect and correct errors in digital data."
+        ],
+        "answer": "To convert digital data into a suitable format for transmission over a physical medium.",
+        "difficulty": 2,
+        "topics": [
+          "Line Coding",
+          "Digital-to-Digital Conversion"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following is NOT a common type of line coding?",
+        "options": [
+          "Unipolar NRZ",
+          "Bipolar RZ",
+          "Manchester",
+          "Huffman Coding"
+        ],
+        "answer": "Huffman Coding",
+        "difficulty": 3,
+        "topics": [
+          "Line Coding"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Block coding is primarily used to improve which aspect of digital transmission?",
+        "options": [
+          "Data rate",
+          "Signal-to-noise ratio",
+          "Error detection and correction",
+          "Bandwidth efficiency"
+        ],
+        "answer": "Error detection and correction",
+        "difficulty": 4,
+        "topics": [
+          "Block Coding",
+          "Error Detection and Correction"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is the main difference between line coding and block coding in the context of digital-to-digital conversion?",
+        "options": [
+          "Line coding is for data compression, while block coding is for error correction.",
+          "Line coding is always necessary, while block coding is optional.",
+          "Line coding operates on individual bits, while block coding operates on groups of bits.",
+          "Line coding is used for analog signals, while block coding is used for digital signals."
+        ],
+        "answer": "Line coding is always necessary, while block coding is optional.",
+        "difficulty": 3,
+        "topics": [
+          "Line Coding",
+          "Block Coding"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Line Coding Techniques",
+    "questions": [
+      {
+        "question": "Which of the following is NOT a primary category of line coding schemes discussed in the module?",
+        "options": [
+          "Unipolar",
+          "Polar",
+          "Bipolar",
+          "Manchester"
+        ],
+        "answer": "Manchester",
+        "difficulty": 2,
+        "topics": [
+          "Line Coding Schemes",
+          "Categorization"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In unipolar line coding, how are binary '0' and '1' bits represented?",
+        "options": [
+          "Different voltage levels above and below zero",
+          "Different voltage levels, both positive",
+          "Different voltage levels, both negative",
+          "A combination of voltage levels and transitions"
+        ],
+        "answer": "Different voltage levels, both positive",
+        "difficulty": 3,
+        "topics": [
+          "Unipolar",
+          "Voltage Levels"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is a key advantage of bipolar line coding (e.g., AMI) over unipolar schemes?",
+        "options": [
+          "Higher bandwidth efficiency",
+          "Simpler receiver design",
+          "Better DC component handling",
+          "Improved noise immunity"
+        ],
+        "answer": "Better DC component handling",
+        "difficulty": 4,
+        "topics": [
+          "Bipolar",
+          "AMI",
+          "DC Component"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Describe the difference between polar and unipolar line coding in terms of voltage levels used to represent binary data.",
+        "options": [
+          "Polar uses both positive and negative voltage levels, while unipolar uses only positive or only negative voltage levels.",
+          "Polar uses only positive voltage levels, while unipolar uses both positive and negative voltage levels.",
+          "Both use the same voltage levels, but with different transition rules.",
+          "There is no significant difference in voltage levels used."
+        ],
+        "answer": "Polar uses both positive and negative voltage levels, while unipolar uses only positive or only negative voltage levels.",
+        "difficulty": 3,
+        "topics": [
+          "Polar",
+          "Unipolar",
+          "Voltage Levels",
+          "Comparison"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Unipolar Encoding",
+    "questions": [
+      {
+        "question": "Which of the following best describes unipolar encoding?",
+        "options": [
+          "Uses two voltage levels to represent binary data",
+          "Uses a single voltage level to represent binary data",
+          "Uses a combination of voltage levels and frequency changes",
+          "Uses no voltage to represent binary data"
+        ],
+        "answer": "Uses a single voltage level to represent binary data",
+        "difficulty": 1,
+        "topics": [
+          "Unipolar Encoding",
+          "Line Coding"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In unipolar encoding, how is a binary '1' typically represented?",
+        "options": [
+          "A low voltage level",
+          "No voltage",
+          "A high voltage level",
+          "A change in frequency"
+        ],
+        "answer": "A high voltage level",
+        "difficulty": 2,
+        "topics": [
+          "Unipolar Encoding",
+          "Binary Representation"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "How is a binary '0' represented in unipolar NRZ encoding?",
+        "options": [
+          "A high voltage level",
+          "A low voltage level",
+          "No voltage",
+          "A change in frequency"
+        ],
+        "answer": "No voltage",
+        "difficulty": 2,
+        "topics": [
+          "Unipolar Encoding",
+          "NRZ",
+          "Binary Representation"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Unipolar encoding is also known as:",
+        "options": [
+          "Bipolar encoding",
+          "Unipolar return-to-zero",
+          "Unipolar non-return-to-zero",
+          "Manchester encoding"
+        ],
+        "answer": "Unipolar non-return-to-zero",
+        "difficulty": 3,
+        "topics": [
+          "Unipolar Encoding",
+          "NRZ"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Polar Encoding",
+    "questions": [
+      {
+        "question": "Which polar encoding scheme uses only two voltage levels to represent binary values, with no rest condition?",
+        "options": [
+          "Return to Zero (RZ)",
+          "Manchester",
+          "Polar NRZ",
+          "Differential Manchester"
+        ],
+        "answer": "Polar NRZ",
+        "difficulty": 2,
+        "topics": [
+          "Polar NRZ",
+          "Voltage Levels"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is the primary advantage of RZ encoding over NRZ encoding?",
+        "options": [
+          "Higher data rate",
+          "Simpler implementation",
+          "Improved clock synchronization",
+          "Reduced power consumption"
+        ],
+        "answer": "Improved clock synchronization",
+        "difficulty": 3,
+        "topics": [
+          "RZ",
+          "NRZ",
+          "Clock Synchronization"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "In Manchester encoding, when does a phase transition occur?",
+        "options": [
+          "At the beginning of each bit",
+          "At the end of each bit",
+          "In the middle of each bit",
+          "Only when a '1' is encountered"
+        ],
+        "answer": "In the middle of each bit",
+        "difficulty": 3,
+        "topics": [
+          "Manchester",
+          "Phase Transition"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which encoding scheme is a hybrid of RZ and NRZ-I?",
+        "options": [
+          "Polar NRZ",
+          "RZ",
+          "Manchester",
+          "Differential Manchester"
+        ],
+        "answer": "Differential Manchester",
+        "difficulty": 4,
+        "topics": [
+          "Differential Manchester",
+          "RZ",
+          "NRZ-I"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What distinguishes NRZ-L from NRZ-I?",
+        "options": [
+          "The number of voltage levels used",
+          "The presence of a rest condition",
+          "When the voltage level changes",
+          "The data rate achieved"
+        ],
+        "answer": "When the voltage level changes",
+        "difficulty": 4,
+        "topics": [
+          "NRZ-L",
+          "NRZ-I",
+          "Voltage Changes"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Bipolar Encoding",
+    "questions": [
+      {
+        "question": "Which of the following voltage levels is NOT used in bipolar encoding?",
+        "options": [
+          "+V",
+          "-V",
+          "0V",
+          "+2V"
+        ],
+        "answer": "+2V",
+        "difficulty": 2,
+        "topics": [
+          "Bipolar Encoding",
+          "Voltage Levels"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In bipolar encoding, how is a binary '0' represented?",
+        "options": [
+          "+V",
+          "-V",
+          "0V",
+          "Alternating +V and -V"
+        ],
+        "answer": "0V",
+        "difficulty": 1,
+        "topics": [
+          "Bipolar Encoding",
+          "Binary Representation"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is the primary advantage of bipolar encoding over unipolar encoding?",
+        "options": [
+          "Requires fewer voltage levels",
+          "Simpler circuitry",
+          "Better DC balance",
+          "Higher data rate"
+        ],
+        "answer": "Better DC balance",
+        "difficulty": 3,
+        "topics": [
+          "Bipolar Encoding",
+          "Unipolar Encoding",
+          "DC Balance"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "If a sequence of bits is '1011', how would it be represented using bipolar encoding (assuming +V for the first '1')?",
+        "options": [
+          "+V, 0V, -V, +V",
+          "+V, 0V, +V, -V",
+          "+V, 0V, -V, -V",
+          "-V, 0V, +V, -V"
+        ],
+        "answer": "+V, 0V, -V, +V",
+        "difficulty": 4,
+        "topics": [
+          "Bipolar Encoding",
+          "Bit Sequence Representation"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Block Coding",
+    "questions": [
+      {
+        "question": "What is the primary purpose of using redundant bits in block coding?",
+        "options": [
+          "To increase the transmission speed",
+          "To improve the accuracy of received data",
+          "To reduce the size of the data frame",
+          "To simplify the encoding process"
+        ],
+        "answer": "To improve the accuracy of received data",
+        "difficulty": 2,
+        "topics": [
+          "Block Coding",
+          "Redundant Bits",
+          "Data Accuracy"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In even-parity block coding, how is the parity bit determined?",
+        "options": [
+          "It's always 0",
+          "It's always 1",
+          "It's set to make the total number of 1s in the frame even",
+          "It's set to make the total number of 1s in the frame odd"
+        ],
+        "answer": "It's set to make the total number of 1s in the frame even",
+        "difficulty": 3,
+        "topics": [
+          "Block Coding",
+          "Even Parity",
+          "Parity Bit"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "The notation 'mB/nB' in block coding represents:",
+        "options": [
+          "m bits are added to n bits",
+          "m-bit block is substituted with an n-bit block",
+          "n-bit block is substituted with an m-bit block",
+          "m and n bits are combined"
+        ],
+        "answer": "m-bit block is substituted with an n-bit block",
+        "difficulty": 2,
+        "topics": [
+          "Block Coding",
+          "Notation"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following is NOT a step involved in block coding?",
+        "options": [
+          "Division",
+          "Substitution",
+          "Combination",
+          "Encryption"
+        ],
+        "answer": "Encryption",
+        "difficulty": 3,
+        "topics": [
+          "Block Coding",
+          "Process"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "After block coding is complete, what is the next step in the data transmission process?",
+        "options": [
+          "Data compression",
+          "Line coding",
+          "Error detection",
+          "Data encryption"
+        ],
+        "answer": "Line coding",
+        "difficulty": 4,
+        "topics": [
+          "Block Coding",
+          "Line Coding",
+          "Data Transmission"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Analog-to-Digital Conversion using Pulse Code Modulation (PCM)",
+    "questions": [
+      {
+        "question": "What is the primary purpose of Pulse Code Modulation (PCM)?",
+        "options": [
+          "To amplify analog signals",
+          "To convert analog data into digital data",
+          "To filter noise from analog signals",
+          "To transmit digital data over analog lines"
+        ],
+        "answer": "To convert analog data into digital data",
+        "difficulty": 1,
+        "topics": [
+          "PCM",
+          "Analog-to-Digital Conversion"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following is NOT a step involved in the PCM process?",
+        "options": [
+          "Sampling",
+          "Quantization",
+          "Encoding",
+          "Modulation"
+        ],
+        "answer": "Modulation",
+        "difficulty": 2,
+        "topics": [
+          "PCM",
+          "Analog-to-Digital Conversion"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "According to the Nyquist Theorem, what is the minimum sampling rate required to accurately represent an analog signal?",
+        "options": [
+          "Equal to the highest frequency of the signal",
+          "Half the highest frequency of the signal",
+          "Twice the highest frequency of the signal",
+          "Four times the highest frequency of the signal"
+        ],
+        "answer": "Twice the highest frequency of the signal",
+        "difficulty": 3,
+        "topics": [
+          "Sampling",
+          "Nyquist Theorem",
+          "PCM"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What process in PCM involves approximating the amplitude of the sampled analog signal?",
+        "options": [
+          "Sampling",
+          "Quantization",
+          "Encoding",
+          "Decoding"
+        ],
+        "answer": "Quantization",
+        "difficulty": 2,
+        "topics": [
+          "Quantization",
+          "PCM"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "In the context of PCM, what does encoding refer to?",
+        "options": [
+          "Converting the sampled signal into a continuous wave",
+          "Converting the quantized values into a binary format",
+          "Amplifying the analog signal before sampling",
+          "Filtering out noise from the analog signal"
+        ],
+        "answer": "Converting the quantized values into a binary format",
+        "difficulty": 2,
+        "topics": [
+          "Encoding",
+          "PCM"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Transmission Modes: Parallel and Serial",
+    "questions": [
+      {
+        "question": "What is the primary difference between parallel and serial data transmission?",
+        "options": [
+          "Parallel uses one wire, serial uses multiple.",
+          "Parallel transmits all bits simultaneously, serial transmits one bit at a time.",
+          "Parallel is faster, serial is more reliable.",
+          "Parallel is cheaper, serial is more complex."
+        ],
+        "answer": "Parallel transmits all bits simultaneously, serial transmits one bit at a time.",
+        "difficulty": 2,
+        "topics": [
+          "Parallel Transmission",
+          "Serial Transmission",
+          "Data Transmission Modes"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In parallel transmission, how many data lines are needed to transmit an 8-bit data frame?",
+        "options": [
+          "1",
+          "8",
+          "16",
+          "It depends on the transmission speed."
+        ],
+        "answer": "8",
+        "difficulty": 3,
+        "topics": [
+          "Parallel Transmission",
+          "Data Frame",
+          "Data Lines"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is a significant disadvantage of parallel transmission?",
+        "options": [
+          "Lower speed",
+          "Higher cost due to multiple wires",
+          "Increased susceptibility to noise",
+          "More complex hardware"
+        ],
+        "answer": "Higher cost due to multiple wires",
+        "difficulty": 2,
+        "topics": [
+          "Parallel Transmission",
+          "Disadvantages"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which transmission mode is generally more suitable for long-distance data transmission and why?",
+        "options": [
+          "Parallel, because it's faster.",
+          "Serial, because it requires fewer wires and is less susceptible to noise over distance.",
+          "Parallel, because it's more reliable.",
+          "Serial, because it's cheaper."
+        ],
+        "answer": "Serial, because it requires fewer wires and is less susceptible to noise over distance.",
+        "difficulty": 4,
+        "topics": [
+          "Parallel Transmission",
+          "Serial Transmission",
+          "Advantages",
+          "Disadvantages"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Serial Transmission: Asynchronous and Synchronous",
+    "questions": [
+      {
+        "question": "What is the key difference between asynchronous and synchronous serial transmission?",
+        "options": [
+          "Asynchronous uses a clock signal, synchronous does not.",
+          "Asynchronous requires a dedicated clock line, synchronous does not.",
+          "Asynchronous uses start and stop bits for synchronization, synchronous uses a continuous clock signal.",
+          "Asynchronous transmits data in bursts, synchronous transmits data continuously."
+        ],
+        "answer": "Asynchronous uses start and stop bits for synchronization, synchronous uses a continuous clock signal.",
+        "difficulty": 3,
+        "topics": [
+          "Asynchronous Transmission",
+          "Synchronous Transmission"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which type of serial transmission is generally more efficient for high-speed data transfer?",
+        "options": [
+          "Asynchronous",
+          "Synchronous",
+          "Both are equally efficient",
+          "Neither are efficient for high-speed data transfer"
+        ],
+        "answer": "Synchronous",
+        "difficulty": 2,
+        "topics": [
+          "Asynchronous Transmission",
+          "Synchronous Transmission",
+          "Efficiency"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "In asynchronous serial transmission, what is the purpose of the start and stop bits?",
+        "options": [
+          "To increase the data transmission rate",
+          "To provide error correction",
+          "To synchronize the sender and receiver clocks",
+          "To ensure data integrity"
+        ],
+        "answer": "To synchronize the sender and receiver clocks",
+        "difficulty": 4,
+        "topics": [
+          "Asynchronous Transmission",
+          "Synchronization"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following is NOT a characteristic of serial transmission?",
+        "options": [
+          "Bits are sent one after another",
+          "Requires only one communication channel",
+          "Data is transmitted in parallel",
+          "Can be asynchronous or synchronous"
+        ],
+        "answer": "Data is transmitted in parallel",
+        "difficulty": 1,
+        "topics": [
+          "Serial Transmission",
+          "Parallel Transmission"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Asynchronous Serial Transmission",
+    "questions": [
+      {
+        "question": "What is the key characteristic that distinguishes asynchronous serial transmission from synchronous serial transmission?",
+        "options": [
+          "Strict adherence to a clock signal",
+          "The use of start and stop bits",
+          "High data transfer rates",
+          "Continuous data stream without gaps"
+        ],
+        "answer": "The use of start and stop bits",
+        "difficulty": 2,
+        "topics": [
+          "Asynchronous Serial Transmission",
+          "Start and Stop Bits"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In asynchronous serial transmission, what is the purpose of the start bit?",
+        "options": [
+          "To indicate the end of a data frame",
+          "To synchronize the clock signals between sender and receiver",
+          "To signal the beginning of a data frame",
+          "To provide error detection"
+        ],
+        "answer": "To signal the beginning of a data frame",
+        "difficulty": 1,
+        "topics": [
+          "Asynchronous Serial Transmission",
+          "Start Bit"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Why are asynchronous serial transmissions considered 'asynchronous'?",
+        "options": [
+          "Data is transmitted in a continuous stream.",
+          "There is no need for a separate clock signal to synchronize the sender and receiver.",
+          "Start and stop bits are used for synchronization.",
+          "Data transmission is very fast."
+        ],
+        "answer": "There is no need for a separate clock signal to synchronize the sender and receiver.",
+        "difficulty": 3,
+        "topics": [
+          "Asynchronous Serial Transmission",
+          "Synchronization"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following best describes the timing relationship between consecutive data frames in asynchronous serial transmission?",
+        "options": [
+          "Consecutive frames are transmitted with precise timing intervals.",
+          "Consecutive frames are transmitted without any gaps between them.",
+          "There may be variable gaps between consecutive frames.",
+          "The timing is determined by a central clock signal."
+        ],
+        "answer": "There may be variable gaps between consecutive frames.",
+        "difficulty": 2,
+        "topics": [
+          "Asynchronous Serial Transmission",
+          "Data Frame Timing"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Synchronous Serial Transmission",
+    "questions": [
+      {
+        "question": "What is the primary mechanism used to delineate data bits in synchronous serial transmission, given the absence of start and stop bits?",
+        "options": [
+          "Start/Stop bits",
+          "Precise timing",
+          "Data framing with headers and footers",
+          "Parity bits"
+        ],
+        "answer": "Precise timing",
+        "difficulty": 3,
+        "topics": [
+          "Synchronous Serial Transmission",
+          "Timing"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "How is data transmitted in synchronous serial communication?",
+        "options": [
+          "One bit at a time with start and stop bits",
+          "In bursts of multiple bytes without gaps between bytes",
+          "One byte at a time with gaps between bytes",
+          "In packets with headers and trailers"
+        ],
+        "answer": "In bursts of multiple bytes without gaps between bytes",
+        "difficulty": 2,
+        "topics": [
+          "Synchronous Serial Transmission",
+          "Data Transmission"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which of the following is a significant advantage of synchronous serial transmission over asynchronous serial transmission?",
+        "options": [
+          "Simpler implementation",
+          "Lower error rate",
+          "Higher transmission speed",
+          "Better compatibility with older systems"
+        ],
+        "answer": "Higher transmission speed",
+        "difficulty": 2,
+        "topics": [
+          "Synchronous Serial Transmission",
+          "Asynchronous Serial Transmission",
+          "Advantages"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Why is precise timing crucial in synchronous serial transmission?",
+        "options": [
+          "To ensure data integrity using checksums",
+          "To allow for error correction",
+          "To enable the receiver to correctly separate bits into bytes",
+          "To synchronize the clock speed of the sender and receiver"
+        ],
+        "answer": "To enable the receiver to correctly separate bits into bytes",
+        "difficulty": 4,
+        "topics": [
+          "Synchronous Serial Transmission",
+          "Timing",
+          "Receiver Functionality"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Analog Transmission and Digital-to-Analog Conversion",
+    "questions": [
+      {
+        "question": "Why is digital-to-analog conversion necessary when transmitting digital data over analog media?",
+        "options": [
+          "Analog media cannot handle digital signals.",
+          "Digital signals are inherently noisy.",
+          "Digital signals require higher bandwidth.",
+          "It simplifies the transmission process."
+        ],
+        "answer": "Analog media cannot handle digital signals.",
+        "difficulty": 2,
+        "topics": [
+          "Digital-to-Analog Conversion",
+          "Analog Transmission"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What are the three characteristics of an analog signal that can be modified to represent digital data?",
+        "options": [
+          "Amplitude, Frequency, Phase",
+          "Voltage, Current, Resistance",
+          "Bandwidth, Latency, Jitter",
+          "Bit rate, Baud rate, Symbol rate"
+        ],
+        "answer": "Amplitude, Frequency, Phase",
+        "difficulty": 3,
+        "topics": [
+          "Analog Signals",
+          "Digital-to-Analog Conversion"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "In Amplitude Shift Keying (ASK), how is a binary '1' represented in the analog signal?",
+        "options": [
+          "The amplitude is set to 0.",
+          "The amplitude is changed to a predetermined value.",
+          "The amplitude is held at its original value.",
+          "The amplitude is inverted."
+        ],
+        "answer": "The amplitude is held at its original value.",
+        "difficulty": 4,
+        "topics": [
+          "Amplitude Shift Keying",
+          "Digital-to-Analog Conversion"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What type of filter is used to select a specific band of frequencies in a bandpass digital-to-analog conversion?",
+        "options": [
+          "Low-pass filter",
+          "High-pass filter",
+          "Bandpass filter",
+          "Band-stop filter"
+        ],
+        "answer": "Bandpass filter",
+        "difficulty": 3,
+        "topics": [
+          "Bandpass Filtering",
+          "Digital-to-Analog Conversion"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Digital-to-Analog Conversion Techniques",
+    "questions": [
+      {
+        "question": "Which digital-to-analog conversion technique modifies the frequency of the carrier signal to represent binary data?",
+        "options": [
+          "Amplitude Shift Keying (ASK)",
+          "Frequency Shift Keying (FSK)",
+          "Phase Shift Keying (PSK)",
+          "Quadrature Phase Shift Keying (QPSK)"
+        ],
+        "answer": "Frequency Shift Keying (FSK)",
+        "difficulty": 2,
+        "topics": [
+          "Frequency Shift Keying",
+          "Digital-to-Analog Conversion"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In FSK, what parameters of the carrier wave remain unchanged?",
+        "options": [
+          "Amplitude and Phase",
+          "Amplitude and Frequency",
+          "Frequency and Phase",
+          "Amplitude, Frequency, and Phase"
+        ],
+        "answer": "Amplitude and Phase",
+        "difficulty": 3,
+        "topics": [
+          "Frequency Shift Keying",
+          "Carrier Wave Parameters"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which technique alters the phase of the carrier signal to represent binary data, while keeping amplitude and frequency constant?",
+        "options": [
+          "ASK",
+          "FSK",
+          "PSK",
+          "QPSK"
+        ],
+        "answer": "PSK",
+        "difficulty": 2,
+        "topics": [
+          "Phase Shift Keying",
+          "Digital-to-Analog Conversion"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "How many binary digits does QPSK represent with a single phase change?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": "Two",
+        "difficulty": 4,
+        "topics": [
+          "Quadrature Phase Shift Keying",
+          "Binary Data Representation"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Before merging in QPSK, the data stream is divided into sub-streams and converted using which technique?",
+        "options": [
+          "ASK",
+          "FSK",
+          "PSK",
+          "NRZ"
+        ],
+        "answer": "NRZ",
+        "difficulty": 5,
+        "topics": [
+          "Quadrature Phase Shift Keying",
+          "NRZ",
+          "Data Processing"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Analog-to-Analog Conversion",
+    "questions": [
+      {
+        "question": "What is the primary purpose of analog-to-analog conversion (analog modulation)?",
+        "options": [
+          "To convert an analog signal into a digital signal",
+          "To modify an analog signal to represent analog data",
+          "To amplify an analog signal",
+          "To filter an analog signal"
+        ],
+        "answer": "To modify an analog signal to represent analog data",
+        "difficulty": 1,
+        "topics": [
+          "Analog Modulation",
+          "Purpose of Analog-to-Analog Conversion"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following modulation techniques alters the amplitude of the carrier signal to represent analog data?",
+        "options": [
+          "Frequency Modulation",
+          "Phase Modulation",
+          "Amplitude Modulation",
+          "Pulse Code Modulation"
+        ],
+        "answer": "Amplitude Modulation",
+        "difficulty": 2,
+        "topics": [
+          "Amplitude Modulation",
+          "Types of Analog Modulation"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "In Frequency Modulation, which characteristic of the carrier signal remains unchanged?",
+        "options": [
+          "Frequency",
+          "Amplitude",
+          "Phase",
+          "All of the above"
+        ],
+        "answer": "Amplitude",
+        "difficulty": 3,
+        "topics": [
+          "Frequency Modulation",
+          "Characteristics of FM"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "How is amplitude modulation implemented?",
+        "options": [
+          "By using a filter",
+          "By using a multiplier",
+          "By using an amplifier",
+          "By using a differentiator"
+        ],
+        "answer": "By using a multiplier",
+        "difficulty": 2,
+        "topics": [
+          "Amplitude Modulation",
+          "Implementation of AM"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What is the key difference between Phase Modulation and Frequency Modulation?",
+        "options": [
+          "Phase modulation changes the amplitude, while frequency modulation changes the phase.",
+          "Phase modulation changes the phase, while frequency modulation changes the frequency, but the frequency in phase modulation is not increased.",
+          "Phase modulation uses a digital carrier signal, while frequency modulation uses an analog carrier signal.",
+          "There is no significant difference between the two techniques."
+        ],
+        "answer": "Phase modulation changes the phase, while frequency modulation changes the frequency, but the frequency in phase modulation is not increased.",
+        "difficulty": 4,
+        "topics": [
+          "Phase Modulation",
+          "Frequency Modulation",
+          "Comparison of PM and FM"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Transmission Media in Computer Networks",
+    "questions": [
+      {
+        "question": "Which of the following is NOT a characteristic typically associated with transmission media in computer networks?",
+        "options": [
+          "Bandwidth",
+          "Attenuation",
+          "Latency",
+          "Operating System"
+        ],
+        "answer": "Operating System",
+        "difficulty": 2,
+        "topics": [
+          "Transmission Media Characteristics"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Magnetic media, such as magnetic tapes, are primarily used for which purpose in computer networks?",
+        "options": [
+          "High-speed data transmission",
+          "Real-time communication",
+          "Long-term data storage and archiving",
+          "Wireless communication"
+        ],
+        "answer": "Long-term data storage and archiving",
+        "difficulty": 3,
+        "topics": [
+          "Magnetic Media",
+          "Data Storage"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is the primary difference between guided and unguided transmission media?",
+        "options": [
+          "Data rate",
+          "Cost",
+          "Signal type",
+          "Presence of a physical pathway"
+        ],
+        "answer": "Presence of a physical pathway",
+        "difficulty": 2,
+        "topics": [
+          "Guided vs. Unguided Media",
+          "Transmission Media Types"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following is an example of guided transmission media?",
+        "options": [
+          "Radio waves",
+          "Fiber optic cable",
+          "Infrared light",
+          "Microwaves"
+        ],
+        "answer": "Fiber optic cable",
+        "difficulty": 1,
+        "topics": [
+          "Guided Media Examples"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Magnetic Media as Transmission Media",
+    "questions": [
+      {
+        "question": "Why are magnetic media like tapes and disks still relevant for data transfer, even in the age of high-speed internet?",
+        "options": [
+          "They are cheaper than network transfer for small datasets.",
+          "They offer faster transfer speeds than even the fastest networks.",
+          "They are ideal for transferring extremely large datasets where network transfer is impractical or prohibitively expensive.",
+          "They are more secure than network-based data transfer."
+        ],
+        "answer": "They are ideal for transferring extremely large datasets where network transfer is impractical or prohibitively expensive.",
+        "difficulty": 2,
+        "topics": [
+          "Magnetic Media",
+          "Data Transfer",
+          "Cost-Effectiveness"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In what scenario would a bank most likely utilize magnetic media for data transfer?",
+        "options": [
+          "Transferring daily transaction records to a branch across town.",
+          "Sending customer account information to a credit reporting agency.",
+          "Creating a secure offsite backup of its entire customer database.",
+          "Sharing real-time stock market data with its trading partners."
+        ],
+        "answer": "Creating a secure offsite backup of its entire customer database.",
+        "difficulty": 3,
+        "topics": [
+          "Magnetic Media",
+          "Data Backup",
+          "Security",
+          "Real-world Applications"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What are two primary examples of magnetic media used for large data transfers?",
+        "options": [
+          "USB flash drives and SD cards",
+          "Magnetic tapes and magnetic disks",
+          "Optical discs and Blu-ray discs",
+          "Cloud storage and network-attached storage"
+        ],
+        "answer": "Magnetic tapes and magnetic disks",
+        "difficulty": 1,
+        "topics": [
+          "Magnetic Media",
+          "Types of Magnetic Media"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is a significant limitation of using magnetic media for data transfer compared to network-based methods?",
+        "options": [
+          "Limited storage capacity",
+          "High cost per unit of storage",
+          "Slow transfer speeds relative to network transfer for smaller datasets",
+          "Inability to transfer data over long distances"
+        ],
+        "answer": "Slow transfer speeds relative to network transfer for smaller datasets",
+        "difficulty": 4,
+        "topics": [
+          "Magnetic Media",
+          "Limitations",
+          "Comparison with Network Transfer"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Twisted Pair Cable",
+    "questions": [
+      {
+        "question": "What is the primary purpose of twisting the wires in a twisted pair cable?",
+        "options": [
+          "To increase cable strength",
+          "To reduce noise and crosstalk",
+          "To improve signal speed",
+          "To simplify manufacturing"
+        ],
+        "answer": "To reduce noise and crosstalk",
+        "difficulty": 2,
+        "topics": [
+          "Twisted Pair Cable Construction",
+          "Noise Reduction"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "How many copper wires are typically found within a single twisted pair cable?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": "Two",
+        "difficulty": 1,
+        "topics": [
+          "Twisted Pair Cable Construction"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is the role of the second wire in a twisted pair cable, besides carrying the signal?",
+        "options": [
+          "To carry a backup signal",
+          "To provide ground reference",
+          "To increase cable flexibility",
+          "It doesn't have a specific role"
+        ],
+        "answer": "To provide ground reference",
+        "difficulty": 3,
+        "topics": [
+          "Twisted Pair Cable Construction",
+          "Signal Grounding"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What type of interference does twisting the wires in a twisted pair cable primarily help to mitigate?",
+        "options": [
+          "Signal attenuation",
+          "Electromagnetic interference (EMI)",
+          "Signal reflection",
+          "Capacitive coupling"
+        ],
+        "answer": "Electromagnetic interference (EMI)",
+        "difficulty": 4,
+        "topics": [
+          "Noise Reduction",
+          "EMI"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Twisted Pair Cables",
+    "questions": [
+      {
+        "question": "What is the primary difference between STP and UTP cables?",
+        "options": [
+          "STP cables are thicker than UTP cables.",
+          "STP cables have a metallic shield, while UTP cables do not.",
+          "STP cables use RJ11 connectors, while UTP cables use RJ45 connectors.",
+          "STP cables are only used for long distances, while UTP cables are used for short distances."
+        ],
+        "answer": "STP cables have a metallic shield, while UTP cables do not.",
+        "difficulty": 2,
+        "topics": [
+          "STP",
+          "UTP",
+          "Shielding"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which type of twisted pair cable is more resistant to electromagnetic interference (EMI)?",
+        "options": [
+          "UTP",
+          "STP",
+          "Both are equally resistant.",
+          "Neither is resistant to EMI."
+        ],
+        "answer": "STP",
+        "difficulty": 3,
+        "topics": [
+          "STP",
+          "UTP",
+          "EMI",
+          "Noise"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which of the following UTP cable categories is commonly used in modern computer networks?",
+        "options": [
+          "Cat-1",
+          "Cat-3",
+          "Cat-5e",
+          "Cat-7"
+        ],
+        "answer": "Cat-5e",
+        "difficulty": 2,
+        "topics": [
+          "UTP",
+          "Categories",
+          "Networking"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What type of connector is typically used with UTP cables?",
+        "options": [
+          "BNC",
+          "RJ11",
+          "RJ45",
+          "SC"
+        ],
+        "answer": "RJ45",
+        "difficulty": 1,
+        "topics": [
+          "UTP",
+          "Connectors"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Coaxial Cables",
+    "questions": [
+      {
+        "question": "What is the primary advantage of a coaxial cable's structure compared to a twisted pair cable?",
+        "options": [
+          "Lower cost",
+          "Higher bandwidth and better noise immunity",
+          "Easier installation",
+          "Smaller size"
+        ],
+        "answer": "Higher bandwidth and better noise immunity",
+        "difficulty": 2,
+        "topics": [
+          "Structure",
+          "Bandwidth",
+          "Noise Immunity"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following components is NOT a part of a coaxial cable's construction?",
+        "options": [
+          "Solid copper core conductor",
+          "Insulating sheath",
+          "Outer braided copper conductor",
+          "Twisted pair shielding"
+        ],
+        "answer": "Twisted pair shielding",
+        "difficulty": 3,
+        "topics": [
+          "Structure"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What does RG stand for in coaxial cable designations like RG-59 and RG-58?",
+        "options": [
+          "Radio Grade",
+          "Registered Grade",
+          "Radio Government",
+          "Robust Grade"
+        ],
+        "answer": "Radio Government",
+        "difficulty": 1,
+        "topics": [
+          "Types"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which type of coaxial cable is commonly used for cable television?",
+        "options": [
+          "RG-58",
+          "RG-11",
+          "RG-59",
+          "RG-6"
+        ],
+        "answer": "RG-59",
+        "difficulty": 2,
+        "topics": [
+          "Types",
+          "Applications"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What connector type is commonly used with coaxial cables?",
+        "options": [
+          "RJ-45",
+          "BNC",
+          "USB",
+          "HDMI"
+        ],
+        "answer": "BNC",
+        "difficulty": 1,
+        "topics": [
+          "Connectors"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Power Line Communication (PLC)",
+    "questions": [
+      {
+        "question": "What layer of the OSI model does Power Line Communication (PLC) operate on?",
+        "options": [
+          "Layer 2 (Data Link Layer)",
+          "Layer 3 (Network Layer)",
+          "Layer 1 (Physical Layer)",
+          "Layer 4 (Transport Layer)"
+        ],
+        "answer": "Layer 1 (Physical Layer)",
+        "difficulty": 1,
+        "topics": [
+          "OSI Model",
+          "PLC Basics"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which type of PLC offers higher data rates, typically in the range of 100s of Mbps?",
+        "options": [
+          "Narrowband PLC",
+          "Broadband PLC",
+          "Both offer similar data rates",
+          "Neither; PLC offers low data rates only"
+        ],
+        "answer": "Broadband PLC",
+        "difficulty": 2,
+        "topics": [
+          "PLC Types",
+          "Data Rates"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is a key advantage of using power lines for data transmission in PLC?",
+        "options": [
+          "High data rates over long distances",
+          "Low cost of implementation",
+          "Wide deployment of power lines",
+          "Requires no additional cabling"
+        ],
+        "answer": "Wide deployment of power lines",
+        "difficulty": 3,
+        "topics": [
+          "PLC Advantages",
+          "Infrastructure"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following best describes the communication mode of PLC?",
+        "options": [
+          "Full-duplex",
+          "Half-duplex",
+          "Simplex",
+          "Asynchronous"
+        ],
+        "answer": "Half-duplex",
+        "difficulty": 2,
+        "topics": [
+          "PLC Functionality",
+          "Communication Modes"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Narrowband PLC typically operates at frequencies in which range?",
+        "options": [
+          "1.8 MHz - 250 MHz",
+          "3 kHz - 5000 kHz",
+          "5 GHz - 6 GHz",
+          "Above 1 GHz"
+        ],
+        "answer": "3 kHz - 5000 kHz",
+        "difficulty": 2,
+        "topics": [
+          "Narrowband PLC",
+          "Frequency Ranges"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Fiber Optics",
+    "questions": [
+      {
+        "question": "What fundamental principle allows light to travel through a fiber optic cable?",
+        "options": [
+          "Reflection",
+          "Refraction",
+          "Diffraction",
+          "Absorption"
+        ],
+        "answer": "Refraction",
+        "difficulty": 2,
+        "topics": [
+          "Working Principle"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is the core of a fiber optic cable typically made of?",
+        "options": [
+          "Copper",
+          "Steel",
+          "High-quality glass or plastic",
+          "Silicon"
+        ],
+        "answer": "High-quality glass or plastic",
+        "difficulty": 1,
+        "topics": [
+          "Fiber Optic Cable Construction"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which type of fiber optic cable can carry multiple beams of light simultaneously?",
+        "options": [
+          "Single-mode fiber",
+          "Multimode fiber",
+          "Both single-mode and multimode fiber",
+          "Neither single-mode nor multimode fiber"
+        ],
+        "answer": "Multimode fiber",
+        "difficulty": 2,
+        "topics": [
+          "Types of Fiber"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following is NOT a common type of fiber optic connector?",
+        "options": [
+          "SC",
+          "ST",
+          "MT-RJ",
+          "BNC"
+        ],
+        "answer": "BNC",
+        "difficulty": 3,
+        "topics": [
+          "Connectors"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Wireless Transmission Overview",
+    "questions": [
+      {
+        "question": "What type of media is wireless transmission considered?",
+        "options": [
+          "Guided",
+          "Unguided",
+          "Wired",
+          "Optical"
+        ],
+        "answer": "Unguided",
+        "difficulty": 1,
+        "topics": [
+          "Wireless Transmission Basics"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In wireless communication, what is responsible for converting digital data into wireless signals and vice-versa?",
+        "options": [
+          "Modem",
+          "Router",
+          "Antenna",
+          "Cable"
+        ],
+        "answer": "Antenna",
+        "difficulty": 2,
+        "topics": [
+          "Role of Antennas"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "How are wireless signals transmitted and received?",
+        "options": [
+          "Through physical cables",
+          "Via electromagnetic waves through the air",
+          "Using sound waves",
+          "Through underground tunnels"
+        ],
+        "answer": "Via electromagnetic waves through the air",
+        "difficulty": 2,
+        "topics": [
+          "Wireless Signal Transmission"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What portion of the electromagnetic spectrum is utilized for wireless transmission?",
+        "options": [
+          "The entire spectrum",
+          "A significant portion of the spectrum",
+          "A small portion of the spectrum",
+          "Only specific frequencies within the radio spectrum"
+        ],
+        "answer": "A small portion of the spectrum",
+        "difficulty": 3,
+        "topics": [
+          "Electromagnetic Spectrum"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Radio Transmission",
+    "questions": [
+      {
+        "question": "Which of the following frequency ranges is NOT typically considered part of the radio frequency spectrum?",
+        "options": [
+          "3 Hz - 300 GHz",
+          "1 MHz - 1 GHz",
+          "300 GHz - 3 THz",
+          "10 kHz - 100 MHz"
+        ],
+        "answer": "300 GHz - 3 THz",
+        "difficulty": 2,
+        "topics": [
+          "Frequency Bands"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Why are lower frequency radio waves, such as VLF, able to travel longer distances over the Earth's surface compared to higher frequency waves?",
+        "options": [
+          "They are less susceptible to atmospheric absorption.",
+          "They have a greater ability to penetrate obstacles.",
+          "They are less prone to being refracted by the ionosphere.",
+          "They propagate more efficiently along the Earth's curvature."
+        ],
+        "answer": "They propagate more efficiently along the Earth's curvature.",
+        "difficulty": 3,
+        "topics": [
+          "Propagation Characteristics",
+          "VLF Propagation"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "High-frequency radio waves (HF) utilize which atmospheric layer for long-distance propagation?",
+        "options": [
+          "Troposphere",
+          "Stratosphere",
+          "Mesosphere",
+          "Ionosphere"
+        ],
+        "answer": "Ionosphere",
+        "difficulty": 2,
+        "topics": [
+          "Propagation Characteristics",
+          "Ionospheric Propagation",
+          "HF Propagation"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is a significant limitation of high-frequency radio waves?",
+        "options": [
+          "Inability to penetrate walls",
+          "Short transmission range",
+          "Susceptibility to absorption by atmospheric elements like rain",
+          "Difficulty in generation"
+        ],
+        "answer": "Susceptibility to absorption by atmospheric elements like rain",
+        "difficulty": 3,
+        "topics": [
+          "Limitations",
+          "HF Propagation"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Which statement best describes the relationship between wavelength and frequency in radio waves?",
+        "options": [
+          "Wavelength and frequency are directly proportional.",
+          "Wavelength and frequency are inversely proportional.",
+          "Wavelength and frequency are unrelated.",
+          "Wavelength is always greater than frequency."
+        ],
+        "answer": "Wavelength and frequency are inversely proportional.",
+        "difficulty": 1,
+        "topics": [
+          "Fundamentals",
+          "Frequency Bands"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Microwave Transmission",
+    "questions": [
+      {
+        "question": "Microwave transmission is characterized by which of the following properties?",
+        "options": [
+          "It bends around obstacles easily.",
+          "It travels in a straight line.",
+          "It has low frequencies.",
+          "It penetrates walls effectively."
+        ],
+        "answer": "It travels in a straight line.",
+        "difficulty": 2,
+        "topics": [
+          "Line-of-sight propagation",
+          "Basic properties"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is the typical frequency range for microwave transmission?",
+        "options": [
+          "10 MHz - 100 MHz",
+          "300 MHz - 300 GHz",
+          "1 GHz - 10 GHz",
+          "100 GHz - 1 THz"
+        ],
+        "answer": "300 MHz - 300 GHz",
+        "difficulty": 3,
+        "topics": [
+          "Frequency range"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "How does weather affect microwave transmission?",
+        "options": [
+          "It has no effect.",
+          "It improves transmission in all weather conditions.",
+          "It can significantly impact transmission, depending on the weather and frequency.",
+          "It only affects transmission during heavy rain."
+        ],
+        "answer": "It can significantly impact transmission, depending on the weather and frequency.",
+        "difficulty": 4,
+        "topics": [
+          "Weather effects"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Why is line-of-sight alignment crucial for effective microwave transmission?",
+        "options": [
+          "Microwaves are easily reflected by obstacles.",
+          "Microwaves travel in straight lines and require direct path between transmitter and receiver.",
+          "Microwaves are highly susceptible to atmospheric interference.",
+          "Microwaves require a specific angle of incidence for optimal reception."
+        ],
+        "answer": "Microwaves travel in straight lines and require direct path between transmitter and receiver.",
+        "difficulty": 2,
+        "topics": [
+          "Line-of-sight propagation"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Infrared Transmission",
+    "questions": [
+      {
+        "question": "What is the approximate wavelength range of infrared waves?",
+        "options": [
+          "1 mm to 10 mm",
+          "700 nm to 1 mm",
+          "10 nm to 700 nm",
+          "1 cm to 1 m"
+        ],
+        "answer": "700 nm to 1 mm",
+        "difficulty": 2,
+        "topics": [
+          "Infrared Wavelength"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Infrared transmission is primarily used for which type of communication?",
+        "options": [
+          "Long-range satellite communication",
+          "Short-range wireless communication",
+          "Underwater communication",
+          "Global Positioning System (GPS)"
+        ],
+        "answer": "Short-range wireless communication",
+        "difficulty": 1,
+        "topics": [
+          "Infrared Applications"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which of the following best describes the directional nature of infrared transmission?",
+        "options": [
+          "It diffracts easily around obstacles.",
+          "It scatters widely in all directions.",
+          "It travels in a straight line.",
+          "It bends significantly when passing through different media."
+        ],
+        "answer": "It travels in a straight line.",
+        "difficulty": 2,
+        "topics": [
+          "Infrared Properties",
+          "Directional Nature"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Why can infrared waves not easily penetrate walls?",
+        "options": [
+          "Low frequency",
+          "Long wavelength",
+          "High frequency",
+          "Low amplitude"
+        ],
+        "answer": "High frequency",
+        "difficulty": 3,
+        "topics": [
+          "Infrared Properties",
+          "Frequency and Obstacles"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Light Transmission",
+    "questions": [
+      {
+        "question": "What is the highest frequency portion of the electromagnetic spectrum commonly used for data transmission?",
+        "options": [
+          "Radio waves",
+          "Microwaves",
+          "Infrared",
+          "Light/Optical signals"
+        ],
+        "answer": "Light/Optical signals",
+        "difficulty": 2,
+        "topics": [
+          "Light Transmission",
+          "Electromagnetic Spectrum"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which technology is most commonly used to transmit data using light signals?",
+        "options": [
+          "LEDs",
+          "Incandescent bulbs",
+          "Lasers",
+          "Fiber optic cables (without specifying the light source)"
+        ],
+        "answer": "Lasers",
+        "difficulty": 3,
+        "topics": [
+          "Light Transmission",
+          "Lasers"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Why is a line-of-sight path typically required for laser-based data transmission?",
+        "options": [
+          "Lasers have low power output",
+          "Light travels in a straight line at high frequencies",
+          "Atmospheric interference is too high",
+          "Lasers are easily scattered"
+        ],
+        "answer": "Light travels in a straight line at high frequencies",
+        "difficulty": 4,
+        "topics": [
+          "Light Transmission",
+          "Line-of-Sight"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is a key characteristic of light that makes it suitable for high-bandwidth data transmission?",
+        "options": [
+          "Low frequency",
+          "Long wavelength",
+          "High frequency",
+          "Short range"
+        ],
+        "answer": "High frequency",
+        "difficulty": 3,
+        "topics": [
+          "Light Transmission",
+          "Frequency",
+          "Bandwidth"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Laser Data Transmission",
+    "questions": [
+      {
+        "question": "Why is precise alignment crucial in laser data transmission?",
+        "options": [
+          "Laser beams are highly focused and a small misalignment can interrupt the signal.",
+          "Lasers require specific angles to maximize data transfer speeds.",
+          "Misalignment can cause the laser to overheat and malfunction.",
+          "Precise alignment is not crucial; it only improves signal quality slightly."
+        ],
+        "answer": "Laser beams are highly focused and a small misalignment can interrupt the signal.",
+        "difficulty": 2,
+        "topics": [
+          "Alignment Challenges"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is a significant limitation of laser data transmission that is not present in radio wave transmission?",
+        "options": [
+          "Susceptibility to electromagnetic interference",
+          "Limited range",
+          "Inability to penetrate obstacles like walls and fog",
+          "High cost of equipment"
+        ],
+        "answer": "Inability to penetrate obstacles like walls and fog",
+        "difficulty": 3,
+        "topics": [
+          "Limitations",
+          "Obstacles"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "In laser data transmission, what acts as the transmitter (Tx) and receiver (Rx)?",
+        "options": [
+          "Tx: Photodetector, Rx: Laser",
+          "Tx: Laser, Rx: Photodetector",
+          "Tx: Fiber optic cable, Rx: Amplifier",
+          "Tx: Antenna, Rx: Modem"
+        ],
+        "answer": "Tx: Laser, Rx: Photodetector",
+        "difficulty": 1,
+        "topics": [
+          "Components"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following is a significant security advantage of laser data transmission?",
+        "options": [
+          "High data transfer rates",
+          "Long transmission range",
+          "Difficult to intercept the narrow beam without disrupting the communication",
+          "Low cost of implementation"
+        ],
+        "answer": "Difficult to intercept the narrow beam without disrupting the communication",
+        "difficulty": 2,
+        "topics": [
+          "Security Advantages"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What atmospheric conditions can negatively affect laser data transmission?",
+        "options": [
+          "Clear sunny skies",
+          "Light rain",
+          "Wind, temperature variations, and thick fog",
+          "None of the above"
+        ],
+        "answer": "Wind, temperature variations, and thick fog",
+        "difficulty": 3,
+        "topics": [
+          "Limitations",
+          "Atmospheric Conditions"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Multiplexing in Computer Networks",
+    "questions": [
+      {
+        "question": "Which of the following is NOT a type of multiplexing discussed in the module?",
+        "options": [
+          "Frequency Division Multiplexing (FDM)",
+          "Time Division Multiplexing (TDM)",
+          "Wavelength Division Multiplexing (WDM)",
+          "Amplitude Division Multiplexing (ADM)"
+        ],
+        "answer": "Amplitude Division Multiplexing (ADM)",
+        "difficulty": 2,
+        "topics": [
+          "Multiplexing Types"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is the primary purpose of a multiplexer in a communication network?",
+        "options": [
+          "To combine multiple signals onto a single channel",
+          "To amplify signals before transmission",
+          "To convert digital signals to analog signals",
+          "To route signals to different destinations based on IP address"
+        ],
+        "answer": "To combine multiple signals onto a single channel",
+        "difficulty": 1,
+        "topics": [
+          "Multiplexer Function"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "In Time Division Multiplexing (TDM), how are multiple signals transmitted over a single channel?",
+        "options": [
+          "By assigning each signal a different frequency band",
+          "By assigning each signal a unique code",
+          "By dividing the channel's time into slots and assigning slots to different signals",
+          "By combining signals into a single composite signal"
+        ],
+        "answer": "By dividing the channel's time into slots and assigning slots to different signals",
+        "difficulty": 3,
+        "topics": [
+          "TDM",
+          "Multiplexing Techniques"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Wavelength Division Multiplexing (WDM) is primarily used with which type of transmission medium?",
+        "options": [
+          "Coaxial cable",
+          "Twisted-pair cable",
+          "Optical fiber",
+          "Radio waves"
+        ],
+        "answer": "Optical fiber",
+        "difficulty": 2,
+        "topics": [
+          "WDM",
+          "Transmission Media"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What device is responsible for separating the multiplexed signals at the receiving end?",
+        "options": [
+          "Multiplexer",
+          "Demultiplexer",
+          "Repeater",
+          "Router"
+        ],
+        "answer": "Demultiplexer",
+        "difficulty": 1,
+        "topics": [
+          "Demultiplexer",
+          "Multiplexing Components"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Frequency Division Multiplexing (FDM)",
+    "questions": [
+      {
+        "question": "What type of technology is Frequency Division Multiplexing (FDM)?",
+        "options": [
+          "Digital",
+          "Analog",
+          "Hybrid",
+          "Optical"
+        ],
+        "answer": "Analog",
+        "difficulty": 1,
+        "topics": [
+          "FDM",
+          "Technology Type"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In FDM, how is the carrier bandwidth divided for user access?",
+        "options": [
+          "Into time slots",
+          "Into code words",
+          "Into logical channels",
+          "Into packets"
+        ],
+        "answer": "Into logical channels",
+        "difficulty": 2,
+        "topics": [
+          "FDM",
+          "Bandwidth Allocation"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is the purpose of a guard band in FDM?",
+        "options": [
+          "To increase data transmission speed",
+          "To prevent channel overlap",
+          "To improve signal strength",
+          "To reduce latency"
+        ],
+        "answer": "To prevent channel overlap",
+        "difficulty": 3,
+        "topics": [
+          "FDM",
+          "Guard Bands",
+          "Channel Separation"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following best describes how users access channels in an FDM system?",
+        "options": [
+          "Shared access",
+          "Contention-based access",
+          "Exclusive access",
+          "Random access"
+        ],
+        "answer": "Exclusive access",
+        "difficulty": 2,
+        "topics": [
+          "FDM",
+          "User Access"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "FDM is used when the carrier is:",
+        "options": [
+          "Time",
+          "Code",
+          "Frequency",
+          "Wavelength"
+        ],
+        "answer": "Frequency",
+        "difficulty": 1,
+        "topics": [
+          "FDM",
+          "Carrier Type"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Time Division Multiplexing (TDM)",
+    "questions": [
+      {
+        "question": "What is the primary method used by Time Division Multiplexing (TDM) to share a channel among multiple users?",
+        "options": [
+          "Frequency division",
+          "Wavelength division",
+          "Time slot allocation",
+          "Code division"
+        ],
+        "answer": "Time slot allocation",
+        "difficulty": 2,
+        "topics": [
+          "TDM Fundamentals"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "TDM is primarily used for which type of signal?",
+        "options": [
+          "Analog signals only",
+          "Digital signals only",
+          "Both analog and digital signals",
+          "Neither analog nor digital signals"
+        ],
+        "answer": "Both analog and digital signals",
+        "difficulty": 3,
+        "topics": [
+          "TDM Applicability"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "In TDM, what is the term for a segment of time allocated to a specific user for transmission?",
+        "options": [
+          "Frame",
+          "Packet",
+          "Slot",
+          "Time division"
+        ],
+        "answer": "Slot",
+        "difficulty": 2,
+        "topics": [
+          "TDM Terminology"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "How do the multiplexer and demultiplexer operate in a TDM system?",
+        "options": [
+          "Asynchronously",
+          "Independently",
+          "Synchronously",
+          "Randomly"
+        ],
+        "answer": "Synchronously",
+        "difficulty": 3,
+        "topics": [
+          "TDM Synchronization"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Describe how signals from different channels travel in a TDM system.",
+        "options": [
+          "Sequentially, one after another",
+          "Simultaneously, overlapping",
+          "Interleaved, mixed together",
+          "Randomly, without order"
+        ],
+        "answer": "Interleaved, mixed together",
+        "difficulty": 4,
+        "topics": [
+          "TDM Signal Transmission"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Wavelength Division Multiplexing (WDM)",
+    "questions": [
+      {
+        "question": "What is Wavelength Division Multiplexing (WDM)?",
+        "options": [
+          "A digital multiplexing technique using different frequencies of light",
+          "An analog multiplexing technique using different wavelengths of light",
+          "A digital multiplexing technique using different amplitudes of light",
+          "An analog multiplexing technique using different phases of light"
+        ],
+        "answer": "An analog multiplexing technique using different wavelengths of light",
+        "difficulty": 1,
+        "topics": [
+          "WDM",
+          "Multiplexing",
+          "Fiber Optics"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "How does WDM achieve multiplexing in fiber optic communication?",
+        "options": [
+          "By using different frequencies of electrical signals",
+          "By using different amplitudes of light signals",
+          "By using different wavelengths of light signals",
+          "By using different phases of light signals"
+        ],
+        "answer": "By using different wavelengths of light signals",
+        "difficulty": 2,
+        "topics": [
+          "WDM",
+          "Fiber Optics",
+          "Optical Signals"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which of the following is conceptually similar to WDM, but uses different frequencies of radio waves instead of light wavelengths?",
+        "options": [
+          "TDM (Time Division Multiplexing)",
+          "CDM (Code Division Multiplexing)",
+          "FDM (Frequency Division Multiplexing)",
+          "SDM (Space Division Multiplexing)"
+        ],
+        "answer": "FDM (Frequency Division Multiplexing)",
+        "difficulty": 3,
+        "topics": [
+          "WDM",
+          "FDM",
+          "Multiplexing Techniques"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "In addition to wavelength division multiplexing, what other multiplexing technique can be used on each wavelength in a WDM system to further increase capacity?",
+        "options": [
+          "Frequency Division Multiplexing",
+          "Wavelength Division Multiplexing",
+          "Code Division Multiplexing",
+          "Time Division Multiplexing"
+        ],
+        "answer": "Time Division Multiplexing",
+        "difficulty": 4,
+        "topics": [
+          "WDM",
+          "TDM",
+          "Capacity Increase"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Code Division Multiplexing (CDM)",
+    "questions": [
+      {
+        "question": "What is the primary advantage of Code Division Multiplexing (CDM) over Frequency Division Multiplexing (FDM)?",
+        "options": [
+          "CDM uses less bandwidth than FDM.",
+          "CDM allows simultaneous transmission of multiple signals over the same frequency.",
+          "CDM is simpler to implement than FDM.",
+          "CDM is less susceptible to noise than FDM."
+        ],
+        "answer": "CDM allows simultaneous transmission of multiple signals over the same frequency.",
+        "difficulty": 2,
+        "topics": [
+          "CDM Advantages",
+          "FDM Comparison"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In CDM, what is used to distinguish between different signals transmitted simultaneously over the same frequency?",
+        "options": [
+          "Different frequencies",
+          "Different amplitudes",
+          "Different phases",
+          "Unique codes (chips)"
+        ],
+        "answer": "Unique codes (chips)",
+        "difficulty": 1,
+        "topics": [
+          "CDM Mechanism",
+          "Chip Codes"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What characteristic of the codes used in CDM ensures that signals can be separated at the receiver?",
+        "options": [
+          "Randomness",
+          "Orthogonality",
+          "Linearity",
+          "Periodicity"
+        ],
+        "answer": "Orthogonality",
+        "difficulty": 3,
+        "topics": [
+          "CDM Codes",
+          "Orthogonal Codes"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "How does a receiver in a CDM system identify and recover the desired signal?",
+        "options": [
+          "By filtering based on frequency",
+          "By using the unique code (chip) assigned to the desired signal.",
+          "By amplifying the strongest signal",
+          "By using time division techniques"
+        ],
+        "answer": "By using the unique code (chip) assigned to the desired signal.",
+        "difficulty": 2,
+        "topics": [
+          "CDM Reception",
+          "Chip Codes"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Network Switching",
+    "questions": [
+      {
+        "question": "What is the term for the process of a switch receiving data on a port?",
+        "options": [
+          "Egress",
+          "Ingress",
+          "Forwarding",
+          "Switching"
+        ],
+        "answer": "Ingress",
+        "difficulty": 1,
+        "topics": [
+          "Ingress/Egress"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which type of switching requires a pre-established circuit between endpoints before data transmission?",
+        "options": [
+          "Connectionless Switching",
+          "Connection-Oriented Switching",
+          "Packet Switching",
+          "Circuit Switching"
+        ],
+        "answer": "Connection-Oriented Switching",
+        "difficulty": 2,
+        "topics": [
+          "Connectionless vs. Connection-Oriented"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "In connectionless switching, what mechanism is primarily used to determine the outgoing port for a packet?",
+        "options": [
+          "Pre-established circuits",
+          "Handshaking protocols",
+          "Forwarding tables",
+          "Acknowledgement messages"
+        ],
+        "answer": "Forwarding tables",
+        "difficulty": 3,
+        "topics": [
+          "Connectionless Switching",
+          "Forwarding Tables"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is the term for data leaving a switch port?",
+        "options": [
+          "Ingress",
+          "Egress",
+          "Transmission",
+          "Reception"
+        ],
+        "answer": "Egress",
+        "difficulty": 1,
+        "topics": [
+          "Ingress/Egress"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "A network uses a switching method where data is forwarded based on pre-defined routes, and acknowledgements are not mandatory.  Which switching type is this?",
+        "options": [
+          "Connection-oriented switching",
+          "Connectionless switching",
+          "Virtual circuit switching",
+          "Datagram switching"
+        ],
+        "answer": "Connectionless switching",
+        "difficulty": 4,
+        "topics": [
+          "Connectionless vs. Connection-Oriented"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Circuit Switching",
+    "questions": [
+      {
+        "question": "What is the defining characteristic of circuit switching in data transfer?",
+        "options": [
+          "Data is transferred asynchronously over multiple paths.",
+          "A dedicated communication path is established between two nodes.",
+          "Data packets are routed dynamically based on network conditions.",
+          "No pre-established path is required for data transfer."
+        ],
+        "answer": "A dedicated communication path is established between two nodes.",
+        "difficulty": 2,
+        "topics": [
+          "Circuit Switching",
+          "Data Transfer"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following is NOT a phase in a typical circuit switching process?",
+        "options": [
+          "Circuit Establishment",
+          "Data Transfer",
+          "Packet Assembly",
+          "Circuit Disconnection"
+        ],
+        "answer": "Packet Assembly",
+        "difficulty": 3,
+        "topics": [
+          "Circuit Switching",
+          "Phases of Circuit Switching"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What type of application was circuit switching originally designed for?",
+        "options": [
+          "Email",
+          "File Transfer",
+          "Voice",
+          "Video Streaming"
+        ],
+        "answer": "Voice",
+        "difficulty": 1,
+        "topics": [
+          "Circuit Switching",
+          "Applications"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "In circuit switching, what happens during the 'circuit establishment' phase?",
+        "options": [
+          "Data is transmitted between the two nodes.",
+          "The connection between the nodes is terminated.",
+          "A dedicated path is created between the two nodes.",
+          "Data packets are reassembled at the destination."
+        ],
+        "answer": "A dedicated path is created between the two nodes.",
+        "difficulty": 2,
+        "topics": [
+          "Circuit Switching",
+          "Circuit Establishment"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Which of the following best exemplifies a real-world application of circuit switching?",
+        "options": [
+          "Sending an email",
+          "Browsing the internet",
+          "Making a phone call",
+          "Streaming a movie"
+        ],
+        "answer": "Making a phone call",
+        "difficulty": 1,
+        "topics": [
+          "Circuit Switching",
+          "Real-world Examples"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Message Switching",
+    "questions": [
+      {
+        "question": "In message switching, how is a message transferred?",
+        "options": [
+          "As a stream of bits, similar to circuit switching",
+          "As a single, complete data unit",
+          "As a series of smaller packets, similar to packet switching",
+          "It depends on the network's configuration"
+        ],
+        "answer": "As a single, complete data unit",
+        "difficulty": 2,
+        "topics": [
+          "Message Switching",
+          "Data Transfer"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is a major drawback of message switching compared to packet switching?",
+        "options": [
+          "Lower bandwidth utilization",
+          "Higher latency due to storage and forwarding delays",
+          "Inability to handle multiple applications simultaneously",
+          "All of the above"
+        ],
+        "answer": "Higher latency due to storage and forwarding delays",
+        "difficulty": 3,
+        "topics": [
+          "Message Switching",
+          "Packet Switching",
+          "Latency"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Why was message switching considered a substitute for circuit switching?",
+        "options": [
+          "It offered higher bandwidth",
+          "It avoided the need for dedicated circuits",
+          "It provided better security",
+          "It was simpler to implement"
+        ],
+        "answer": "It avoided the need for dedicated circuits",
+        "difficulty": 2,
+        "topics": [
+          "Message Switching",
+          "Circuit Switching"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following applications would be LEAST suitable for message switching?",
+        "options": [
+          "File transfer",
+          "Email",
+          "Real-time video conferencing",
+          "Sending a large document"
+        ],
+        "answer": "Real-time video conferencing",
+        "difficulty": 4,
+        "topics": [
+          "Message Switching",
+          "Applications"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What technological advancement addressed the shortcomings of message switching?",
+        "options": [
+          "Circuit switching",
+          "Packet switching",
+          "Fiber optic cables",
+          "Wireless communication"
+        ],
+        "answer": "Packet switching",
+        "difficulty": 1,
+        "topics": [
+          "Message Switching",
+          "Packet Switching",
+          "Technological Advancements"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Data-Link Layer Introduction",
+    "questions": [
+      {
+        "question": "Which layer of the OSI model is responsible for converting data streams into signals and vice-versa, handling the physical transmission of data?",
+        "options": [
+          "Network Layer",
+          "Transport Layer",
+          "Data Link Layer",
+          "Physical Layer"
+        ],
+        "answer": "Data Link Layer",
+        "difficulty": 2,
+        "topics": [
+          "OSI Model",
+          "Data Link Layer Functionality"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "The Data Link Layer is responsible for communication between two directly connected hosts. What are the two types of connections it can handle?",
+        "options": [
+          "Point-to-Point and Multi-Point",
+          "Point-to-Point and Broadcast",
+          "Broadcast and Multicast",
+          "Unicast and Multicast"
+        ],
+        "answer": "Point-to-Point and Broadcast",
+        "difficulty": 3,
+        "topics": [
+          "Data Link Layer Connections",
+          "Network Topologies"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which sub-layer of the Data Link Layer deals with protocols, flow control, and error control?",
+        "options": [
+          "Media Access Control (MAC)",
+          "Logical Link Control (LLC)",
+          "Network Interface Layer",
+          "Physical Control Layer"
+        ],
+        "answer": "Logical Link Control (LLC)",
+        "difficulty": 4,
+        "topics": [
+          "Data Link Layer Sub-layers",
+          "LLC Functionality"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is the primary function of the Media Access Control (MAC) sub-layer?",
+        "options": [
+          "Error detection and correction",
+          "Routing data packets",
+          "Controlling access to the physical medium",
+          "Managing network addresses"
+        ],
+        "answer": "Controlling access to the physical medium",
+        "difficulty": 3,
+        "topics": [
+          "Data Link Layer Sub-layers",
+          "MAC Functionality"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Data-Link Layer Functionality",
+    "questions": [
+      {
+        "question": "What is the primary function of the Data Link Layer in terms of Network Layer packets?",
+        "options": [
+          "Routes packets to the correct destination network.",
+          "Encapsulates packets into frames for transmission.",
+          "Performs end-to-end error correction.",
+          "Determines the optimal path for packet delivery."
+        ],
+        "answer": "Encapsulates packets into frames for transmission.",
+        "difficulty": 2,
+        "topics": [
+          "Framing",
+          "Encapsulation"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following is NOT a task typically handled by the Data Link Layer?",
+        "options": [
+          "Addressing using MAC addresses",
+          "Synchronization of data transmission",
+          "End-to-end routing decisions",
+          "Error detection and correction"
+        ],
+        "answer": "End-to-end routing decisions",
+        "difficulty": 3,
+        "topics": [
+          "Addressing",
+          "Synchronization",
+          "Error Control",
+          "Routing"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What mechanism does the Data Link Layer employ to handle situations where multiple devices on a shared network attempt to transmit simultaneously?",
+        "options": [
+          "Circuit switching",
+          "Packet switching",
+          "CSMA/CD",
+          "TCP/IP"
+        ],
+        "answer": "CSMA/CD",
+        "difficulty": 4,
+        "topics": [
+          "Multi-Access",
+          "Collision Avoidance"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "The Data Link Layer uses hardware addresses.  What is another name for these addresses?",
+        "options": [
+          "IP addresses",
+          "Port addresses",
+          "MAC addresses",
+          "Logical addresses"
+        ],
+        "answer": "MAC addresses",
+        "difficulty": 2,
+        "topics": [
+          "Addressing"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Error Detection & Correction",
+    "questions": [
+      {
+        "question": "Which layer of the network architecture is primarily responsible for error detection and correction?",
+        "options": [
+          "Network Layer",
+          "Transport Layer",
+          "Data Link Layer",
+          "Physical Layer"
+        ],
+        "answer": "Data Link Layer",
+        "difficulty": 2,
+        "topics": [
+          "Error Detection",
+          "Network Layers"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is a primary reason why error detection and correction mechanisms are crucial in data transmission?",
+        "options": [
+          "To improve network speed",
+          "To ensure compatibility between different operating systems",
+          "To guarantee error-free data delivery to upper layers",
+          "To reduce the size of data packets"
+        ],
+        "answer": "To guarantee error-free data delivery to upper layers",
+        "difficulty": 2,
+        "topics": [
+          "Error Detection",
+          "Data Integrity"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Why are applications like voice and video communication sometimes less sensitive to data errors compared to other applications?",
+        "options": [
+          "They use more robust error correction codes.",
+          "They transmit data at much lower speeds.",
+          "Some level of data corruption is often tolerable in these applications.",
+          "They are less dependent on the data link layer."
+        ],
+        "answer": "Some level of data corruption is often tolerable in these applications.",
+        "difficulty": 3,
+        "topics": [
+          "Error Tolerance",
+          "Application Sensitivity"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is the unit of data that error detection and correction mechanisms operate on in the data link layer?",
+        "options": [
+          "Bits",
+          "Bytes",
+          "Packets",
+          "Frames"
+        ],
+        "answer": "Frames",
+        "difficulty": 2,
+        "topics": [
+          "Data Link Layer",
+          "Frame Structure"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Besides noise, what is another example of a factor that can lead to data corruption during transmission?",
+        "options": [
+          "Data compression",
+          "Encryption",
+          "Cross-talk",
+          "Protocol conversion"
+        ],
+        "answer": "Cross-talk",
+        "difficulty": 1,
+        "topics": [
+          "Error Sources",
+          "Data Corruption"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Types of Errors",
+    "questions": [
+      {
+        "question": "A data frame is received with only one bit flipped. What type of error is this?",
+        "options": [
+          "Single bit error",
+          "Multiple bit error",
+          "Burst error",
+          "No error"
+        ],
+        "answer": "Single bit error",
+        "difficulty": 1,
+        "topics": [
+          "Single bit error"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which error type describes the corruption of two or more bits within a data frame, not necessarily consecutive?",
+        "options": [
+          "Single bit error",
+          "Multiple bit error",
+          "Burst error",
+          "Transmission error"
+        ],
+        "answer": "Multiple bit error",
+        "difficulty": 2,
+        "topics": [
+          "Multiple bit error"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "A data frame arrives with five consecutive bits corrupted. This is an example of:",
+        "options": [
+          "Single bit error",
+          "Multiple bit error",
+          "Burst error",
+          "Random error"
+        ],
+        "answer": "Burst error",
+        "difficulty": 3,
+        "topics": [
+          "Burst error"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following is NOT a characteristic of a burst error?",
+        "options": [
+          "Multiple bits are affected",
+          "Affected bits are consecutive",
+          "Only one bit is affected",
+          "Can be caused by noise bursts"
+        ],
+        "answer": "Only one bit is affected",
+        "difficulty": 4,
+        "topics": [
+          "Burst error",
+          "Single bit error"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Error Detection Mechanisms",
+    "questions": [
+      {
+        "question": "What is the primary purpose of error detection mechanisms in data transmission?",
+        "options": [
+          "To correct errors in received data.",
+          "To detect errors in received data.",
+          "To encrypt data for security.",
+          "To compress data for efficient transmission."
+        ],
+        "answer": "To detect errors in received data.",
+        "difficulty": 1,
+        "topics": [
+          "Error Detection"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In an even parity check, what happens if the number of 1s in the data is already even?",
+        "options": [
+          "A bit with value 1 is added.",
+          "A bit with value 0 is added.",
+          "No extra bit is added.",
+          "The data is discarded."
+        ],
+        "answer": "A bit with value 0 is added.",
+        "difficulty": 2,
+        "topics": [
+          "Parity Check"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which of the following is a limitation of using a simple parity check for error detection?",
+        "options": [
+          "It is computationally expensive.",
+          "It cannot detect errors in all cases.",
+          "It requires significant extra bandwidth.",
+          "It is only suitable for small data packets."
+        ],
+        "answer": "It cannot detect errors in all cases.",
+        "difficulty": 3,
+        "topics": [
+          "Parity Check",
+          "Limitations"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Cyclic Redundancy Check (CRC) is an error detection method that differs from parity checks primarily because:",
+        "options": [
+          "It uses only a single bit for error detection.",
+          "It is less computationally intensive.",
+          "It uses a more sophisticated mathematical approach.",
+          "It is only used for correcting errors."
+        ],
+        "answer": "It uses a more sophisticated mathematical approach.",
+        "difficulty": 4,
+        "topics": [
+          "CRC",
+          "Parity Check"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Both Parity Check and CRC aim to ensure data integrity.  What is the key difference in their approach to achieving this?",
+        "options": [
+          "CRC is faster, Parity Check is more accurate.",
+          "Parity Check detects all errors, CRC only detects some.",
+          "Parity Check uses a simple bit count, CRC uses polynomial division.",
+          "CRC is only used for large data sets, Parity Check for small ones."
+        ],
+        "answer": "Parity Check uses a simple bit count, CRC uses polynomial division.",
+        "difficulty": 4,
+        "topics": [
+          "CRC",
+          "Parity Check",
+          "Comparison"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Cyclic Redundancy Check (CRC)",
+    "questions": [
+      {
+        "question": "In Cyclic Redundancy Check (CRC), what is the purpose of the divisor polynomial?",
+        "options": [
+          "To encrypt the data before transmission",
+          "To generate the remainder that is appended to the data",
+          "To compress the data for efficient transmission",
+          "To detect and correct errors during transmission"
+        ],
+        "answer": "To generate the remainder that is appended to the data",
+        "difficulty": 2,
+        "topics": [
+          "CRC basics",
+          "Polynomial division"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is a 'codeword' in the context of CRC error detection?",
+        "options": [
+          "The original data bits before any CRC calculation",
+          "The remainder generated during the CRC calculation",
+          "The original data bits with the CRC remainder appended",
+          "The divisor polynomial used in the CRC calculation"
+        ],
+        "answer": "The original data bits with the CRC remainder appended",
+        "difficulty": 1,
+        "topics": [
+          "CRC basics",
+          "Codeword definition"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "If the receiver performs a CRC division on a received codeword and the remainder is non-zero, what does this indicate?",
+        "options": [
+          "The data was transmitted successfully",
+          "An error occurred during transmission",
+          "The CRC calculation was performed incorrectly by the sender",
+          "The receiver's CRC polynomial is incorrect"
+        ],
+        "answer": "An error occurred during transmission",
+        "difficulty": 2,
+        "topics": [
+          "CRC error detection",
+          "Remainder interpretation"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following best describes the process of CRC error detection?",
+        "options": [
+          "Using parity bits to detect single-bit errors",
+          "Performing modulo-2 polynomial division to detect errors",
+          "Employing checksums to verify data integrity",
+          "Using Hamming codes for error correction"
+        ],
+        "answer": "Performing modulo-2 polynomial division to detect errors",
+        "difficulty": 3,
+        "topics": [
+          "CRC process",
+          "Polynomial division"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Error Correction Techniques",
+    "questions": [
+      {
+        "question": "What is the primary difference between backward and forward error correction?",
+        "options": [
+          "Backward correction uses parity bits, while forward correction uses retransmission.",
+          "Backward correction requests retransmission, while forward correction corrects errors locally.",
+          "Backward correction is faster, while forward correction is more reliable.",
+          "Backward correction is used for wireless, while forward correction is used for wired communication."
+        ],
+        "answer": "Backward correction requests retransmission, while forward correction corrects errors locally.",
+        "difficulty": 2,
+        "topics": [
+          "Backward Error Correction",
+          "Forward Error Correction"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In which scenario would backward error correction be less efficient?",
+        "options": [
+          "High-bandwidth fiber optic communication",
+          "Low-latency wired network",
+          "Wireless communication with high error rates",
+          "Data transmission with low error probability"
+        ],
+        "answer": "Wireless communication with high error rates",
+        "difficulty": 3,
+        "topics": [
+          "Backward Error Correction"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "If we have 7 bits of data (like in ASCII), how many redundant bits are minimally required to detect and locate a single-bit error using the method described in the module?",
+        "options": [
+          "1",
+          "7",
+          "8",
+          "15"
+        ],
+        "answer": "8",
+        "difficulty": 4,
+        "topics": [
+          "Forward Error Correction",
+          "Parity Bits"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Why are redundant bits necessary in forward error correction?",
+        "options": [
+          "To increase the transmission speed.",
+          "To reduce the amount of data transmitted.",
+          "To provide information about the location of errors.",
+          "To encrypt the data for security."
+        ],
+        "answer": "To provide information about the location of errors.",
+        "difficulty": 2,
+        "topics": [
+          "Forward Error Correction",
+          "Parity Bits"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Data-link Layer Control and Protocols",
+    "questions": [
+      {
+        "question": "What is the primary purpose of flow control in the data-link layer?",
+        "options": [
+          "To detect errors in transmitted data frames.",
+          "To ensure the sender and receiver operate at compatible speeds, preventing data loss.",
+          "To manage the routing of data frames between different networks.",
+          "To encrypt data frames for secure transmission."
+        ],
+        "answer": "To ensure the sender and receiver operate at compatible speeds, preventing data loss.",
+        "difficulty": 2,
+        "topics": [
+          "Flow Control"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In Stop-and-Wait ARQ, what action does the sender take if the acknowledgement for a sent frame does not arrive within the timeout period?",
+        "options": [
+          "It sends a negative acknowledgement (NACK) to the receiver.",
+          "It discards the unsent frames and waits for a new request.",
+          "It retransmits the frame and restarts the timeout counter.",
+          "It assumes the receiver is malfunctioning and halts transmission."
+        ],
+        "answer": "It retransmits the frame and restarts the timeout counter.",
+        "difficulty": 3,
+        "topics": [
+          "Error Control",
+          "Stop-and-Wait ARQ"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which of the following is NOT a requirement for an effective error control mechanism in the data-link layer?",
+        "options": [
+          "Error detection",
+          "Positive acknowledgement (ACK)",
+          "Automatic routing updates",
+          "Retransmission capability"
+        ],
+        "answer": "Automatic routing updates",
+        "difficulty": 2,
+        "topics": [
+          "Error Control"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What is the main advantage of Go-Back-N ARQ over Stop-and-Wait ARQ?",
+        "options": [
+          "It requires less memory.",
+          "It is simpler to implement.",
+          "It utilizes network resources more efficiently by allowing multiple frames to be sent before acknowledgement.",
+          "It provides better error detection capabilities."
+        ],
+        "answer": "It utilizes network resources more efficiently by allowing multiple frames to be sent before acknowledgement.",
+        "difficulty": 4,
+        "topics": [
+          "Error Control",
+          "Go-Back-N ARQ",
+          "Stop-and-Wait ARQ"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "In Go-Back-N ARQ, if the sender receives a negative acknowledgement (NACK), what is its response?",
+        "options": [
+          "It retransmits only the negatively acknowledged frame.",
+          "It retransmits all frames starting from the negatively acknowledged frame.",
+          "It ignores the NACK and continues sending new frames.",
+          "It sends a positive acknowledgement (ACK) to confirm receipt of the NACK."
+        ],
+        "answer": "It retransmits all frames starting from the negatively acknowledged frame.",
+        "difficulty": 4,
+        "topics": [
+          "Error Control",
+          "Go-Back-N ARQ"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Selective Repeat ARQ",
+    "questions": [
+      {
+        "question": "What is the key difference between Go-back-N ARQ and Selective Repeat ARQ in terms of retransmission?",
+        "options": [
+          "Go-back-N retransmits only the lost packet, while Selective Repeat retransmits all packets after the lost one.",
+          "Go-back-N retransmits all unacknowledged packets, while Selective Repeat retransmits only the negatively acknowledged packets.",
+          "Both protocols retransmit all unacknowledged packets, but Selective Repeat does it more efficiently.",
+          "Both protocols retransmit only the lost packet, but Go-back-N does it faster."
+        ],
+        "answer": "Go-back-N retransmits all unacknowledged packets, while Selective Repeat retransmits only the negatively acknowledged packets.",
+        "difficulty": 3,
+        "topics": [
+          "Selective Repeat ARQ",
+          "Go-back-N ARQ",
+          "Retransmission"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "In Selective Repeat ARQ, how does the receiver handle a received frame with a sequence number outside its expected window?",
+        "options": [
+          "It discards the frame and sends a NACK for the expected frame.",
+          "It buffers the frame until the expected sequence number arrives.",
+          "It sends a NACK for the out-of-order frame and requests retransmission.",
+          "It ignores the frame and continues processing."
+        ],
+        "answer": "It sends a NACK for the out-of-order frame and requests retransmission.",
+        "difficulty": 4,
+        "topics": [
+          "Selective Repeat ARQ",
+          "Sequence Numbers",
+          "Error Handling"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which of the following statements is TRUE regarding buffer requirements in Selective Repeat ARQ?",
+        "options": [
+          "The receiver requires no buffer space.",
+          "The receiver requires buffer space equal to the sender's window size.",
+          "The receiver requires buffer space equal to twice the sender's window size.",
+          "The sender requires buffer space equal to twice the receiver's window size."
+        ],
+        "answer": "The receiver requires buffer space equal to the sender's window size.",
+        "difficulty": 4,
+        "topics": [
+          "Selective Repeat ARQ",
+          "Buffer Management"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Why is Selective Repeat ARQ generally more efficient than Go-back-N ARQ?",
+        "options": [
+          "It requires less buffer space.",
+          "It reduces the number of unnecessary retransmissions.",
+          "It has lower overhead.",
+          "It is simpler to implement."
+        ],
+        "answer": "It reduces the number of unnecessary retransmissions.",
+        "difficulty": 2,
+        "topics": [
+          "Selective Repeat ARQ",
+          "Go-back-N ARQ",
+          "Efficiency"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Network Layer Introduction",
+    "questions": [
+      {
+        "question": "Which layer of the OSI model is responsible for managing host and network addressing, and routing packets between subnets?",
+        "options": [
+          "Application Layer",
+          "Network Layer",
+          "Transport Layer",
+          "Data Link Layer"
+        ],
+        "answer": "Network Layer",
+        "difficulty": 2,
+        "topics": [
+          "OSI Model",
+          "Network Layer Functionality"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is a primary function of the Network Layer when dealing with two subnets using different addressing schemes?",
+        "options": [
+          "Data encryption",
+          "Error correction",
+          "Packet segmentation",
+          "Protocol translation and routing"
+        ],
+        "answer": "Protocol translation and routing",
+        "difficulty": 3,
+        "topics": [
+          "Internetworking",
+          "Addressing Schemes"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Which of the following is NOT a feature typically provided by the Network Layer?",
+        "options": [
+          "Quality of Service (QoS) management",
+          "Data compression",
+          "Load balancing",
+          "Inter-subnet routing"
+        ],
+        "answer": "Data compression",
+        "difficulty": 4,
+        "topics": [
+          "Network Layer Features",
+          "Data Compression"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What are the two main versions of the widely deployed Internet Protocol?",
+        "options": [
+          "IPX/SPX and NetBIOS",
+          "TCP and UDP",
+          "IPv4 and IPv6",
+          "ARP and RARP"
+        ],
+        "answer": "IPv4 and IPv6",
+        "difficulty": 2,
+        "topics": [
+          "Internet Protocol",
+          "IPv4",
+          "IPv6"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "A key challenge addressed by IPv6 compared to IPv4 is:",
+        "options": [
+          "Lack of security features",
+          "Inefficient routing protocols",
+          "Limited address space",
+          "Poor support for mobile devices"
+        ],
+        "answer": "Limited address space",
+        "difficulty": 3,
+        "topics": [
+          "IPv4 Limitations",
+          "IPv6 Advantages"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Network Addressing",
+    "questions": [
+      {
+        "question": "What is the primary function of a DNS server in the context of network addressing?",
+        "options": [
+          "To assign MAC addresses to network interfaces",
+          "To translate domain names into IP addresses",
+          "To route packets between different subnets",
+          "To manage routing tables within a router"
+        ],
+        "answer": "To translate domain names into IP addresses",
+        "difficulty": 2,
+        "topics": [
+          "DNS",
+          "IP Addressing"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which type of network address is used to send data to a specific single host?",
+        "options": [
+          "Multicast",
+          "Broadcast",
+          "Anycast",
+          "Unicast"
+        ],
+        "answer": "Unicast",
+        "difficulty": 1,
+        "topics": [
+          "IP Addressing",
+          "Network Address Types"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "A host needs to communicate with a host on a different subnet. What device and its function are crucial for this communication?",
+        "options": [
+          "DNS server: Translates domain names to IP addresses",
+          "Gateway (router): Forwards packets to the destination network",
+          "Switch: Connects devices within the same subnet",
+          "MAC address: Identifies devices at the data link layer"
+        ],
+        "answer": "Gateway (router): Forwards packets to the destination network",
+        "difficulty": 3,
+        "topics": [
+          "Gateway",
+          "IP Addressing",
+          "Subnets"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What information is NOT typically found in a router's routing table?",
+        "options": [
+          "Methods to reach a network",
+          "MAC addresses of connected devices",
+          "Next hop routers",
+          "IP addresses of connected networks"
+        ],
+        "answer": "MAC addresses of connected devices",
+        "difficulty": 4,
+        "topics": [
+          "Routers",
+          "Routing Tables"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Which of the following statements about IP addresses is FALSE?",
+        "options": [
+          "IP addresses are logical addresses.",
+          "IP addresses are always mapped to a MAC address for Layer 2 communication.",
+          "IP addresses are assigned in a non-hierarchical manner.",
+          "IP addresses provide a mechanism to differentiate between hosts and networks."
+        ],
+        "answer": "IP addresses are assigned in a non-hierarchical manner.",
+        "difficulty": 3,
+        "topics": [
+          "IP Addressing"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Network Layer Routing",
+    "questions": [
+      {
+        "question": "What is the process of selecting a single path from multiple available paths to a destination called?",
+        "options": [
+          "Forwarding",
+          "Routing",
+          "Switching",
+          "Addressing"
+        ],
+        "answer": "Routing",
+        "difficulty": 1,
+        "topics": [
+          "Routing",
+          "Unicast Routing"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which of the following is NOT a factor a router might use to decide between multiple paths to the same destination?",
+        "options": [
+          "Hop Count",
+          "Bandwidth",
+          "Packet Size",
+          "Delay"
+        ],
+        "answer": "Packet Size",
+        "difficulty": 2,
+        "topics": [
+          "Routing Metrics",
+          "Unicast Routing"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What is the purpose of a default route in a router's configuration?",
+        "options": [
+          "To specify the preferred path for all traffic",
+          "To determine the next hop for packets with unknown destinations",
+          "To block all incoming packets",
+          "To enable broadcast forwarding"
+        ],
+        "answer": "To determine the next hop for packets with unknown destinations",
+        "difficulty": 3,
+        "topics": [
+          "Default Route",
+          "Unicast Routing"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "How does unicast routing differ from broadcast routing?",
+        "options": [
+          "Unicast routing uses a single destination address, while broadcast routing sends to all devices on the network.",
+          "Unicast routing is faster than broadcast routing.",
+          "Unicast routing is only used on the internet, while broadcast routing is used on intranets.",
+          "Unicast routing requires more processing power than broadcast routing."
+        ],
+        "answer": "Unicast routing uses a single destination address, while broadcast routing sends to all devices on the network.",
+        "difficulty": 4,
+        "topics": [
+          "Unicast Routing",
+          "Broadcast Routing"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Routers typically handle broadcast packets by:",
+        "options": [
+          "Forwarding them to all connected networks",
+          "Ignoring them",
+          "Forwarding them only to specific destinations",
+          "Creating new broadcast packets"
+        ],
+        "answer": "Ignoring them",
+        "difficulty": 2,
+        "topics": [
+          "Broadcast Routing",
+          "Broadcast Domains"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Broadcast Routing",
+    "questions": [
+      {
+        "question": "Which of the following BEST describes the primary characteristic of a broadcast message in a network?",
+        "options": [
+          "It is sent to a specific device.",
+          "It is sent to a group of selected devices.",
+          "It is sent to all devices on the network.",
+          "It is sent only to devices on the same subnet."
+        ],
+        "answer": "It is sent to all devices on the network.",
+        "difficulty": 1,
+        "topics": [
+          "Broadcast Routing",
+          "Broadcast Definition"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "A router implements broadcast routing by creating multiple copies of a single data packet and sending each copy to a different host.  What is a significant drawback of this method?",
+        "options": [
+          "It requires complex routing table lookups.",
+          "It consumes a large amount of bandwidth.",
+          "It is prone to packet loss.",
+          "It requires specialized hardware."
+        ],
+        "answer": "It consumes a large amount of bandwidth.",
+        "difficulty": 2,
+        "topics": [
+          "Broadcast Routing",
+          "Unicast Simulation Method",
+          "Bandwidth Consumption"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "In the flooding method of broadcast routing, how does a router handle a received broadcast packet?",
+        "options": [
+          "It discards the packet.",
+          "It forwards the packet only to the destination host.",
+          "It forwards the packet out of all its interfaces except the one it received it from.",
+          "It forwards the packet only to routers on the same subnet."
+        ],
+        "answer": "It forwards the packet out of all its interfaces except the one it received it from.",
+        "difficulty": 3,
+        "topics": [
+          "Broadcast Routing",
+          "Flooding Method",
+          "Packet Forwarding"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "What technique is commonly used to mitigate the problem of duplicate packets in flooding-based broadcast routing?",
+        "options": [
+          "Hop count limiting",
+          "Time-to-live (TTL) field manipulation",
+          "Reverse path forwarding",
+          "Source routing"
+        ],
+        "answer": "Reverse path forwarding",
+        "difficulty": 4,
+        "topics": [
+          "Broadcast Routing",
+          "Duplicate Packet Mitigation",
+          "Reverse Path Forwarding"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Multicast Routing",
+    "questions": [
+      {
+        "question": "What is the key difference between multicast routing and broadcast routing?",
+        "options": [
+          "Multicast routing uses less bandwidth than broadcast routing.",
+          "Multicast routing sends packets to only interested nodes, while broadcast routing sends to all nodes.",
+          "Multicast routing is faster than broadcast routing.",
+          "Multicast routing uses a different network layer protocol than broadcast routing."
+        ],
+        "answer": "Multicast routing sends packets to only interested nodes, while broadcast routing sends to all nodes.",
+        "difficulty": 2,
+        "topics": [
+          "Multicast Routing",
+          "Broadcast Routing",
+          "Differences"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which protocol is often used in multicast routing to prevent loops?",
+        "options": [
+          "RIP",
+          "OSPF",
+          "Spanning Tree Protocol",
+          "BGP"
+        ],
+        "answer": "Spanning Tree Protocol",
+        "difficulty": 3,
+        "topics": [
+          "Multicast Routing",
+          "Loop Prevention",
+          "Spanning Tree Protocol"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "What technique does multicast routing employ to detect and discard duplicate packets and prevent loops?",
+        "options": [
+          "Forward Path Forwarding",
+          "Reverse Path Forwarding",
+          "Shortest Path First",
+          "Distance Vector Routing"
+        ],
+        "answer": "Reverse Path Forwarding",
+        "difficulty": 3,
+        "topics": [
+          "Multicast Routing",
+          "Loop Prevention",
+          "Duplicate Packet Detection",
+          "Reverse Path Forwarding"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Before forwarding a multicast packet, a router must know:",
+        "options": [
+          "The source IP address of the packet.",
+          "The destination IP address of the packet.",
+          "That there are nodes interested in receiving the multicast stream.",
+          "The total number of nodes on the network."
+        ],
+        "answer": "That there are nodes interested in receiving the multicast stream.",
+        "difficulty": 2,
+        "topics": [
+          "Multicast Routing",
+          "Forwarding Criteria"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Anycast Routing",
+    "questions": [
+      {
+        "question": "What is the primary mechanism used to determine which host receives an anycast packet?",
+        "options": [
+          "A.  OS-level load balancing",
+          "B.  DNS resolution",
+          "C.  Source IP address",
+          "D.  Destination port number"
+        ],
+        "answer": "B",
+        "difficulty": 2,
+        "topics": [
+          "Anycast Routing",
+          "DNS"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Multiple hosts sharing the same IP address is a core characteristic of which routing technology?",
+        "options": [
+          "A.  Unicast routing",
+          "B.  Multicast routing",
+          "C.  Anycast routing",
+          "D.  Broadcast routing"
+        ],
+        "answer": "C",
+        "difficulty": 1,
+        "topics": [
+          "Anycast Routing"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "In anycast routing, how does the DNS server contribute to packet delivery?",
+        "options": [
+          "A.  It caches the anycast IP address.",
+          "B.  It forwards the packet directly to the nearest host.",
+          "C.  It provides the IP address of the closest available server with the anycast address.",
+          "D.  It filters packets based on source IP address."
+        ],
+        "answer": "C",
+        "difficulty": 3,
+        "topics": [
+          "Anycast Routing",
+          "DNS"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following statements is FALSE regarding Anycast routing?",
+        "options": [
+          "A.  It improves redundancy and availability.",
+          "B.  It uses a single physical IP address for multiple servers.",
+          "C.  It relies heavily on the performance and availability of DNS servers.",
+          "D.  It guarantees that packets will always be delivered to the geographically closest server."
+        ],
+        "answer": "D",
+        "difficulty": 4,
+        "topics": [
+          "Anycast Routing",
+          "DNS"
+        ],
+        "id": "q1_4"
+      }
+    ]
+  },
+  {
+    "module_name": "Unicast Routing Protocols",
+    "questions": [
+      {
+        "question": "Which of the following is NOT a characteristic of Distance-Vector routing protocols?",
+        "options": [
+          "Based on hop count",
+          "Uses periodic updates",
+          "Builds a complete network topology map on each router",
+          "RIP is an example"
+        ],
+        "answer": "Builds a complete network topology map on each router",
+        "difficulty": 3,
+        "topics": [
+          "Distance-Vector Routing",
+          "RIP"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "What is the primary metric used by RIP (Routing Information Protocol) to determine the best path?",
+        "options": [
+          "Bandwidth",
+          "Delay",
+          "Hop count",
+          "Cost"
+        ],
+        "answer": "Hop count",
+        "difficulty": 2,
+        "topics": [
+          "Distance-Vector Routing",
+          "RIP"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Open Shortest Path First (OSPF) is an example of which type of routing protocol?",
+        "options": [
+          "Distance-Vector",
+          "Link-State",
+          "Path-Vector",
+          "Hybrid"
+        ],
+        "answer": "Link-State",
+        "difficulty": 2,
+        "topics": [
+          "Link-State Routing",
+          "OSPF"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which routing protocol type requires each router to build a complete map of the network topology?",
+        "options": [
+          "Distance-Vector",
+          "Link-State",
+          "Both Distance-Vector and Link-State",
+          "Neither Distance-Vector nor Link-State"
+        ],
+        "answer": "Link-State",
+        "difficulty": 3,
+        "topics": [
+          "Distance-Vector Routing",
+          "Link-State Routing"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "A key difference between Distance-Vector and Link-State protocols lies in how they:",
+        "options": [
+          "Handle broadcast traffic",
+          "Construct their routing tables",
+          "Manage multicast routing",
+          "Prioritize traffic based on QoS"
+        ],
+        "answer": "Construct their routing tables",
+        "difficulty": 4,
+        "topics": [
+          "Distance-Vector Routing",
+          "Link-State Routing"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Multicast Routing Protocols",
+    "questions": [
+      {
+        "question": "What fundamental difference distinguishes unicast and multicast routing protocols in their network representation?",
+        "options": [
+          "Unicast uses trees, multicast uses graphs.",
+          "Unicast uses graphs, multicast uses trees.",
+          "Both use graphs, but with different algorithms.",
+          "Both use trees, but with different root selection."
+        ],
+        "answer": "Unicast uses graphs, multicast uses trees.",
+        "difficulty": 2,
+        "topics": [
+          "Multicast Routing Fundamentals"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which multicast routing protocol is considered the most optimal in terms of finding the shortest path to all receivers?",
+        "options": [
+          "DVMRP",
+          "MOSPF",
+          "CBT",
+          "PIM"
+        ],
+        "answer": "MOSPF",
+        "difficulty": 3,
+        "topics": [
+          "Specific Multicast Protocols"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "PIM Dense Mode is best suited for which type of network environment?",
+        "options": [
+          "Sparse networks like WANs",
+          "Dense networks like LANs",
+          "Both sparse and dense networks equally",
+          "Neither sparse nor dense networks"
+        ],
+        "answer": "Dense networks like LANs",
+        "difficulty": 2,
+        "topics": [
+          "PIM Protocol",
+          "Network Environments"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "Which of the following statements accurately describes PIM Sparse Mode?",
+        "options": [
+          "It uses source-based trees.",
+          "It is best suited for dense networks.",
+          "It uses shared trees.",
+          "It is a distance-vector protocol."
+        ],
+        "answer": "It uses shared trees.",
+        "difficulty": 2,
+        "topics": [
+          "PIM Protocol"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "What is the primary purpose of using a spanning tree in multicast routing?",
+        "options": [
+          "To increase bandwidth utilization",
+          "To avoid routing loops",
+          "To improve convergence time",
+          "To simplify network management"
+        ],
+        "answer": "To avoid routing loops",
+        "difficulty": 1,
+        "topics": [
+          "Multicast Routing Fundamentals"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  },
+  {
+    "module_name": "Routing Algorithms: Flooding and Shortest Path",
+    "questions": [
+      {
+        "question": "What is the primary drawback of the basic flooding algorithm in network routing?",
+        "options": [
+          "It is computationally expensive.",
+          "It generates a large number of duplicate packets.",
+          "It requires significant memory resources.",
+          "It is susceptible to network congestion."
+        ],
+        "answer": "It generates a large number of duplicate packets.",
+        "difficulty": 2,
+        "topics": [
+          "Flooding",
+          "Routing Algorithms"
+        ],
+        "id": "q1_1"
+      },
+      {
+        "question": "Which mechanism is commonly used to prevent infinite looping in a flooding algorithm?",
+        "options": [
+          "Selective Flooding",
+          "Hop Count",
+          "Time to Live (TTL)",
+          "Dijkstra's Algorithm"
+        ],
+        "answer": "Time to Live (TTL)",
+        "difficulty": 3,
+        "topics": [
+          "Flooding",
+          "Routing Algorithms",
+          "TTL"
+        ],
+        "id": "q1_2"
+      },
+      {
+        "question": "Selective flooding aims to improve upon basic flooding by:",
+        "options": [
+          "Increasing the number of packets sent.",
+          "Reducing network overhead by forwarding packets on fewer interfaces.",
+          "Using a more complex routing algorithm.",
+          "Ignoring packets with low priority."
+        ],
+        "answer": "Reducing network overhead by forwarding packets on fewer interfaces.",
+        "difficulty": 3,
+        "topics": [
+          "Flooding",
+          "Routing Algorithms",
+          "Selective Flooding"
+        ],
+        "id": "q1_3"
+      },
+      {
+        "question": "In shortest path routing, what factor is frequently used to determine the cost between nodes?",
+        "options": [
+          "Bandwidth",
+          "Latency",
+          "Hop Count",
+          "Packet Size"
+        ],
+        "answer": "Hop Count",
+        "difficulty": 2,
+        "topics": [
+          "Shortest Path",
+          "Routing Algorithms"
+        ],
+        "id": "q1_4"
+      },
+      {
+        "question": "Which of the following is NOT a common algorithm used for finding the shortest path in a network?",
+        "options": [
+          "Dijkstra's Algorithm",
+          "Bellman-Ford Algorithm",
+          "Floyd-Warshall Algorithm",
+          "Kruskal's Algorithm"
+        ],
+        "answer": "Kruskal's Algorithm",
+        "difficulty": 4,
+        "topics": [
+          "Shortest Path",
+          "Routing Algorithms",
+          "Dijkstra's Algorithm",
+          "Bellman-Ford Algorithm",
+          "Floyd-Warshall Algorithm"
+        ],
+        "id": "q1_5"
+      }
+    ]
+  }
+]

@@ -18,6 +18,8 @@ class Lesson(models.Model):
     course = models.ForeignKey(Course, related_name='lessons', on_delete=models.CASCADE)
     title = models.CharField(max_length=255)
     content = models.TextField()
+    summary = models.TextField(null=True)
+    prerequisites = models.JSONField(default=list)
     order = models.PositiveIntegerField(default=1)  # Added to track lesson order
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -73,7 +75,7 @@ class UserProgress(models.Model):
         unique_together = ['user', 'course']  # One progress record per user per course
 
     def __str__(self):
-        return f"{self.user.username}'s progress in {self.course.title}"
+        return f"{self.user}'s progress in {self.course.title}"
 
 
 class QuizAttempt(models.Model):
