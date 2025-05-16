@@ -13,7 +13,12 @@ SECRET_KEY = 'django-insecure-v5*!9ez%no5-=$s_e9!7tmour@l-o4m5w0sp)l0@lao_%i$jn^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'edu-backend-jmea.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
+
 
 
 # Application definition
