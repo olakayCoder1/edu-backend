@@ -532,3 +532,11 @@ class StudentSerializer(serializers.ModelSerializer):
         return CourseMiniSerializer(in_progress_courses,many=True, context={'user':obj}).data
 
     
+class LessonCompletionRateSerializer(serializers.ModelSerializer):
+    completion_rate = serializers.FloatField()
+    completed_students = serializers.IntegerField()
+    total_students = serializers.IntegerField()
+    
+    class Meta:
+        model = Lesson
+        fields = ['id', 'title', 'completion_rate', 'completed_students', 'total_students']

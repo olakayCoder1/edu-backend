@@ -9,6 +9,7 @@ router.register(r'progress', views.UserProgressViewSet, basename='progress')
 router.register(r'quiz-attempts', views.QuizAttemptViewSet, basename='quiz-attempt')
 router.register(r'users', views.UserViewSet, basename='user')
 router.register(r'students', views.StudentViewSet, basename='student')
+router.register(r'analytics/lesson-completion', views.LessonCompletionViewSet, basename='lesson-completion')
 
 urlpatterns = [
     path('courses/upload/', views.CourseUploadView.as_view(), name='course-upload'),

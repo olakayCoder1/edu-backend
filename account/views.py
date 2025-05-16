@@ -6,7 +6,7 @@ from django.utils.decorators import method_decorator
 import json
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
-
+from rest_framework import generics
 from account.models import User
 from account.serializers import UserSerializer
 from utils.response.response_format import bad_request_response, success_response
@@ -52,16 +52,41 @@ class ProfileView(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        return success_response(
-            data=UserSerializer(request.user).data
-        )
+        return success_response(data=UserSerializer(request.user).data)
 
     def put(self, request):
+        serializer = UserSerializer(request.user, data=request.data, partial=False)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return success_response(data=serializer.data)
+
+    def patch(self, request):
+        serializer = UserSerializer(request.user, data=request.data, partial=True)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return success_response(data=serializer.data)
+
+    def delete(self, request):
+        request.user.delete()
+        return success_response(status_code=204)
+    
+
+
+class ChangePasswordView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request):
         data = json.loads(request.body)
-        email = data.get('email')
-        if email:
-            request.user.email = email
-            request.user.save()
-            return JsonResponse({'message': 'Profile updated successfully'}, status=200)
-        else:
-            return JsonResponse({'error': 'Email is required'}, status=400)
+        old_password = data.get('current_password')
+        new_password = data.get('new_password')
+
+        if not old_password or not new_password:
+            return bad_request_response(message="Both old and new passwords are required")
+
+        user = request.user
+        if not user.check_password(old_password):
+            return bad_request_response(message="Old password is incorrect")
+
+        user.set_password(new_password)
+        user.save()
+        return success_response(message="Password changed successfully")

@@ -3,7 +3,7 @@ from rest_framework import viewsets, status, generics, permissions
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from django.utils import timezone
-from django.db.models import Max
+from django.db.models import Max,Avg,Q
 from django.shortcuts import get_object_or_404
 import os
 from dotenv import load_dotenv
@@ -23,6 +23,7 @@ from .serializers import (
     CourseDetailSerializer,
     CourseSerializer,
     CourseUploadSerializer,
+    LessonCompletionRateSerializer,
     LessonSerializer,
     QuizAttemptSerializer,
     StudentSerializer,
@@ -41,7 +42,7 @@ from django.db import transaction
 class CourseViewSet(viewsets.ModelViewSet):
     serializer_class = CourseSerializer
     permission_classes = [permissions.IsAuthenticated]
-    queryset = Course.objects.all()
+    queryset = Course.objects.all().order_by('-created_at') 
     
     # def get_queryset(self):
     #     return Course.objects.filter(user=self.request.user)
@@ -420,7 +421,7 @@ class CourseUploadView(generics.GenericAPIView):
 
                         if quiz_questions:
                             quiz = Quiz.objects.create(
-                                module=lesson,
+                                lesson=lesson,
                                 title=f"Quiz: {lesson.title}"
                             )
 
@@ -430,9 +431,11 @@ class CourseUploadView(generics.GenericAPIView):
                                     text=q_data['question'],
                                     # difficulty=q_data.get('difficulty', 3)
                                 )
+                                for option_text in q_data.get('options', []):
+                                    is_correct = True if option_text == q_data.get('answer') else False
 
-                                for i, option_text in enumerate(q_data.get('options', [])):
-                                    is_correct = (i == q_data.get('answer', 0))
+                                # for i, option_text in enumerate(q_data.get('options', [])):
+                                #     is_correct = (i == q_data.get('answer', 0))
                                     Option.objects.create(
                                         question=question,
                                         text=option_text,
@@ -769,3 +772,143 @@ class StudentViewSet(viewsets.ReadOnlyModelViewSet):
     def get_queryset(self):
         return User.objects.all()
         # return User.objects.filter(app_level_role='student')
+
+
+
+from django.db.models import Count
+
+class LessonCompletionViewSet(viewsets.ReadOnlyModelViewSet):
+    serializer_class = LessonCompletionRateSerializer
+    
+    def get_queryset(self):
+        course_id = self.request.query_params.get('course_id')
+        queryset = Lesson.objects.filter(course_id=course_id) if course_id else Lesson.objects.all()
+        
+        return queryset.annotate(
+            total_students=Count('course__user_progress__user', distinct=True),
+            completed_students=Count('completed_by__user', distinct=True),
+            completion_rate=100.0 * Count('completed_by__user', distinct=True) / 
+                           (Count('course__user_progress__user', distinct=True) or 1)
+        )
+    
+    @action(detail=False, methods=['get'])
+    def course_summary(self, request):
+        """
+        Provides an aggregated summary of lesson completion rates by course
+        """
+        courses = Course.objects.all()
+        
+        # Get optional date range filters
+        start_date = request.query_params.get('start_date')
+        end_date = request.query_params.get('end_date')
+        
+        result = []
+        for course in courses:
+            # Build query filters
+            completion_filter = Q(course=course)
+            if start_date:
+                completion_filter &= Q(completed_by__completed_at__gte=start_date)
+            if end_date:
+                completion_filter &= Q(completed_by__completed_at__lte=end_date)
+                
+            # Count total lessons in course
+            total_lessons = course.lessons.count()
+            
+            # Get total enrolled students
+            enrolled_students = UserProgress.objects.filter(course=course).count()
+            
+            # Calculate completion statistics
+            lessons_data = Lesson.objects.filter(course=course).annotate(
+                completed_count=Count('completed_by__user', distinct=True, filter=completion_filter),
+                completion_percentage=100.0 * Count('completed_by__user', distinct=True, filter=completion_filter) /
+                                    (enrolled_students or 1)
+            )
+            
+            # Calculate average completion rate for this course
+            avg_completion = lessons_data.aggregate(
+                avg_rate=Avg('completion_percentage')
+            )['avg_rate'] or 0
+            
+            # Calculate how many students completed all lessons
+            students_completed_all = UserProgress.objects.filter(course=course) \
+                .annotate(completed_count=Count('completed_lessons')) \
+                .filter(completed_count=total_lessons) \
+                .count()
+            
+            # Course completion rate
+            course_completion_rate = 100.0 * students_completed_all / (enrolled_students or 1)
+            
+            result.append({
+                'id': course.id,
+                'title': course.title,
+                'total_lessons': total_lessons,
+                'enrolled_students': enrolled_students,
+                'avg_lesson_completion_rate': round(avg_completion, 1),
+                'students_completed_all': students_completed_all,
+                'course_completion_rate': round(course_completion_rate, 1)
+            })
+        
+        return Response(result)
+        
+    @action(detail=False, methods=['get'])
+    def overall_stats(self, request):
+        """
+        Provides platform-wide lesson completion statistics
+        """
+        # Get total lessons, students, and courses
+        total_lessons = Lesson.objects.count()
+        total_students = get_user_model().objects.filter(progress__isnull=False).distinct().count()
+        total_courses = Course.objects.count()
+        
+        # Overall lesson completion
+        total_completions = UserProgress.objects.aggregate(
+            total=Count('completed_lessons')
+        )['total'] or 0
+        
+        # Average lessons completed per student
+        avg_completions_per_student = total_completions / (total_students or 1)
+        
+        # Most and least completed lessons
+        lesson_stats = Lesson.objects.annotate(
+            completion_count=Count('completed_by')
+        )
+        
+        most_completed = lesson_stats.order_by('-completion_count').first()
+        least_completed = lesson_stats.order_by('completion_count').first()
+        
+        # Most engaged course (highest percentage of lesson completions)
+        course_engagement = Course.objects.annotate(
+            total_lessons=Count('lessons'),
+            total_completions=Count('lessons__completed_by'),
+            engagement_score=100.0 * Count('lessons__completed_by') / (Count('lessons') * Count('user_progress', distinct=True) or 1)
+        ).order_by('-engagement_score')
+        
+        most_engaging_course = course_engagement.first()
+        
+        return Response({
+            'total_lessons': total_lessons,
+            'total_students': total_students,
+            'total_courses': total_courses,
+            'total_lesson_completions': total_completions,
+            'avg_completions_per_student': round(avg_completions_per_student, 1),
+            'most_completed_lesson': {
+                'id': most_completed.id,
+                'title': most_completed.title,
+                'course': most_completed.course.title,
+                'completion_count': most_completed.completion_count
+            } if most_completed else None,
+            'least_completed_lesson': {
+                'id': least_completed.id,
+                'title': least_completed.title,
+                'course': least_completed.course.title,
+                'completion_count': least_completed.completion_count
+            } if least_completed else None,
+            'most_engaging_course': {
+                'id': most_engaging_course.id,
+                'title': most_engaging_course.title,
+                'engagement_score': round(most_engaging_course.engagement_score, 1)
+            } if most_engaging_course else None
+        })
+    
+
+

@@ -138,6 +138,7 @@ REST_FRAMEWORK = {
 
 # Optional: Configure JWT settings
 from datetime import timedelta
+import os
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(days=10),  # Access token validity
@@ -146,3 +147,5 @@ SIMPLE_JWT = {
     'USER_ID_FIELD': 'id',                          # Field to identify the user
     'USER_ID_CLAIM': 'user_id',                     # Claim name in JWT payload
 }
+
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', 'default_value_if_not_set')
