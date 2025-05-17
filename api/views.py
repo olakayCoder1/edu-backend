@@ -3,6 +3,7 @@ from rest_framework import viewsets, status, generics, permissions
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from django.utils import timezone
+from django.db.models.functions import ExtractMonth, ExtractYear
 from django.db.models import Max,Avg,Q
 from django.shortcuts import get_object_or_404
 import os, traceback , logging
@@ -38,6 +39,8 @@ from .serializers import (
 )
 load_dotenv()
 from django.db import transaction
+import datetime
+
 
 class CourseViewSet(viewsets.ModelViewSet):
     serializer_class = CourseSerializer
@@ -499,17 +502,20 @@ class UserViewSet(viewsets.ModelViewSet):
         """
         List users with pagination and formatted response
         """
-        queryset = self.get_queryset()
-        page = self.paginate_queryset(queryset)
+        queryset = self.get_queryset().filter(app_level_role__in=['student','tutor'])
+        return success_response(
+            data=self.serializer_class(queryset,many=True).data
+        )
+        # page = self.paginate_queryset(queryset)
         
-        if page is not None:
-            # Format each user for frontend
-            users = [UserService.format_user_for_frontend(user) for user in page]
-            return self.get_paginated_response(users)
+        # if page is not None:
+        #     # Format each user for frontend
+        #     users = [UserService.format_user_for_frontend(user) for user in page]
+        #     return self.get_paginated_response(users)
         
-        # If pagination is not used
-        users = [UserService.format_user_for_frontend(user) for user in queryset]
-        return Response(users)
+        # # If pagination is not used
+        # users = [UserService.format_user_for_frontend(user) for user in queryset]
+        # return Response(users)
     
     def retrieve(self, request, *args, **kwargs):
         """
@@ -914,5 +920,215 @@ class LessonCompletionViewSet(viewsets.ReadOnlyModelViewSet):
             print(e)
             return internal_server_error_response(message='An error occurred while generating the report')
         
+
+
+
+
+
+
+def calculate_percentage_change(old_value, new_value):
+    """Helper function to calculate percentage change"""
+    if old_value == 0:
+        return 100 if new_value > 0 else 0
+    
+    change = ((new_value - old_value) / old_value) * 100
+    return round(change)
+
+
+class AdminDashboardStatsView(generics.GenericAPIView):
+    permission_classes = [permissions.IsAuthenticated]
+    
+    def get(self, request):
+        """
+        Get summary statistics for the admin dashboard
+        """
+        # Count total students, tutors and courses
+        total_students = User.objects.filter(app_level_role='student', is_active=True).count()
+        total_tutors = User.objects.filter(app_level_role='tutor', is_active=True).count()
+        total_courses = Course.objects.filter(visibility_status='active').count()
+        
+        # Calculate change percentages (comparing to previous month)
+        now = timezone.now()
+        one_month_ago = now - timedelta(days=30)
+        two_months_ago = now - timedelta(days=60)
+        
+        # Students change
+        students_last_month = User.objects.filter(
+            app_level_role='student', 
+            is_active=True,
+            created_at__gte=one_month_ago
+        ).count()
+        
+        students_previous_month = User.objects.filter(
+            app_level_role='student',
+            is_active=True,
+            created_at__gte=two_months_ago,
+            created_at__lt=one_month_ago
+        ).count()
+        
+        students_change = calculate_percentage_change(students_previous_month, students_last_month)
+        
+        # Tutors change
+        tutors_last_month = User.objects.filter(
+            app_level_role='tutor',
+            is_active=True, 
+            created_at__gte=one_month_ago
+        ).count()
+        
+        tutors_previous_month = User.objects.filter(
+            app_level_role='tutor',
+            is_active=True,
+            created_at__gte=two_months_ago,
+            created_at__lt=one_month_ago
+        ).count()
+        
+        tutors_change = calculate_percentage_change(tutors_previous_month, tutors_last_month)
+        
+        # Courses change
+        courses_last_month = Course.objects.filter(
+            visibility_status='active',
+            created_at__gte=one_month_ago
+        ).count()
+        
+        courses_previous_month = Course.objects.filter(
+            visibility_status='active',
+            created_at__gte=two_months_ago,
+            created_at__lt=one_month_ago
+        ).count()
+        
+        courses_change = calculate_percentage_change(courses_previous_month, courses_last_month)
+        
+        stats = {
+            'total_students': {
+                'value': total_students,
+                'change': {
+                    'value': abs(students_change),
+                    'isPositive': students_change >= 0
+                }
+            },
+            'total_tutors': {
+                'value': total_tutors,
+                'change': {
+                    'value': abs(tutors_change),
+                    'isPositive': tutors_change >= 0
+                }
+            },
+            'total_courses': {
+                'value': total_courses,
+                'change': {
+                    'value': abs(courses_change),
+                    'isPositive': courses_change >= 0
+                }
+            }
+        }
+        
+        return Response(stats)
+
+
+
+class UserRegistrationsView(generics.GenericAPIView):
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get(self, request):
+        end_date = timezone.now()
+        start_date = end_date - timedelta(days=335)  # ~11 months
+
+        # Build month-year list
+        months = []
+        current_date = start_date
+        while current_date <= end_date:
+            months.append({
+                'month': current_date.strftime('%b'),
+                'year': current_date.year,
+                'students': 0,
+                'tutors': 0
+            })
+            if current_date.month == 12:
+                current_date = current_date.replace(year=current_date.year + 1, month=1)
+            else:
+                current_date = current_date.replace(month=current_date.month + 1)
+
+        # Student registrations
+        student_registrations = User.objects.filter(
+            app_level_role='student',
+            created_at__range=(start_date, end_date)
+        ).annotate(
+            month=ExtractMonth('created_at'),
+            year=ExtractYear('created_at')
+        ).values('month', 'year').annotate(count=Count('id'))
+
+        # Tutor registrations
+        tutor_registrations = User.objects.filter(
+            app_level_role='tutor',
+            created_at__range=(start_date, end_date)
+        ).annotate(
+            month=ExtractMonth('created_at'),
+            year=ExtractYear('created_at')
+        ).values('month', 'year').annotate(count=Count('id'))
+
+        # Map results to months list
+        for month_data in months:
+            month_number = datetime.datetime.strptime(month_data['month'], '%b').month
+
+            for student in student_registrations:
+                if student['month'] == month_number and student['year'] == month_data['year']:
+                    month_data['students'] = student['count']
+
+            for tutor in tutor_registrations:
+                if tutor['month'] == month_number and tutor['year'] == month_data['year']:
+                    month_data['tutors'] = tutor['count']
+
+        response_data = [
+            {
+                'month': item['month'],
+                'students': item['students'],
+                'tutors': item['tutors']
+            } for item in months
+        ]
+
+        return Response(response_data)
+
+class ActiveUsersView(generics.GenericAPIView):
+    permission_classes = [permissions.IsAuthenticated]
+    
+    def get(self, request):
+        """
+        Get daily active users data for the past week
+        """
+        # Get date range (past 7 days)
+        end_date = timezone.now()
+        start_date = end_date - timedelta(days=6)  # 7 days including today
+        
+        # Initialize empty data structure
+        days = []
+        current_date = start_date
+        
+        while current_date <= end_date:
+            days.append({
+                'date': current_date.strftime('%m/%d'),
+                'active': 0
+            })
+            current_date += timedelta(days=1)
+        
+        # Query active users by day
+        # Note: This requires a user_activity or login_log table
+        # If you don't have that, you'll need to adjust this code
+        
+        # Example with a UserActivity model (which you would need to create):
+        # active_users = UserActivity.objects.filter(
+        #     activity_date__gte=start_date,
+        #     activity_date__lte=end_date
+        # ).extra({
+        #     'day': "to_char(activity_date, 'MM/DD')"
+        # }).values('day').annotate(active=Count('user_id', distinct=True))
+        
+        # For demonstration purposes, we'll generate random data
+        import random
+        for day in days:
+            # Mock data - replace with actual query when you have the proper model
+            day['active'] = random.randint(250, 400)
+        
+        return Response(days)
+
 
 

@@ -7,6 +7,14 @@ class Course(models.Model):
     user = models.ForeignKey(get_user_model(), related_name='courses', on_delete=models.CASCADE)
     title = models.CharField(max_length=255)
     description = models.TextField()
+    visibility_status = models.CharField(
+        choices=(
+            ('active', 'Active'),
+            ('inactive', 'Inactive'),
+        ),
+        max_length=10,
+        default='active'
+    )
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

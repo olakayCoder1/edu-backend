@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from .models import Course, Lesson, Quiz, Question, Option, UserProgress, QuizAttempt, QuizResponse
-
+from account.models import User
 
 class OptionSerializer(serializers.ModelSerializer):
     class Meta:
@@ -95,12 +95,21 @@ class LessonSerializer(serializers.ModelSerializer):
             return 'not_started'
 
 
+class TutorSerializer(serializers.ModelSerializer):
+    name = serializers.SerializerMethodField()
+    class Meta:
+        model = User
+        fields = ['id', 'first_name','last_name', 'email', 'name']
 
+    def get_name(self,obj):
+        if obj.first_name and obj.last_name:
+            return obj.first_name + " " + obj.last_name
+        return ''
 
 class CourseSerializer(serializers.ModelSerializer):
     lessons = LessonSerializer(many=True, read_only=True)
     status = serializers.SerializerMethodField()
-    
+    user = TutorSerializer() 
     class Meta:
         model = Course
         fields = '__all__'
@@ -203,15 +212,20 @@ class UserSerializer(serializers.ModelSerializer):
     """
     name = serializers.SerializerMethodField()
     status = serializers.SerializerMethodField()
+    role = serializers.SerializerMethodField()
     
     class Meta:
         model = User
         fields = [
             'id', 'name', 'email', 'app_level_role', 'status', 
-            'created_at', 'updated_at'
+            'created_at', 'updated_at','is_active','role'
         ]
         read_only_fields = ['id', 'created_at', 'updated_at']
     
+    def get_role(self,obj):
+        return obj.app_level_role
+    
+
     def get_name(self, obj):
         """Get full name or formatted email if name not available"""
         name = f"{obj.first_name or ''} {obj.last_name or ''}".strip()
