@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from django.utils import timezone
 from django.db.models import Max,Avg,Q
 from django.shortcuts import get_object_or_404
-import os
+import os, traceback , logging
 from dotenv import load_dotenv
 import tempfile
 from django.core.files.storage import default_storage
@@ -855,60 +855,65 @@ class LessonCompletionViewSet(viewsets.ReadOnlyModelViewSet):
         """
         Provides platform-wide lesson completion statistics
         """
-        # Get total lessons, students, and courses
-        total_lessons = Lesson.objects.count()
-        total_students = get_user_model().objects.filter(progress__isnull=False).distinct().count()
-        total_courses = Course.objects.count()
+        try:
+            # Get total lessons, students, and courses
+            total_lessons = Lesson.objects.count()
+            total_students = get_user_model().objects.filter(progress__isnull=False).distinct().count()
+            total_courses = Course.objects.count()
+            
+            # Overall lesson completion
+            total_completions = UserProgress.objects.aggregate(
+                total=Count('completed_lessons')
+            )['total'] or 0
+            
+            # Average lessons completed per student
+            avg_completions_per_student = total_completions / (total_students or 1)
+            
+            # Most and least completed lessons
+            lesson_stats = Lesson.objects.annotate(
+                completion_count=Count('completed_by')
+            )
+            
+            most_completed = lesson_stats.order_by('-completion_count').first()
+            least_completed = lesson_stats.order_by('completion_count').first()
+            
+            # Most engaged course (highest percentage of lesson completions)
+            course_engagement = Course.objects.annotate(
+                total_lessons=Count('lessons'),
+                total_completions=Count('lessons__completed_by'),
+                engagement_score=100.0 * Count('lessons__completed_by') / (Count('lessons') * Count('user_progress', distinct=True) or 1)
+            ).order_by('-engagement_score')
+            
+            most_engaging_course = course_engagement.first()
+            
+            return Response({
+                'total_lessons': total_lessons,
+                'total_students': total_students,
+                'total_courses': total_courses,
+                'total_lesson_completions': total_completions,
+                'avg_completions_per_student': round(avg_completions_per_student, 1),
+                'most_completed_lesson': {
+                    'id': most_completed.id,
+                    'title': most_completed.title,
+                    'course': most_completed.course.title,
+                    'completion_count': most_completed.completion_count
+                } if most_completed else None,
+                'least_completed_lesson': {
+                    'id': least_completed.id,
+                    'title': least_completed.title,
+                    'course': least_completed.course.title,
+                    'completion_count': least_completed.completion_count
+                } if least_completed else None,
+                'most_engaging_course': {
+                    'id': most_engaging_course.id,
+                    'title': most_engaging_course.title,
+                    'engagement_score': round(most_engaging_course.engagement_score or 0, 1)
+                } if most_engaging_course else None
+            })
+        except Exception as e:
+            print(traceback.format_exc())
+            print(e)
+            return internal_server_error_response(message='An error occurred while generating the report')
         
-        # Overall lesson completion
-        total_completions = UserProgress.objects.aggregate(
-            total=Count('completed_lessons')
-        )['total'] or 0
-        
-        # Average lessons completed per student
-        avg_completions_per_student = total_completions / (total_students or 1)
-        
-        # Most and least completed lessons
-        lesson_stats = Lesson.objects.annotate(
-            completion_count=Count('completed_by')
-        )
-        
-        most_completed = lesson_stats.order_by('-completion_count').first()
-        least_completed = lesson_stats.order_by('completion_count').first()
-        
-        # Most engaged course (highest percentage of lesson completions)
-        course_engagement = Course.objects.annotate(
-            total_lessons=Count('lessons'),
-            total_completions=Count('lessons__completed_by'),
-            engagement_score=100.0 * Count('lessons__completed_by') / (Count('lessons') * Count('user_progress', distinct=True) or 1)
-        ).order_by('-engagement_score')
-        
-        most_engaging_course = course_engagement.first()
-        
-        return Response({
-            'total_lessons': total_lessons,
-            'total_students': total_students,
-            'total_courses': total_courses,
-            'total_lesson_completions': total_completions,
-            'avg_completions_per_student': round(avg_completions_per_student, 1),
-            'most_completed_lesson': {
-                'id': most_completed.id,
-                'title': most_completed.title,
-                'course': most_completed.course.title,
-                'completion_count': most_completed.completion_count
-            } if most_completed else None,
-            'least_completed_lesson': {
-                'id': least_completed.id,
-                'title': least_completed.title,
-                'course': least_completed.course.title,
-                'completion_count': least_completed.completion_count
-            } if least_completed else None,
-            'most_engaging_course': {
-                'id': most_engaging_course.id,
-                'title': most_engaging_course.title,
-                'engagement_score': round(most_engaging_course.engagement_score, 1)
-            } if most_engaging_course else None
-        })
-    
 
 
