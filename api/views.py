@@ -770,8 +770,7 @@ class StudentViewSet(viewsets.ReadOnlyModelViewSet):
     # permission_classes = [permissions.IsAuthenticated, IsTutor]
 
     def get_queryset(self):
-        return User.objects.all()
-        # return User.objects.filter(app_level_role='student')
+        return User.objects.filter(app_level_role='student')
 
 
 
