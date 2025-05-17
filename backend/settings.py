@@ -1,5 +1,7 @@
 from pathlib import Path
-
+# Optional: Configure JWT settings
+from datetime import timedelta
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -11,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-v5*!9ez%no5-=$s_e9!7tmour@l-o4m5w0sp)l0@lao_%i$jn^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.getenv('DEBUG', False)
 
 ALLOWED_HOSTS = [
     'edu-backend-jmea.onrender.com',
@@ -149,9 +151,7 @@ REST_FRAMEWORK = {
     ),
 }
 
-# Optional: Configure JWT settings
-from datetime import timedelta
-import os
+
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(days=10),  # Access token validity
