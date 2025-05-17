@@ -13,18 +13,36 @@ from utils.response.response_format import bad_request_response, success_respons
 from utils.tokens import TokenManager
 
 # Create your views here.
-class RegisterView(APIView):
+class RegisterView(generics.GenericAPIView):
+    serializer_class = UserSerializer
+
     def post(self, request):
-        data = json.loads(request.body)
-        username = data.get('username')
-        password = data.get('password')
-        email = data.get('email')
-        if not username or not password or not email:
-            return JsonResponse({'error': 'Missing fields'}, status=400)
-        if User.objects.filter(username=username).exists():
-            return JsonResponse({'error': 'Username already exists'}, status=400)
-        user = User.objects.create_user(username=username, password=password, email=email)
-        return JsonResponse({'message': 'User registered successfully'}, status=201)
+        serializer = self.serializer_class(data=request.data)
+        serializer.is_valid(raise_exception=True)
+
+        first_name = request.data.get('first_name')
+        last_name = request.data.get('last_name')
+        password = request.data.get('password')
+        email = request.data.get('email','').lower()
+        role = request.data.get('role')
+
+        if role not in ['student','tutor']:
+            return bad_request_response(message='Invalid role')
+
+        if User.objects.filter(email=email).exists():
+            return bad_request_response(
+                message="Email already exist"
+            )
+        user = User.objects.create_user(
+            password=password, 
+            email=email, 
+            first_name=first_name,
+            last_name=last_name,
+            app_level_role=role
+        )
+        return success_response(
+            message='Account created successfully!'
+        )
 
 
 class LoginView(APIView):
