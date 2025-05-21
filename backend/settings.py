@@ -19,6 +19,7 @@ ALLOWED_HOSTS = [
     'edu-backend-jmea.onrender.com',
     'localhost',
     '127.0.0.1',
+    'olakaycoder1.pythonanywhere.com'
 ]
 
 
